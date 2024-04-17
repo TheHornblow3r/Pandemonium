@@ -1,10 +1,10 @@
 //MACKFilter: An Item Filter for the Path of Diablo Mod 
 //Filter: Advanced
 //Version: ----
-//Created by: mackanmusic
+//Created by: Thehornblower
 //For questions, comments, feedback, or suggestions:
-//Contact on discord: mackanmusic
-//Contact on tradesite: mackanmusic
+//Contact on discord: Thehornblower
+//Contact on tradesite: Thehornblower
 //Find Item/Skillcodes at: 	https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions
 //
 //Note to self:
@@ -16,10 +16,10 @@
 //
 //Sound[STFU]: "corb" //(put corb soundfile in filterfolder)
 //%BASENAME%   %FULLNAME%   %ITEMNAME%
-Attribute[Author]: mackanmusic ingame/discord/twitch
-Attribute[Name]: MackFilter
-Attribute[Version]: 4.41
-Attribute[Date]: 2024/04/16 03:52 CEST
+Attribute[Author]: Thehornblower
+Attribute[Name]: HornFilter
+Attribute[Version]: 0.1
+Attribute[Date]: 2024/04/17
 Option[IgnoreMissingSounds]: True
 //Rename Filterlevel 
 FilterLevel[1]: Normal 
