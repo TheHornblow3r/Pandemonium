@@ -218,7 +218,7 @@ ItemDisplay[r23]: %NL%%RED% %%%% %WHITE%Mal %ORANGE%Rune %GRAY%[23] %RED%%RED%%%
 ItemDisplay[r24]: %!RUNESSTART!% Ist %ORANGE%Rune [24] %!RUNESEND!%      %NL%%GOLD%<:HR: NotificationSound = "@local\sfx\common\hireables\male_thankyou1">
 ItemDisplay[r25]: %!RUNESSTART!% Gul %ORANGE%Rune %GRAY%[25] %!RUNESEND!%      %NL%%GOLD%<:HR: NotificationSound = "@local\sfx\common\hireables\female_thankyou">
 ItemDisplay[r26]: %!RUNESSTART!% Vex %ORANGE%Rune %GRAY%[26] %!RUNESEND!%      %NL%%GOLD%<:HR: NotificationSound = "@local\sfx\common\hireables\male_thankyou3">
-ItemDisplay[r27]: %!RUNESSTART!% Ohm %ORANGE%Rune %GRAY%[27] %!RUNESEND!%      %NL%%GOLD%<:HR: NotificationSound = "@local\sfx\common\sorceress\sor_thankyou">
+ItemDisplay[r27]: %!RUNESSTART!% %RED%Ohm %ORANGE%Rune %GRAY%[27] %!RUNESEND!%      %NL%%GOLD%<:HR: NotificationSound = "@local\sfx\common\sorceress\sor_thankyou">
 ItemDisplay[r28]: %!RUNESSTART!% Lo %ORANGE%Rune %GRAY%[28] %!RUNESEND!%      %NL%%GOLD%<:HR: NotificationSound = "@local\sfx\common\druid\dru_thankyou">
 ItemDisplay[r29]: %!RUNESSTART!% Sur %ORANGE%Rune %GRAY%[29] %!RUNESEND!%      %NL%%GOLD%<:HR: NotificationSound = "@local\sfx\common\amazon\ama_thankyou">
 ItemDisplay[r30]: %!RUNESSTART!% Ber %ORANGE%Rune %GRAY%[30] %!RUNESEND!%      %NL%%GOLD%<:HR: NotificationSound = "@local\sfx\common\assassin\ass_thankyou">
