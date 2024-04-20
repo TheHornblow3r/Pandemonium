@@ -1,4 +1,4 @@
-17//HornFilter: An Item Filter for the Path of Diablo Mod 
+//HornFilter: An Item Filter for the Path of Diablo Mod 
 //Filter: Advanced
 //Version: ----
 //Created by: Thehornblower
@@ -25,14 +25,14 @@ Option[DefaultNotifyLevel]: LOW
 // TEXT MACROS
 // -------------------------------------------------------------------------
 TextMacro[ALLRES]: %WHITE%%RES%%YELLOW%a%RED%l%BLUE%l%YELLOW%r%RED%e%BLUE%s
-TextMacro[RUNESEND]: %RED%OO%WHITE%OO%RED%OO%NL% 
-TextMacro[RUNESSTART]: %RED%OO%WHITE%OO%RED%OO
+TextMacro[RUNESEND]: %PURPLE%OO%WHITE%OO%PURPLE%OO
+TextMacro[RUNESSTART]: %PURPLE%OO%WHITE%OO%PURPLE%OO
 TextMacro[MAP]: %PURPLE%O%LIGHT_GRAY% [L%ILVL%]
-TextMacro[STARS]: %RED%O
-TextMacro[STARS1]: %RED%O%WHITE%O%RED%O
+TextMacro[STARS]: %PURPE%O
+TextMacro[STARS1]: %R%O%WHITE%O%RED%O
 TextMacro[STARS2]: %RED%O%WHITE%OO%RED%O
-ItemStyle[HR]: MapIcon = 2, MapIconColor = 0, BorderColor = 10, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\hostile"
-ItemStyle[MID]: MapIcon = 3, MapIconColor = 3, BorderColor = 4, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\levelup"
+ItemStyle[HR]: MapIcon = 2, MapIconColor = 0, BorderColor = 155, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\hostile"
+ItemStyle[MID]: MapIcon = 3, MapIconColor = 3, BorderColor = 10, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\levelup"
 ItemStyle[BASIC]: BorderColor = 4, BorderSize = 2, BackgroundColor = 172
 ItemStyle[BASICLOW]: NotificationPriority = LOW, NotificationColor = ITEM, BorderColor = 4, BorderSize = 2, BackgroundColor = 15
 ItemStyle[BASICMED]: NotificationPriority = MEDIUM, NotificationColor = ITEM, BorderColor = 4, BorderSize = 2, BackgroundColor = 15
@@ -211,9 +211,9 @@ ItemDisplay[RUNETIER>00 AND RUNETIER<14]: %TAN%%NAME%<<BASIC>>
 //RUNES 15-18
 ItemDisplay[RUNETIER>13 AND RUNETIER<19]: %ORANGE%%NAME%<<BASIC>>
 //RUNES 19-23 MID RUNES
-ItemDisplay[RUNETIER>18 AND RUNETIER<24]: %NL%%RED%OO %WHITE%%NAME% %RED%OO%NL%%GOLD%<<MID>>
+ItemDisplay[RUNETIER>18 AND RUNETIER<24]: %NL%     %RED%O%WHITE%O%RED%O %WHITE%%NAME% %RED%O%WHITE%O%RED%O     %NL%%GOLD%<<MID>>
 //RUNES 24-33
-ItemDisplay[RUNETIER>23 AND RUNETIER<33]: %NL%%!RUNESSTART!% %PURPLE%%NAME% %!RUNESEND!%%NL%<<HR>>
+ItemDisplay[RUNETIER>23 AND RUNETIER<33]: %NL%         %!RUNESSTART!% %WHITE%%NAME% %!RUNESEND!%          %NL%%GOLD%<<HR>>
 
 
 // -------------------------------------------------------------------------
