@@ -10,7 +10,7 @@
 Attribute[Author]: Thehornblower
 Attribute[Name]: HornFilter
 Attribute[Version]: 0.1
-Attribute[Date]: 2024/04/17
+Attribute[Date]: 2024/04/20
 Option[IgnoreMissingSounds]: True
 // -------------------------------------------------------------------------
 // FILTER LEVELS
