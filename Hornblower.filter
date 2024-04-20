@@ -1,4 +1,5 @@
 //HornFilter: An Item Filter for the Path of Diablo Mod 
+//Credit: Mackmusic for original coding
 //Filter: Advanced
 //Version: ----
 //Created by: Thehornblower
@@ -9,7 +10,7 @@
 //%BASENAME%   %FULLNAME%   %ITEMNAME%
 Attribute[Author]: Thehornblower
 Attribute[Name]: HornFilter
-Attribute[Version]: 0.1
+Attribute[Version]: 1.0
 Attribute[Date]: 2024/04/20
 Option[IgnoreMissingSounds]: True
 // -------------------------------------------------------------------------
