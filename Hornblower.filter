@@ -72,13 +72,13 @@ ItemDisplay[GOLD>4999]: %NAME%
 // -------------------------------------------------------------------------
 // HEALTH & MANA POTS
 // -------------------------------------------------------------------------
-ItemDisplay[rvl]: %NL%%PURPLE% R %WHITE%70% %NL%%GOLD%<<BASIC>>
+ItemDisplay[rvl]: %NL%%PURPLE% R %WHITE%FULL %NL%%GOLD%<<BASIC>>
 ItemDisplay[hp4 CLVL<70]: %RED%!%WHITE%H<<BASIC>>
 ItemDisplay[(mp5 OR hp5) FILTERLVL=2]:
 ItemDisplay[hp5]: %RED% !%WHITE%H+ <<BASIC>> 
 ItemDisplay[mp4 CLVL<70]: %BLUE%!%WHITE%M<<BASIC>>
 ItemDisplay[mp5]: %BLUE% !%WHITE%M+  <<BASIC>>
-ItemDisplay[rvs]: %NL%%PURPLE% r %WHITE%35% %PURPLE%%NL%%GOLD%<<BASIC>>
+ItemDisplay[rvs]: %NL%%PURPLE% R %WHITE%SM %PURPLE%%NL%%GOLD%<<BASIC>>
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal<<BASIC>>
 ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal<<BASIC>>
 ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing<<BASIC>>
