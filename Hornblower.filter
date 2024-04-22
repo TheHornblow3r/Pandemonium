@@ -18,7 +18,6 @@ Option[IgnoreMissingSounds]: True
 // -------------------------------------------------------------------------
 FilterLevel[1]: Normal 
 FilterLevel[2]: Strict
-FilterLevel[3]: Alpha: Uber Strict
 Option[DefaultFilterLevel]: Normal
 Option[DefaultNotifyLevel]: LOW
 
