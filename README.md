@@ -8,7 +8,10 @@
 **Sounds:** GameSFX<br>
 **Version:** P21-Shungite
 
-This loot filter is a redesign of the popular loot filter created by mackanmusic. Few minor back-end changes and design rework. Currently working on setting up an "Uber Strict" version of the filter. Stay tuned for updates!
+This loot filter is a redesign of the popular loot filter created by mackanmusic. Few minor back-end changes and complete visual rework.
+
+Thank you to Mackanmusic for letting me fork his code & give me permission to post this online.<br>
+Follow him online at: https://www.twitch.tv/mackanmusic
 
 # Installation
 
