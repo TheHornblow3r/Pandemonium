@@ -16,15 +16,27 @@ This loot filter is a redesign of the popular loot filter created by mackanmusic
 2. Paste link into PoD Launcher next to URL
 3. Select auto-update
 4. Join a game and select settings (Default hotkey: H)
-5. Set Filter Level & Priority Level 
+5. Set Filter Level & Priority Level
+
+# Quality of Life Changes #
+
++ Normal & strict filter levels (Normal: Early Ladder + Leveling | Strict: Endgame Farming)
++ Enlarged frames for better visability and looting
++ Highlights valuable items & stats
++ Chat notifications
++ Map icons
++ Ingame notification sounds (no files needed)
++ Displays iLvl of unid charms and jewels
++ Shows number of sockets/skill levels on runeword bases
++ Shows runeword & cube recipes underneath items
 
 # Filter Showcase
 
-## Items ##
+## GG Items ##
 ![items](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/09caa1dc-2298-4e0b-975d-25689ab11828)
 
 
-## Runes ##
+## Rune Tiers ##
 ![Runes](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/8a4fad57-1f3e-461c-9241-70e52dae440d)
 
 ## Charms ##
@@ -35,4 +47,7 @@ This loot filter is a redesign of the popular loot filter created by mackanmusic
 
 ## Maps ##
 ![Maps](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/335ab1ca-656e-419b-837a-a76aa0bee659)
+
+## Misc Items ##
+![Misc](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/eb1d2f5a-24fa-4d8e-b051-ba3546c5dbd3)
 
