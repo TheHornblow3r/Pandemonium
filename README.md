@@ -4,7 +4,7 @@
 # Information & Credits
 **Credit:** Mackanmusic for original code<br>
 **Sounds:** GameSFX<br>
-**Version:** P21-Shungite
+**Version:** P21-Shungite<br>
 **Discord:** Thehornblower
 
 This loot filter is a redesign of the popular loot filter created by mackanmusic. Few minor back-end changes and complete visual rework.
