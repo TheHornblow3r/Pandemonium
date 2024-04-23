@@ -7,11 +7,14 @@
 **Credit:** Mackanmusic for original code<br>
 **Sounds:** GameSFX<br>
 **Version:** P21-Shungite
+**Discord:** Thehornblower
 
 This loot filter is a redesign of the popular loot filter created by mackanmusic. Few minor back-end changes and complete visual rework.
 
 Thank you to Mackanmusic for letting me fork his code & give me permission to post this online.<br>
 Follow him online at: https://www.twitch.tv/mackanmusic
+
+I'm open to any advice/changes you would like to see in the filter **(DM me on discord)**
 
 # Installation
 
