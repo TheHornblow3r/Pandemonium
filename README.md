@@ -1,12 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/95ace2e0-cfe1-4d84-9d69-7ee7ec56767a">
-  <img alt="Shows Anuraghazra's GitHub Stats." src="https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/32af8e8e-5f9b-4d08-8d03-d4836052d4e5">
-</picture>
+![Logo-Header](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/f44b8e9d-5109-4d16-93b1-dcabd52966db)
+
 
 # Information & Credits
 **Credit:** Mackanmusic for original code<br>
 **Sounds:** GameSFX<br>
-**Version:** P21-Shungite
+**Version:** P21-Shungite<br>
 **Discord:** Thehornblower
 
 This loot filter is a redesign of the popular loot filter created by mackanmusic. Few minor back-end changes and complete visual rework.

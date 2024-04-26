@@ -51,16 +51,11 @@ ItemStyle[GG]: MapIcon = 26, BorderColor = 155, BorderSize = 2, NotificationColo
 ItemStyle[GG1]: MapIcon = 26, BorderColor = 155, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 35, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\hostile"
 
 // -------------------------------------------------------------------------
-// QUICK PASTE ITEMS
+// TO-DO LIST
 // -------------------------------------------------------------------------
-//%!ALLRES!% 
-//%!RUNESEND!%
-//%!RUNESSTART!%
-//%!MAP!%
-//%!STARS!%
-//%!STARS2!%
-//Basics	%BOLD% %CORAL% %LIGHT_GRAY%
-//Hide Gold Piles Smaller Than (<) X
+// Change SKull Purple to Gold
+// Add arrows GG item desc
+// 
 
 // -------------------------------------------------------------------------
 // GOLD
@@ -309,14 +304,14 @@ ItemDisplay[glg FILTERLVL=2]: %GREEN%[O]<<BASIC>>
 ItemDisplay[glr FILTERLVL=2]: %RED%[O]<<BASIC>>
 ItemDisplay[glb FILTERLVL=2]: %BLUE%[O]<<BASIC>>
 ItemDisplay[gly FILTERLVL=2]: %YELLOW%[O]<<BASIC>>
-ItemDisplay[skl FILTERLVL=2]: %NL%%PURPLE%O %WHITE%Skull%PURPLE% O%NL%%GOLD%<<BASIC>>
+ItemDisplay[skl FILTERLVL=2]: %NL%%GOLD%O %WHITE%Skull%GOLD% O%NL%%GOLD%<<BASIC>>
 ItemDisplay[gzv]: %PURPLE%Amethyst O<<BASIC>>
 ItemDisplay[glw]: %WHITE%Diamond O<<BASIC>>
 ItemDisplay[glg]: %GREEN%Emerald O<<BASIC>>
 ItemDisplay[glr]: %RED%Ruby O<<BASIC>>
 ItemDisplay[glb]: %BLUE%Sapphire O<<BASIC>>
 ItemDisplay[gly]: %YELLOW%Topaz O<<BASIC>>
-ItemDisplay[skl]: %NL%%PURPLE%O %WHITE%Skull%PURPLE% O%NL%%GOLD%<<BASIC>>
+ItemDisplay[skl]: %NL%%GOLD%O %WHITE%Skull%GOLD% O%NL%%GOLD%<<BASIC>>
 // -------------------------------------------------------------------------
 //Gems Perfect
 // -------------------------------------------------------------------------
@@ -326,14 +321,14 @@ ItemDisplay[gpg FILTERLVL=2]: %GREEN%[OO]<<BASIC>>
 ItemDisplay[gpr FILTERLVL=2]: %RED%[OO]<<BASIC>>
 ItemDisplay[gpb FILTERLVL=2]: %BLUE%[OO]<<BASIC>>
 ItemDisplay[gpy FILTERLVL=2]: %YELLOW%[OO]<<BASIC>>
-ItemDisplay[skz FILTERLVL=2]: %NL%%PURPLE%OO %WHITE%P Skull%PURPLE% OO%NL%%GOLD%<<BASIC>>
+ItemDisplay[skz FILTERLVL=2]: %NL%%GOLD%OO %WHITE%P Skull%GOLD% OO%NL%%GOLD%<<BASIC>>
 ItemDisplay[gpv]: %PURPLE%O P Amethyst O<<BASIC>>
 ItemDisplay[gpw]: %WHITE%O P Diamond O<<BASIC>>
 ItemDisplay[gpg]: %GREEN%O P Emerald O<<BASIC>>
 ItemDisplay[gpr]: %RED%O P Ruby O<<BASIC>>
 ItemDisplay[gpb]: %BLUE%O P Sapphire O<<BASIC>>
 ItemDisplay[gpy]: %YELLOW%O P Topaz O<<BASIC>>
-ItemDisplay[skz]: %NL%%PURPLE%OO %WHITE%P Skull%PURPLE% OO%NL%%GOLD%<<BASIC>>
+ItemDisplay[skz]: %NL%%GOLD%OO %WHITE%P Skull%GOLD% OO%NL%%GOLD%<<BASIC>>
 // -------------------------------------------------------------------------
 //Low Level Uniques
 // -------------------------------------------------------------------------
@@ -608,7 +603,7 @@ ItemDisplay[7cr NMAG SOCK=0]: %WHITE%PB <<BASIC>>
 // -------------------------------------------------------------------------
 //Helms
 //Griffon's Eye
-ItemDisplay[!ETH UNI !ID ci3]: %ORANGE%Griffons%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
+ItemDisplay[!ETH UNI !ID ci3]: %ORANGE%Griffons%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %NL%%GOLD%<<GG1>>
 ItemDisplay[!ETH UNI ID ci3 SOCK=0]: %WHITE%(%ORANGE%-%YELLOW%%STAT(334,0)%Light%WHITE% ,%GOLD%%NAME%<<GG1>>
 ItemDisplay[!ETH UNI ID ci3 SOCK>0]: %ORANGE%+%YELLOW%%STAT(330,0)%Light%WHITE%)%NL%%GOLD%%NAME%%CONTINUE%
 ItemDisplay[!ETH UNI ID ci3 SOCK>0]: %WHITE%(%ORANGE%-%YELLOW%%STAT(334,0)%Light%WHITE% ,%GOLD%%NAME% %GREEN%[%SOCKETS%] <<GG1>>
@@ -754,7 +749,8 @@ ItemDisplay[!ETH UNI !ID umg !FILTERLVL=2]: %ORANGE%Soul Drainers%NL%%GOLD%%NAME
 ItemDisplay[!ETH UNI !ID xmg !FILTERLVL=2]: %GOLD%%NAME% <:GG: NotificationPriority = MEDIUM>
 //Belts
 //Arachnid Mesh
-ItemDisplay[!ETH UNI !ID ulc]: %ORANGE%Arachs%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>> 
+ItemDisplay[!ETH UNI !ID ulc]: %ORANGE%Arachs%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
+ItemDisplay[!ETH UNI ID ulc]: %GOLD%%NL%%ITEMNAME%%NL%%GOLD%<<GG1>> 
 //Verdungo's Hearty Cord
 ItemDisplay[!ETH UNI !ID umc]: %ORANGE%Verdungos%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
 //String of Ears
@@ -1058,12 +1054,12 @@ ItemDisplay[UNI !ID jew]: %NL%%ORANGE%rainbow facet%NL%        %PURPLE%OOOOOO %G
 ItemDisplay[UNI !ID cm3]: %NL%       %RED% OOO %GOLD%%NAME% %RED% OOO        %NL%%GOLD%<<GG>>
 ItemDisplay[MAG !ID jew]: %YELLOW%O %BLUE%%NAME% %YELLOW%O<<BASIC>>
 //Rainbow Facets
-ItemDisplay[UNI ID jew STAT329>2]: %RED%Fire | +%STAT(329)% | -%STAT(333)% %NAME%%CONTINUE% //Fire Facet
+ItemDisplay[UNI ID jew STAT329>2]: %RED%Fire | +%STAT(329)% | -%STAT(333)% %GOLD%%NAME%%CONTINUE% //Fire Facet
 ItemDisplay[UNI ID jew STAT330>2]: %YELLOW%Light | +%STAT(330)% | -%STAT(334)% %GOLD%%NAME%%CONTINUE% //Light Facet
-ItemDisplay[UNI ID jew STAT331>2]: %BLUE%Cold | +%STAT(331)% | -%STAT(335)% %NAME%%CONTINUE% //Cold Facet
-ItemDisplay[UNI ID jew STAT332>2]: %GREEN%Poison | +%STAT(332)% | -%STAT(336)% %NAME%%CONTINUE% //Poison Facet
-ItemDisplay[UNI ID jew STAT357>2]: %WHITE%Magic | +%STAT(357)% | -%STAT(358)% %NAME%%CONTINUE% //Magic Facet
-ItemDisplay[UNI ID jew STAT399>2]: %LIGHT_GRAY%Phys | +%STAT(399)% | -%STAT(400)% %NAME%%CONTINUE% //Phys Facet
+ItemDisplay[UNI ID jew STAT331>2]: %BLUE%Cold | +%STAT(331)% | -%STAT(335)% %GOLD%%NAME%%CONTINUE% //Cold Facet
+ItemDisplay[UNI ID jew STAT332>2]: %GREEN%Poison | +%STAT(332)% | -%STAT(336)% %GOLD%%NAME%%CONTINUE% //Poison Facet
+ItemDisplay[UNI ID jew STAT357>2]: %WHITE%Magic | +%STAT(357)% | -%STAT(358)% %GOLD%%NAME%%CONTINUE% //Magic Facet
+ItemDisplay[UNI ID jew STAT399>2]: %LIGHT_GRAY%Phys | +%STAT(399)% | -%STAT(400)% %GOLD%%NAME%%CONTINUE% //Phys Facet
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH !ID FILTERLVL=2]:
 ItemDisplay[UNI ETH !ID]: %ORANGE%ETH %GOLD%%NAME%<<BASIC>>
