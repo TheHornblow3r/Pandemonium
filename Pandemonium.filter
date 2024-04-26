@@ -27,7 +27,7 @@ TextMacro[ALLRES]: %WHITE%%RES%%YELLOW%a%RED%l%BLUE%l%YELLOW%r%RED%e%BLUE%s
 TextMacro[RUNESEND]: %PURPLE%OO%WHITE%OO%PURPLE%OO
 TextMacro[RUNESSTART]: %PURPLE%OO%WHITE%OO%PURPLE%OO
 TextMacro[MAP]: %PURPLE%O%LIGHT_GRAY% [L%ILVL%]
-TextMacro[STARS]: %PURPE%O
+TextMacro[STARS]: %PURPLE%O
 TextMacro[STARS1]: %R%O%WHITE%O%RED%O
 TextMacro[STARS2]: %RED%O%WHITE%OO%RED%O
 ItemStyle[HR]: MapIcon = 2, MapIconColor = 0, BorderColor = 155, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\hostile"
@@ -614,12 +614,12 @@ ItemDisplay[!ETH UNI ID ci3 SOCK>0]: %ORANGE%+%YELLOW%%STAT(330,0)%Light%WHITE%)
 ItemDisplay[!ETH UNI ID ci3 SOCK>0]: %WHITE%(%ORANGE%-%YELLOW%%STAT(334,0)%Light%WHITE% ,%GOLD%%NAME% %GREEN%[%SOCKETS%] <<GG1>>
 ItemDisplay[ETH UNI !ID ci3]: %ORANGE%ETH %GOLD%%NAME% %PURPLE%O<<BASIC>>
 //Shako
-ItemDisplay[!ETH UNI !ID uap]: %NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
+ItemDisplay[!ETH UNI !ID uap]: %NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %NL%%GOLD%<<GG1>>
 ItemDisplay[!ETH UNI ID uap SOCK=0]: %BASENAME%%NL%%GOLD%%ITEMNAME%<<GG1>>
 ItemDisplay[!ETH UNI ID uap]: %BASENAME%%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]<<GG1>>
 ItemDisplay[ETH UNI !ID uap]: %ORANGE%ETH %GOLD%%NAME% <<BASIC>>
 //Crown of Ages
-ItemDisplay[!ETH UNI !ID urn]: %ORANGE% Crown of Ages%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG>>
+ItemDisplay[!ETH UNI !ID urn]: %ORANGE%Crown of Ages%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG>>
 ItemDisplay[!ETH UNI ID urn]: %BASENAME%%NL%%WHITE%(%PURPLE%%STAT(36,0)% PDR%WHITE%)%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]<<GG>>
 ItemDisplay[ETH UNI !ID urn]: %ORANGE%ETH %GOLD%%NAME% <<BASIC>>
 //Andariel's Visage
