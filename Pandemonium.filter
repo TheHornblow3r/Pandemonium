@@ -749,7 +749,8 @@ ItemDisplay[!ETH UNI !ID umg !FILTERLVL=2]: %ORANGE%Soul Drainers%NL%%GOLD%%NAME
 ItemDisplay[!ETH UNI !ID xmg !FILTERLVL=2]: %GOLD%%NAME% <:GG: NotificationPriority = MEDIUM>
 //Belts
 //Arachnid Mesh
-ItemDisplay[!ETH UNI !ID ulc]: %ORANGE%Arachs%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>> 
+ItemDisplay[!ETH UNI !ID ulc]: %ORANGE%Arachs%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
+ItemDisplay[!ETH UNI ID ulc]: %ORANGE%Arachs%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>> 
 //Verdungo's Hearty Cord
 ItemDisplay[!ETH UNI !ID umc]: %ORANGE%Verdungos%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
 //String of Ears
