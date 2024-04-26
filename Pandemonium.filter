@@ -750,7 +750,7 @@ ItemDisplay[!ETH UNI !ID xmg !FILTERLVL=2]: %GOLD%%NAME% <:GG: NotificationPrior
 //Belts
 //Arachnid Mesh
 ItemDisplay[!ETH UNI !ID ulc]: %ORANGE%Arachs%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
-ItemDisplay[!ETH UNI ID ulc]: %NL%%ITEMNAME%%GOLD%%NL%<<GG1>> 
+ItemDisplay[!ETH UNI ID ulc]: %NL%%ITEMNAME%%NL%%GOLD%<<GG1>> 
 //Verdungo's Hearty Cord
 ItemDisplay[!ETH UNI !ID umc]: %ORANGE%Verdungos%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
 //String of Ears
