@@ -1,7 +1,5 @@
 ![Logo-Header](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/f44b8e9d-5109-4d16-93b1-dcabd52966db)
 
-[View Recent Updates Here](https://github.com/TheHornblow3r/Pandemonium?tab=readme-ov-file#updates)
-
 # Information & Credits
 **Credit:** Mackanmusic for original code<br>
 **Sounds:** GameSFX<br>
@@ -14,6 +12,8 @@ Thank you to Mackanmusic for letting me fork his code & give me permission to po
 Follow him online at: https://www.twitch.tv/mackanmusic
 
 I'm open to any advice/changes you would like to see in the filter **(DM me on discord)**
+
+[View Recent Updates Here](https://github.com/TheHornblow3r/Pandemonium?tab=readme-ov-file#updates)
 
 # Installation
 
