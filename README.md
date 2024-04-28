@@ -1,6 +1,5 @@
 ![Logo-Header](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/f44b8e9d-5109-4d16-93b1-dcabd52966db)
 
-
 # Information & Credits
 **Credit:** Mackanmusic for original code<br>
 **Sounds:** GameSFX<br>
@@ -13,6 +12,8 @@ Thank you to Mackanmusic for letting me fork his code & give me permission to po
 Follow him online at: https://www.twitch.tv/mackanmusic
 
 I'm open to any advice/changes you would like to see in the filter **(DM me on discord)**
+
+[View Recent Updates Here](https://github.com/TheHornblow3r/Pandemonium?tab=readme-ov-file#updates)
 
 # Installation
 
@@ -54,4 +55,14 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 ## Misc Items ##
 ![Misc](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/eb1d2f5a-24fa-4d8e-b051-ba3546c5dbd3)
+
+# Updates #
+
+## v1.1 ##
+- Rare/Magic Javazon gloves now show +Java Skills/IAS stats on item
+- Minor Formatting Changes
+- Added arrow stats/valuable stats information (See screenshot below)
+- If arrows do not have any desired stats they will just show up as plain rare arrows (can charsi)
+
+![Arrows-Update](https://github.com/TheHornblow3r/Pandemonium/assets/17283160/3dd4d7a5-dd5b-44db-99e6-d27498d312c8)
 
