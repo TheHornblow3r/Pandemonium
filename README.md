@@ -1,6 +1,6 @@
 ![Logo-Header](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/f44b8e9d-5109-4d16-93b1-dcabd52966db)
 
-[View Recent Updates Here](https://github.com/TheHornblow3r/Pandemonium/edit/main/README.md#updates)
+[View Recent Updates Here](https://github.com/TheHornblow3r/Pandemonium?tab=readme-ov-file#updates)
 
 # Information & Credits
 **Credit:** Mackanmusic for original code<br>
