@@ -1607,7 +1607,7 @@ ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("F
 ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")>2 SKILL("Maul")>0 !SOCK=1 !SOCK=2]: %NAME%%YELLOW% +%SKILL(233)% Maul%CONTINUE%
 ItemDisplay[NMAG CL1 SKILL("Rabies")>2 SKILL("Fury")>0 !SOCK=1 !SOCK=2]: %NAME%%YELLOW% +%SKILL(248)% Fury%CONTINUE%
 ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2) SOCK=3]: %NAME% %YELLOW%[%SOCKETS%]%CONTINUE%
-ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2) !SOCK=1 !SOCK=2]: %NAME%%NL%%WHITE%%BASENAME%{%GRAY%Socket: %TAN%Ral %GRAY%+ %TAN%Thul %GRAY%+ %BLUE%P Sapp%NL%%PURPLE%Metamorphosis: %WHITE%Io %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Fal}<<GG>>
+ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2) !SOCK=1 !SOCK=2]: %NAME%%NL%%WHITE%%BASENAME%{%ORANGE%Larzuk 3 Sockets%NL%%PURPLE%Metamorphosis: %WHITE%Io %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Fal}<<GG>>
 //non-magic druid pelts 
 ItemDisplay[CL1 NMAG SK226>2 SOCK=0]: %DGREEN%3 OAK %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]<<BASIC1>>
 ItemDisplay[CL1 NMAG SK226>0 SOCK=0 CLVL<71]: %DGREEN%%SKILL(226)% OAK %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]<<BASIC>>
