@@ -616,9 +616,9 @@ ItemDisplay[7cr NMAG SOCK=0]: %WHITE%PB <<BASIC>>
 //Helms
 //Griffon's Eye
 ItemDisplay[!ETH UNI !ID ci3]: %ORANGE%Griffons%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %NL%%GOLD%<<GG1>>
-ItemDisplay[!ETH UNI ID ci3 SOCK=0]: %WHITE%(%ORANGE%-%YELLOW%%STAT(334,0)%Light%WHITE% ,%GOLD%%NAME%<<GG1>>
-ItemDisplay[!ETH UNI ID ci3 SOCK>0]: %ORANGE%+%YELLOW%%STAT(330,0)%Light%WHITE%)%NL%%GOLD%%NAME%%CONTINUE%
-ItemDisplay[!ETH UNI ID ci3 SOCK>0]: %WHITE%(%ORANGE%-%YELLOW%%STAT(334,0)%Light%WHITE% ,%GOLD%%NAME% %GREEN%[%SOCKETS%] <<GG1>>
+ItemDisplay[!ETH UNI ID ci3 SOCK=0]: %ORANGE%-%YELLOW%%STAT(334,0)%Light Res%WHITE% |%GOLD%%NAME%<<GG1>>
+ItemDisplay[!ETH UNI ID ci3 SOCK>0]: %ORANGE%+%YELLOW%%STAT(330,0)%Light Dmg%NL%%GOLD%%NAME%%CONTINUE%
+ItemDisplay[!ETH UNI ID ci3 SOCK>0]: %ORANGE%-%YELLOW%%STAT(334,0)%Light Res%GOLD%%NAME% %GREEN%[%SOCKETS%] <<GG1>>
 ItemDisplay[ETH UNI !ID ci3]: %ORANGE%ETH %GOLD%%NAME% %PURPLE%O<<BASIC>>
 //Shako
 ItemDisplay[!ETH UNI !ID uap]: %NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %NL%%GOLD%<<GG1>>
