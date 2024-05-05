@@ -142,7 +142,7 @@ ItemDisplay[pk3]: %NL%        %ORANGE%O%YELLOW% Destruction %WHITE%[Nihlathak] %
 ItemDisplay[dhn]: %NL%        %ORANGE%O%YELLOW% Diablo's Horn %ORANGE%O        %NL%%GOLD%<<UBERL>>
 ItemDisplay[bey]: %NL%        %ORANGE%O%YELLOW% Baal's Eye %ORANGE%O        %NL%%GOLD%<<UBERI>>
 ItemDisplay[mbr]: %NL%        %ORANGE%O%YELLOW% Mephisto's Brain %ORANGE%O        %NL%%GOLD%<<UBERD>>
-ItemDisplay[SYNTH]: %PURPLE%%NAME%%NL%%GREEN%NEW%CONTINUE%
+ItemDisplay[SYNTH]: %PURPLE%%BASENAME%%NL%%GOLD%ITEMNAME%%NL%%GREEN%NEW%CONTINUE%
 ItemDisplay[SYNTH ETH]: %ORANGE%ETH %GOLD%%NAME% %CONTINUE%
 ItemDisplay[SYNTH NORM WEAPON]: %NAME%{%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %GREEN%PEmerald} %CONTINUE%
 ItemDisplay[SYNTH EXC WEAPON]: %NAME%{%PURPLE%Upgrade: %WHITE%Lum %SAGE%+ %LIGHT_GRAY%Pul %SAGE%+ %GREEN%PEmerald} %CONTINUE%
