@@ -86,7 +86,7 @@ ItemDisplay[tes]: %GOLD%Suffering %BLUE%[Andariel]<<BASICHIGH>>
 ItemDisplay[ceh]: %GOLD%Hatred %YELLOW%[Mephisto]<<BASICHIGH>>
 ItemDisplay[bet]: %GOLD%Terror %RED%[Diablo]<<BASICHIGH>>
 ItemDisplay[fed]: %GOLD%Destruction %GREEN%[Baal]<<BASICHIGH>>
-ItemDisplay[toa]: %GOLD%Token of Absolution %PURPLE%###<<BASICNOT>>
+ItemDisplay[toa]: %PURPLE%O %GOLD%Token of Absolution %PURPLE%O<<BASICNOT>>
 // -------------------------------------------------------------------------
 // POD ITEMS							        
 // ------------------------------------------------------------------------- 
@@ -597,8 +597,8 @@ ItemDisplay[MAG WP13 SK102>2 TABSK25>2]: %NAME% %WHITE%(%RED%6 HolyFire%WHITE%) 
 //
 ItemDisplay[NMAG !ETH !RW 7ws SK118>2 !SK117>0 SOCK=4]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] %WHITE%(%ORANGE%3 HS%WHITE%){%PURPLE%Hand of Jusitice: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Amn %SAGE%+ %LIGHT_GRAY%Lo} <<BASIC>>
 ItemDisplay[NMAG !RW !SUP !ETH 7ws SK118>2 !SK117>0 SOCK=0]: %DGREEN%%NAME% %WHITE%(%ORANGE%3 HS%WHITE%) {%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASIC>>
-ItemDisplay[MAG !ETH 7ws]: %NAME% %YELLOW%%%<<BASIC>>
-ItemDisplay[RARE !ETH 7ws]: %NAME% %GREEN%%%<<BASIC>>
+ItemDisplay[MAG !ETH 7ws]: %NAME% %YELLOW%O<<BASIC>>
+ItemDisplay[RARE !ETH 7ws]: %NAME% %GREEN%O<<BASIC>>
 ItemDisplay[WP13 CLVL<20 !UNI SK102>0]: %NAME% %WHITE%(%RED%%SKILL(102)% HolyFire%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]<<BASICHIGH>>
 ItemDisplay[WP13 CLVL<25 !UNI SK101>0 FCR>9]: %NAME% %WHITE%(%ORANGE%%SKILL(101)% HolyBolt + %STAT(105,0)%FCR%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]<<BASIC>>
 ItemDisplay[WP13 CLVL<40 !UNI SK101>0]: %NAME% %WHITE%(%ORANGE%%SKILL(101)% HolyBolt%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]<<BASIC>>
@@ -623,6 +623,7 @@ ItemDisplay[ETH UNI !ID ci3]: %ORANGE%ETH %GOLD%%NAME% %PURPLE%O<<BASIC>>
 //Shako
 ItemDisplay[!ETH UNI !ID uap]: %NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %NL%%GOLD%<<GG1>>
 ItemDisplay[!ETH UNI ID uap SOCK=0]: %BASENAME%%NL%%GOLD%%ITEMNAME%<<GG1>>
+ItemDisplay[!ETH UNI ID uap SOCK=2]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GREEN%[%SOCKETS%]<<GG1>>
 ItemDisplay[!ETH UNI ID uap]: %BASENAME%%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]<<GG1>>
 ItemDisplay[ETH UNI !ID uap]: %ORANGE%ETH %GOLD%%NAME% <<BASIC>>
 //Crown of Ages
@@ -632,6 +633,7 @@ ItemDisplay[ETH UNI !ID urn]: %ORANGE%ETH %GOLD%%NAME% <<BASIC>>
 //Andariel's Visage
 ItemDisplay[!ETH UNI !ID usk]: %ORANGE%Andariel's Visage%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
 ItemDisplay[!ETH UNI ID UNIQUE("Andariel's Visage") usk SOCK=0]: %BASENAME%%NL%%GOLD%%ITEMNAME%<<GG1>>
+ItemDisplay[!ETH UNI ID UNIQUE("Andariel's Visage") usk SOCK=3]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GREEN%[%SOCKETS%]<<GG1>>
 ItemDisplay[!ETH UNI ID UNIQUE("Andariel's Visage") usk]: %BASENAME%%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]<<GG1>>
 ItemDisplay[ETH UNI !ID usk]: %ORANGE%ETH %GOLD%%NAME% <<BASIC>>
 //Vampire Gaze
@@ -665,6 +667,8 @@ ItemDisplay[!ETH UNI !ID xhm !FILTERLVL=2]: %ORANGE%Valk Wing%NL%       %GOLD%%N
 ItemDisplay[!ETH UNI !ID bac]: %ORANGE%Wolfhowl%NL%       %GOLD%%NAME%       %GOLD%<<GG>>
 //Kiras
 ItemDisplay[!ETH UNI !ID ci2]: %ORANGE%Kira's%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
+ItemDisplay[!ETH UNI ID ci2 SOCK=3]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GREEN%[%SOCKETS%]
+ItemDisplay[!ETH UNI ID ci2 SOCK>0]: %BASENAME%%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]
 //Armor
 //Duriel's Shell
 ItemDisplay[!ETH UNI !ID xrs !FILTERLVL=2]: %ORANGE%Duriels%NL%%GOLD%%NAME%<:GG: NotificationPriority = LOW>
@@ -775,7 +779,7 @@ ItemDisplay[!ETH UNI !ID umc]: %ORANGE%Verdungos%NL%       %GOLD%%NAME%       %G
 ItemDisplay[!ETH UNI !ID zlb !FILTERLVL=2]: %ORANGE%String Of Ears%NL%%GOLD%%NAME%<<GG1>>
 //Razortail
 ItemDisplay[!ETH UNI !ID zvb]: %ORANGE%Razortail%NL%%GOLD%%NAME%<<GG>>
-ItemDisplay[!ETH UNIQUE("Razortail") ID STAT156=41]: %BASENAME%%NL%%ORANGE%41 %LIGHT_GRAY%Pierce%NL%%GOLD%%ITEMNAME% {%ORANGE%41 %LIGHT_GRAY%Pierce}<<GG>>
+ItemDisplay[!ETH UNIQUE("Razortail") ID STAT156=41]: %BASENAME%%NL%%ORANGE%41 %LIGHT_GRAY%Pierce%NL%%GOLD%%ITEMNAME%<<GG>>
 //Thundergod's Vigor 
 ItemDisplay[!ETH UNI !ID zhb]: %ORANGE%Thunder Gods%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
 ItemDisplay[UNIQUE("Thundergod's Vigor") STAT42=12]: %NAME% {%ORANGE%12 %YELLOW%Max Light Res}<<GG1>>
@@ -1537,7 +1541,7 @@ ItemDisplay[7cr NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]{%PURPLE%Silence
 ItemDisplay[(7cr OR (!ETH 7wa)) NMAG SOCK=5 !FILTERLVL=2]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]{%PURPLE%Grief: %WHITE%Eth %SAGE%+ %LIGHT_GRAY%Tir %SAGE%+ %WHITE%Lo %SAGE%+ %LIGHT_GRAY%Mal %SAGE%+ %WHITE%Ral}<<BASIC>>
 ItemDisplay[7wa !ETH NMAG SOCK>4]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]<<BASIC>>
 ItemDisplay[7cr NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]{%PURPLE%Hand of Jusitice: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Amn %SAGE%+ %LIGHT_GRAY%Lo%NL%%PURPLE%Spirit: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %WHITE%Ort %SAGE%+ %LIGHT_GRAY%Amn}<<BASIC>>
-ItemDisplay[NMAG !ETH !RW 7ws !SK117>0 SOCK=4 !FILTERLVL=2]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] {%PURPLE%Hand of Jusitice: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Amn %SAGE%+ %LIGHT_GRAY%Lo} <<BASIC>>
+ItemDisplay[NMAG !ETH !RW !SK117>0 SOCK=4 !FILTERLVL=2]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] {%PURPLE%Hand of Jusitice: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Amn %SAGE%+ %LIGHT_GRAY%Lo} <<BASIC>>
 //Breath of the Dying = BotD 
 ItemDisplay[(7gm OR 7p7) ETH ED>0 NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%] %WHITE%(%ORANGE%%EDAMAGE% ED%WHITE%){%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASIC>>
 ItemDisplay[(7gm OR 7p7) ETH ED>0 NMAG SOCK=0]: %DGREEN%%NAME% %WHITE%(%ORANGE%%EDAMAGE% ED%WHITE%){%ORANGE%Larzuk 6os}<<BASIC>>
