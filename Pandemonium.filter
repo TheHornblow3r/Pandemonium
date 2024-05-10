@@ -142,7 +142,7 @@ ItemDisplay[pk3]: %NL%        %ORANGE%O%YELLOW% Destruction %WHITE%[Nihlathak] %
 ItemDisplay[dhn]: %NL%        %ORANGE%O%YELLOW% Diablo's Horn %ORANGE%O        %NL%%GOLD%<<UBERL>>
 ItemDisplay[bey]: %NL%        %ORANGE%O%YELLOW% Baal's Eye %ORANGE%O        %NL%%GOLD%<<UBERI>>
 ItemDisplay[mbr]: %NL%        %ORANGE%O%YELLOW% Mephisto's Brain %ORANGE%O        %NL%%GOLD%<<UBERD>>
-ItemDisplay[SYNTH]: %PURPLE%%BASENAME%%NL%%GOLD%%ITEMNAME%%NL%%GREEN%NEW%CONTINUE%
+ItemDisplay[SYNTH]: %PURPLE%%BASENAME%%NL%%GOLD%%ITEMNAME%%CONTINUE%
 ItemDisplay[SYNTH ETH]: %ORANGE%ETH %GOLD%%NAME% %CONTINUE%
 ItemDisplay[SYNTH NORM WEAPON]: %NAME%{%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %GREEN%PEmerald} %CONTINUE%
 ItemDisplay[SYNTH EXC WEAPON]: %NAME%{%PURPLE%Upgrade: %WHITE%Lum %SAGE%+ %LIGHT_GRAY%Pul %SAGE%+ %GREEN%PEmerald} %CONTINUE%
@@ -957,10 +957,10 @@ ItemDisplay[UNI !ETH !ID 9bs]: %ORANGE%Headstriker%NL%       %GOLD%%NAME%       
 ItemDisplay[UNI ETH !ID 9bs !FILTERLVL=2]: %ORANGE%ETH %GOLD%%NAME% %ORANGE%Headstriker<<GG>>
 //Bing Sz Wang
 ItemDisplay[UNI !ETH !ID 9cm !FILTERLVL=2]: %ORANGE%Bing Sz Wang%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\object\glassbreak1">
-ItemDisplay[UNI !ETH UNIQUE("Bing Sz Wang") ID 9cm SOCK=0]: %BASENAME%%NL%%ORANGE% Bing Sz Wang %NL%%GOLD%%ITEMNAME%{%PURPLE%Upgrade: %WHITE%Lum %SAGE%+ %LIGHT_GRAY%Pul %SAGE%+ %GREEN%PEmerald}<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\object\glassbreak1">
-ItemDisplay[UNI !ETH UNIQUE("Bing Sz Wang") ID 9cm]: %BASENAME%%NL%%ORANGE% Bing Sz Wang %NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]{%PURPLE%Upgrade: %WHITE%Lum %SAGE%+ %LIGHT_GRAY%Pul %SAGE%+ %GREEN%PEmerald}<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\object\glassbreak1">
-ItemDisplay[UNI !ETH UNIQUE("Bing Sz Wang") ID SOCK=0]: %BASENAME%%NL%%ORANGE% Bing Sz Wang %NL%%GOLD%%ITEMNAME%<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\object\glassbreak1">
-ItemDisplay[UNI !ETH UNIQUE("Bing Sz Wang") ID]: %BASENAME%%NL%%ORANGE% Bing Sz Wang %NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\object\glassbreak1">
+ItemDisplay[UNI !ETH UNIQUE("Bing Sz Wang") ID 9cm SOCK=0]: %BASENAME%%NL%%BLUE% King of Cold%NL%%GOLD%%ITEMNAME%{%PURPLE%Upgrade: %WHITE%Lum %SAGE%+ %LIGHT_GRAY%Pul %SAGE%+ %GREEN%PEmerald}<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\object\glassbreak1">
+ItemDisplay[UNI !ETH UNIQUE("Bing Sz Wang") ID 9cm]: %BASENAME%%NL%%BLUE% King of Cold%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]{%PURPLE%Upgrade: %WHITE%Lum %SAGE%+ %LIGHT_GRAY%Pul %SAGE%+ %GREEN%PEmerald}<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\object\glassbreak1">
+ItemDisplay[UNI !ETH UNIQUE("Bing Sz Wang") ID SOCK=0]: %BASENAME%%NL%%BLUE% King of Cold%NL%%GOLD%%ITEMNAME%<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\object\glassbreak1">
+ItemDisplay[UNI !ETH UNIQUE("Bing Sz Wang") ID]: %BASENAME%%NL%%BLUE% King of Cold%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\object\glassbreak1">
 //Mang songs
 ItemDisplay[UNI !ETH !ID 6ws]: %ORANGE%Mang Song's%NL%       %GOLD%%NAME%        %GOLD%<:GG: NotificationSound = "@global\sfx\cursor\questdone">
 ItemDisplay[UNI ETH !ID 6ws]: %ORANGE%Mang Song's%NL%       %ORANGE%ETH %GOLD%%NAME%       %GOLD%<:GG: NotificationSound = "@global\sfx\cursor\questdone">
@@ -1340,8 +1340,8 @@ ItemDisplay[MAG !ETH 7cr ID STAT218=4 STAT224=33 IAS>39 SOCK>4]: %NAME% %PURPLE%
 // -------------------------------------------------------------------------
 //Armor
 //ETH Merc Base
-ItemDisplay[NMAG ETH !RW DEF>900 (uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR xar OR xul OR xth) SOCK=0]: %ORANGE%ETH%DGREEN% %NAME%   %GREEN%(%STAT(31,0)% def)<<BASIC>>
-ItemDisplay[NMAG ETH !RW DEF>700 (uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR xar OR xul OR xth) SOCK=0]: %ORANGE%ETH%DGREEN% %NAME%   %GREEN%(%STAT(31,0)% def)<<BASIC>>
+ItemDisplay[NMAG ETH !RW DEF>900 (uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR xar OR xul OR xth) SOCK=0]: %ORANGE%ETH%DGREEN% %NAME%   %GREEN%(%STAT(31,0)% def){%PURPLE%Roll: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %YELLOW%PTopaz}<<BASIC>>
+ItemDisplay[NMAG ETH !RW DEF>700 (uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR xar OR xul OR xth) SOCK=0]: %ORANGE%ETH%DGREEN% %NAME%   %GREEN%(%STAT(31,0)% def){%PURPLE%Roll: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %YELLOW%PTopaz}<<BASIC>>
 ItemDisplay[NMAG ETH !RW SOCK>2 DEF>900 (uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% %NAME% %PURPLE%[%SOCKETS%] %GREEN%(%STAT(31,0)% def)<<BASIC>>
 ItemDisplay[NMAG ETH !RW SOCK>2 DEF>700 (uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp OR xar OR xul OR xth)]: %ORANGE%ETH%DGREEN% %NAME% %YELLOW%[%SOCKETS%] %GREEN%(%STAT(31,0)% def)<<BASIC>>
 //Top Tier Dusk Shroud, Wyrmhide, Archon Plate, Wire fleece
