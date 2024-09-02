@@ -63,6 +63,7 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 - Minor Formatting Changes
 - Added arrow stats/valuable stats information (See screenshot below)
 - If arrows do not have any desired stats they will just show up as plain rare arrows
+- Added map icon for rare rings & amulets
 
 ![Arrows-Update](https://github.com/TheHornblow3r/Pandemonium/assets/17283160/3dd4d7a5-dd5b-44db-99e6-d27498d312c8)
 
