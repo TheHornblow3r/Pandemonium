@@ -617,7 +617,8 @@ ItemDisplay[7cr NMAG SOCK=0]: %WHITE%PB <<BASIC>>
 //Griffon's Eye
 ItemDisplay[!ETH UNI !ID ci3]: %ORANGE%Griffons%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %NL%%GOLD%<<GG1>>
 ItemDisplay[!ETH UNI ID ci3 SOCK=0]: %ORANGE%-%YELLOW%%STAT(334,0)%Light Res%WHITE% | %ORANGE%+%YELLOW%%STAT(330,0)%Light Dmg%NL%%GOLD%%NAME%<<GG1>>
-ItemDisplay[!ETH UNI ID ci3 SOCK>0]: %ORANGE%-%YELLOW%%STAT(334,0)%Light Res%WHITE% | %ORANGE%+%YELLOW%%STAT(330,0)%Light Dmg%NL%%GOLD%%NAME% %GREEN%[%SOCKETS%] <<GG1>>
+ItemDisplay[!ETH UNI ID ci3 SOCK=1 SOCK=2]: %ORANGE%-%YELLOW%%STAT(334,0)%Light Res%WHITE% | %ORANGE%+%YELLOW%%STAT(330,0)%Light Dmg%NL%%GOLD%%NAME% %GREEN%[%SOCKETS%] <<GG1>>
+ItemDisplay[!ETH UNI ID ci3 SOCK=3]: %ORANGE%-%YELLOW%%STAT(334,0)%Light Res%WHITE% | %ORANGE%+%YELLOW%%STAT(330,0)%Light Dmg%NL%%GOLD%%NAME% %PURPLE%[%SOCKETS%] <<GG1>>
 ItemDisplay[ETH UNI !ID ci3]: %ORANGE%ETH %GOLD%%NAME% %PURPLE%O<<BASIC>>
 //Shako
 ItemDisplay[!ETH UNI !ID uap]: %NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %NL%%GOLD%<<GG1>>
@@ -807,7 +808,7 @@ ItemDisplay[UNI !ETH !ID uhb !FILTERLVL=2]: %ORANGE%Shadow Dancer%NL%%GOLD%%NAME
 //Tearhaunch
 ItemDisplay[UNI !ETH !ID hbt !FILTERLVL=2 CLVL<85]: %ORANGE%Tearhaunch%NL%%GOLD%%NAME% <<BASIC>>
 //Aldur's
-ItemDisplay[!ETH SET !ID xtb]: %ORANGE%Aldurs Boots%NL%%GREEN%%NAME%%NL%%!STARS2!% <:GG: NotificationColor = GREEN>
+ItemDisplay[!ETH SET !ID xtb]: %ORANGE%Aldurs Boots%NL%%GREEN%%NAME% <:GG: NotificationColor = GREEN>
 //Natalya's
 ItemDisplay[!ETH SET !ID xh9 !FILTERLVL=2]: %ORANGE%Nats Helm%NL%%GREEN%%NAME% <:GG1: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET ID SET("Natalya's Totem") SOCK=0]: %WHITE%(%CORAL%Up before slam%WHITE%)%NL%%GREEN%%NAME% {%PURPLE%Upgrade: %ORANGE%Hel %SAGE%+ %ORANGE%Io %SAGE%+ %YELLOW%PTopaz}<:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
