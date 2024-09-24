@@ -70,6 +70,7 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 ## v1.2 Less Tabbing Update ##
 - Added breakpoints when scrolling over Tomb of Town Portal (Character Specific)
 - Added corruptions when scrolling over Orb Of Corruptions
+- Added Orb of Alteration
   
 ![QoL](https://github.com/user-attachments/assets/d47a5776-1e7c-48ec-9534-a41dca0714d6)
 
