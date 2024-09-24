@@ -93,7 +93,8 @@ ItemDisplay[toa]: %PURPLE%O %GOLD%Token of Absolution %PURPLE%O<<BASICNOT>>
 ItemDisplay[cx5]: %NL%%RED%O %PURPLE%Orb Of Corruption %RED%O%NL%%GOLD%<<OOC>> {%GOLD%Quiver%WHITE%: @R, LGoH, MGoH, IAS, +1 Skills%NL%%GOLD%Belt%WHITE%: Pierce, FCR, IAS, ARB, ARPL%NL%%GOLD%Shield%WHITE%: Block, Fire/Cold/Light/Psn Damage%NL%%GOLD%Weapon%WHITE%: ED, DS, MDPL, CB, IAS%NL%%GOLD%Armor%WHITE%: IAS, Eng Def, AR, FCR, Max Life%NL%%GOLD%Rings%WHITE%: FCR, FRW, Life, PDR, MF%NL%%GOLD%Amulet%WHITE%: @R, +1 Skills, Mana Regen, MF, Life%NL%%GOLD%Gloves%WHITE%: IAS, CR, PR, @R, LGoH%NL%%GOLD%Boots%WHITE%: FR, LR, @R, Dex, CDR%NL%%GOLD%Helm%WHITE%: STR, ENE, LGoH, Life, Pierce%NL%%RED%Corruptions%WHITE%%NL%}
 ItemDisplay[cx6]: %PURPLE%O %ORANGE%%NAME%%PURPLE% O<<BASICHIGH1>>
 ItemDisplay[cx7]: %PURPLE%O %ORANGE%%NAME%%PURPLE% O<<BASICHIGH1>>
-ItemDisplay[cx8]: %PURPLE%Orb %ORANGE%of %PURPLE%Enchantment<<BASICNOT>> 
+ItemDisplay[cx8]: %PURPLE%Orb %ORANGE%of %PURPLE%Enchantment<<BASICNOT>>
+ItemDisplay[cx9]: %NL%%RED%O %GOLD%Orb Of Alteration %RED%O%NL%%GOLD%<<BASICHIGH1>> 
 // -------------------------------------------------------------------------
 // MAPS							        
 // ------------------------------------------------------------------------- 
