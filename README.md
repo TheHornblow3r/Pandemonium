@@ -67,3 +67,11 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 ![Arrows-Update](https://github.com/TheHornblow3r/Pandemonium/assets/17283160/3dd4d7a5-dd5b-44db-99e6-d27498d312c8)
 
+## v1.2 Less Tabbing Update ##
+- Added breakpoints when scrolling over Tomb of Town Portal (Character Specific)
+- Added corruptions when scrolling over Orb Of Corruptions
+  
+![QoL](https://github.com/user-attachments/assets/d47a5776-1e7c-48ec-9534-a41dca0714d6)
+
+
+
