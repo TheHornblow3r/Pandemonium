@@ -90,10 +90,10 @@ ItemDisplay[toa]: %PURPLE%O %GOLD%Token of Absolution %PURPLE%O<<BASICNOT>>
 // -------------------------------------------------------------------------
 // POD ITEMS							        
 // ------------------------------------------------------------------------- 
-ItemDisplay[cx5]: %NL%%RED%O %PURPLE%Orb Of Corruption %RED%O%NL%%GOLD%<<OOC>>
+ItemDisplay[cx5]: %NL%%RED%O %PURPLE%Orb Of Corruption %RED%O%NL%%GOLD%<<OOC>> {%GOLD%Quiver%WHITE%: @R, LGoH, MGoH, IAS, +1 Skills%NL%%GOLD%Belt%WHITE%: Pierce, FCR, IAS, ARB, ARPL%NL%%GOLD%Shield%WHITE%: Block, Fire/Cold/Light/Psn Damage%NL%%GOLD%Weapon%WHITE%: ED, DS, MDPL, CB, IAS%NL%%GOLD%Armor%WHITE%: IAS, Eng Def, AR, FCR, Max Life%NL%%GOLD%Rings%WHITE%: FCR, FRW, Life, PDR, MF%NL%%GOLD%Amulet%WHITE%: @R, +1 Skills, Mana Regen, MF, Life%NL%%GOLD%Gloves%WHITE%: IAS, CR, PR, @R, LGoH%NL%%GOLD%Boots%WHITE%: FR, LR, @R, Dex, CDR%NL%%GOLD%Helm%WHITE%: STR, ENE, LGoH, Life, Pierce%NL%%RED%Corruptions%WHITE%%NL%}
 ItemDisplay[cx6]: %PURPLE%O %ORANGE%%NAME%%PURPLE% O<<BASICHIGH1>>
 ItemDisplay[cx7]: %PURPLE%O %ORANGE%%NAME%%PURPLE% O<<BASICHIGH1>>
-ItemDisplay[cx8]: %PURPLE%Orb %ORANGE%of %PURPLE%Enchantment<<BASICNOT>>
+ItemDisplay[cx8]: %PURPLE%Orb %ORANGE%of %PURPLE%Enchantment<<BASICNOT>> 
 // -------------------------------------------------------------------------
 // MAPS							        
 // ------------------------------------------------------------------------- 
@@ -164,8 +164,20 @@ ItemDisplay[key]: %WHITE%key<<BASIC>>
 // -------------------------------------------------------------------------
 // TOMES
 // -------------------------------------------------------------------------
-ItemDisplay[tbk]: %WHITE%Tome of Town Portal<<BASIC>>
+//ItemDisplay[tbk]: %WHITE%Tome of Town Portal<<BASIC>>
+ItemDisplay["Tome of Town Portal" PLRCLASS(AMA)]: %NAME%{ %GOLD%FCR%WHITE%: 7, 14, 22, 32, 48, 68, 99, 152%NL%%GOLD%Faster Block%WHITE%: 13, 32, 86%NL%%GOLD%FHR%WHITE%: 6, 13, 20, 32, 52%WHITE%%NL%%ORANGE%(Titans or -10 Base)%GOLD%IAS%WHITE%: 10, 26, 50, 95%NL%%PURPLE%Amazon Breakpoints%WHITE%%NL%}
+ItemDisplay["Tome of Town Portal" PLRCLASS(DRU)]: %NAME%{ %GOLD%FHR%ORANGE%(Bear)%WHITE%: 5, 10, 16, 24, 37, 54, 86, 152, 360%NL%%GOLD%FHR%ORANGE%(Wolf)%WHITE%: 9, 20, 42, 86, 280%NL%%GOLD%Fast Block%ORANGE%(Human)%WHITE%: 0, 6, 13 20, 32, 52, 86, 174, 600%NL%%GOLD%Fast Block%ORANGE%(Bear)%WHITE%: 5, 10, 16, 27, 40, 65, 109, 223%NL%%GOLD%Fast Block%ORANGE%(Wolf)%WHITE%: 7, 15, 27, 48, 86, 200%NL%%GOLD%FCR%ORANGE%(Human)%WHITE%: 4, 10, 19, 30, 46, 68, 99, 163%NL%%GOLD%FCR %ORANGE%(Bear)%WHITE%: 7, 15, 26, 40, 63, 99, 163%NL%%GOLD%FCR%ORANGE%(Wolf)%WHITE%: 6, 14, 26, 40, 60, 95, 157%NL%%PURPLE%Character Breakpoints%WHITE%%NL%}
+ItemDisplay["Tome of Town Portal" PLRCLASS(ASS)]: %NAME%{ %GOLD%FCR%WHITE%: 8, 16, 27, 42, 65, 102, 174%NL%%GOLD%Faster Block%WHITE%: 13, 32, 86%NL%%GOLD%FHR%WHITE%: 7, 15, 27, 48, 86, 200%NL%%PURPLE%Assasin Breakpoints%WHITE%%NL%}
+ItemDisplay["Tome of Town Portal" PLRCLASS(BAR)]: %NAME%{ %GOLD%FCR%WHITE%: 9, 20, 37, 63, 105, 200%NL%%GOLD%Faster Block%WHITE%: 20, 42, 86, 280%NL%%GOLD%FHR%WHITE%: 7, 15, 27, 48, 86, 200%NL%%PURPLE%Barbarian Breakpoints%WHITE%%NL%}
+ItemDisplay["Tome of Town Portal" PLRCLASS(NEC)]: %NAME%{ %GOLD%FCR%ORANGE%(Human)%WHITE%: 9, 18, 30, 48, 75, 125%NL%%GOLD%Faster Block%WHITE%: 6, 13, 20, 32, 52, 86, 174, 600%NL%%GOLD%FHR%ORANGE%(Human)%WHITE%: 5, 10, 15, 26, 39, 56, 86, 152%NL%%PURPLE%Necromancer Breakpoints%WHITE%%NL%}
+ItemDisplay["Tome of Town Portal" PLRCLASS(PAL)]: %NAME%{ %GOLD%FCR%WHITE%: 9, 18, 30, 48, 75, 125%NL%%GOLD%Faster Block%ORANGE%(Holy Shield)%WHITE%: 0, 86%NL%%GOLD%Faster Block%WHITE%: 13, 32, 86%NL%%GOLD%FHR%ORANGE%(Spear/Staves)%WHITE%: 3, 7, 13, 20, 32, 48, 75, 129%NL%%GOLD%FHR%WHITE%: 7, 15, 27, 48, 86, 200%NL%%PURPLE%Paladin Breakpoints%WHITE%%NL%}
+ItemDisplay["Tome of Town Portal" PLRCLASS(SOR)]: %NAME%{ %GOLD%FCR%WHITE%: 9, 20, 37, 63, 105, 200%NL%%GOLD%FCR%ORANGE%(Lightning)%WHITE%: 7, 15, 23, 35, 52, 78, 117, 194%NL%%GOLD%Faster Block%WHITE%: 7, 15, 27, 48, 86, 200%NL%%GOLD%FHR%WHITE%: 5, 9, 14, 20, 30, 42, 60, 86, 142%NL%%PURPLE%Sorceress Breakpoints%WHITE%%NL%}
 ItemDisplay[ibk]: %WHITE%Tome of Identify<<BASIC>>
+//Options
+// %GOLD%IAS%WHITE%: 0, 10, 26, 50, 95%NL%
+// %GOLD%FHR%WHITE%: 0, 6, 13, 20, 32, 52%NL%
+// %GOLD%Fast Block%WHITE%: 0, 13, 32, 86%NL%
+// %GOLD%FCR%WHITE%: 0, 7, 14, 22, 32, 48, 68, 99, 152%NL%
 // -------------------------------------------------------------------------
 // Choking, Exploding, Fulminating, Oil, Rancid, Strangling, Stamina
 // -------------------------------------------------------------------------
