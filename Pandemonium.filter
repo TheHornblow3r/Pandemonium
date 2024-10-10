@@ -160,8 +160,8 @@ ItemDisplay[yps]: %GREEN%!%WHITE%A<<BASIC>>
 // -------------------------------------------------------------------------
 // KEYS LOCKED CHESTS
 // -------------------------------------------------------------------------
-ItemDisplay[key FILTERLVL=2]:
-ItemDisplay[key]: %WHITE%key<<BASIC>>
+ItemDisplay[key CLVL<30]: %NAME% {%GOLD%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%PURPLE%DURIEL TOMBS%WHITE%NL%}
+ItemDisplay[key]: {%GOLD%[Circle]                [Circle&Crescent]%NL%[Crescent]             [Triangle]%NL%[Square]     [Arrows]%NL%[Star]%NL%%PURPLE%DURIEL TOMBS%WHITE%%NL%}
 // -------------------------------------------------------------------------
 // TOMES
 // -------------------------------------------------------------------------
