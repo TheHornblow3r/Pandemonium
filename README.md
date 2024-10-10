@@ -74,5 +74,11 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
   
 ![QoL](https://github.com/user-attachments/assets/d47a5776-1e7c-48ec-9534-a41dca0714d6)
 
+## v1.2b Tomb Locations (Credit: KyvFilter) ##
+- Added tomb locations to chest keys
+  
+![Tombs](https://github.com/user-attachments/assets/881853ec-0a50-405c-9e11-ab6f0bd680ac)
+
+
 
 
