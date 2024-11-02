@@ -9,7 +9,7 @@
 //Find Item/Skillcodes at: 	https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions
 Attribute[Author]: Thehornblower
 Attribute[Name]: Pandemonium Filter
-Attribute[Version]: 1.1
+Attribute[Version]: 1.2c
 Attribute[Date]: 2024/11/02
 Option[IgnoreMissingSounds]: True
 // -------------------------------------------------------------------------
