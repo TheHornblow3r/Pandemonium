@@ -6,7 +6,7 @@
 **Version:** P21-Shungite<br>
 **Discord:** Thehornblower
 
-This loot filter is a redesign of the popular loot filter created by mackanmusic. Few minor back-end changes and complete visual rework.
+This loot filter is a redesign of the popular loot filter created by mackanmusic with back-end changes and complete visual rework.
 
 Thank you to Mackanmusic for letting me fork his code & give me permission to post this online.<br>
 Follow him online at: https://www.twitch.tv/mackanmusic
