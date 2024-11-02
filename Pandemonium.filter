@@ -53,8 +53,6 @@ ItemStyle[GG1]: MapIcon = 26, BorderColor = 155, BorderSize = 2, NotificationCol
 // -------------------------------------------------------------------------
 // TO-DO LIST
 // -------------------------------------------------------------------------
-// Change SKull Purple to Gold
-// Add arrows GG item desc
 // 
 
 // -------------------------------------------------------------------------
@@ -831,7 +829,7 @@ ItemDisplay[!ETH SET ID SET("Natalya's Mark") 7qr SOCK>0]: %BASENAME%%NL%%GREEN%
 ItemDisplay[!ETH SET !ID xmb !FILTERLVL=2]: %ORANGE%Nats Boots%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET !ID ucl !FILTERLVL=2]: %ORANGE%Nats Armor%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 //Tal Rasha 
-ItemDisplay[!ETH SET !ID uth]: %ORANGE%Tal's Armour%NL%%GREEN%%NAME%%NL%%!STARS2!% <<GG1>>
+ItemDisplay[!ETH SET !ID uth]: %ORANGE%Tal's Armour%NL%%GREEN%%NAME%%NL%<<GG1>>
 ItemDisplay[!ETH SET ID uth SOCK>0]: %BASENAME%%NL%%GREEN%%ITEMNAME% %ORANGE%[%SOCKETS%]<:GG: NotificationColor = GREEN>
 ItemDisplay[!ETH SET ID uth SOCK=0]: %BASENAME%%NL%%GREEN%%ITEMNAME% <:GG: NotificationColor = GREEN>
 ItemDisplay[!ETH SET !ID oba !FILTERLVL=2]: %ORANGE%Tal Weap%NL%%GREEN%%NAME% <:GG: NotificationPriority = LOW, NotificationColor = GREEN>
@@ -1177,6 +1175,14 @@ ItemDisplay[MAG amu ILVL<85]: %BLUE%%NAME%%WHITE% [L%ILVL%] {%NL%%RED%Blood%SAGE
 //Rings
 ItemDisplay[MAG rin FILTERLVL=2]:
 ItemDisplay[MAG rin]: %BLUE%%NAME%%WHITE% [L%ILVL%] {%NL%%RED%Blood%SAGE%: %RED%Sol%SAGE%+%RED%Jewel%SAGE%+%RED%PRuby%NL%%PURPLE%Caster%SAGE%: %PURPLE%Amn%SAGE%+%PURPLE%Jewel%SAGE%+%PURPLE%PAmethyst}<<BASIC>>
+ItemDisplay[RARE ID rin STAT105>9 AND STAT9]:%ORANGE%FCR %RED%+ %BLUE%Mana%NL%%YELLOW%%NAME%
+ItemDisplay[RARE ID rin STAT60 AND STAT62]:%RED%%STAT(60)%% Life Leech %WHITE%+ %BLUE%%STAT(62)%% Mana Leech%NL%%YELLOW%%NAME%
+ItemDisplay[RARE ID rin STAT105>9]: %ORANGE%FCR%NL%%YELLOW%%NAME%
+ItemDisplay[RARE ID rin STAT60]: %RED%%STAT(60)%% Life Leech%NL%%YELLOW%%NAME%
+ItemDisplay[RARE ID rin STAT62]: %BLUE%%STAT(62)%% Mana Leech%NL%%YELLOW%%NAME%
+
+
+
 // -------------------------------------------------------------------------
 //CHARMS Skillers good sc gcs
 // -------------------------------------------------------------------------
@@ -1342,7 +1348,7 @@ ItemDisplay[RARE !ETH crs !ID]: %YELLOW%Crystal Sword %PURPLE%O<<BASIC>>
 ItemDisplay[RARE !ETH (crs OR 9cr OR 7cr) ID ((STAT218=4 AND STAT224=33 AND IAS>29) OR (IAS>29 AND CLSK3>1) OR (IAS>29 AND CLSK4>1)) SOCK=0]: %NL%%YELLOW%%NAME% %PURPLE%O%NL%%GOLD%<<BASICLOW>>
 ItemDisplay[RARE !ETH (crs OR 9cr OR 7cr) ID ((STAT218=4 AND STAT224=33 AND IAS>29) OR (IAS>29 AND CLSK3>1) OR (IAS>29 AND CLSK4>1)) SOCK=6]: %NL%%YELLOW%%NAME% %PURPLE%[%SOCKETS%] %PURPLE%O%NL%%GOLD%<<BASICLOW>>
 ItemDisplay[RARE ETH (7cr OR 9cr OR crs) !ID]:
-ItemDisplay[RARE !ETH (ci0 OR ci1 OR ci2 OR ci3) !ID]: %NL%%YELLOW%%NAME% %PURPLE%O%NL%%GOLD%<<BASICLOW>>
+ItemDisplay[RARE !ETH (ci0 OR ci1 OR ci2 OR ci3) !ID]: %NL%%YELLOW%%NAME% %PURPLE%O%NL%%GOLD%<<BASICHIGH1>>
 ItemDisplay[RARE !ETH (amu OR rin OR jew) !ID]: %NL%     %YELLOW%%NAME% %RED%O     %NL%%GOLD%<<BASICHIGH1>>
 ItemDisplay[RARE ETH (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR jew) !ID]: %ORANGE%ETH %YELLOW%%NAME%<<BASICLOW>>
 ItemDisplay[RARE !ETH (ci0 OR ci1) ID]: %NAME% %NL%%WHITE%(%CORAL%Up before slam%WHITE%) {%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %PURPLE%PAmethyst}<<BASICLOW>>
