@@ -6,7 +6,7 @@
 **Version:** P21-Shungite<br>
 **Discord:** Thehornblower
 
-This loot filter is a redesign of the popular loot filter created by mackanmusic. Few minor back-end changes and complete visual rework.
+This loot filter is a redesign of the popular loot filter created by mackanmusic with back-end changes and complete visual rework.
 
 Thank you to Mackanmusic for letting me fork his code & give me permission to post this online.<br>
 Follow him online at: https://www.twitch.tv/mackanmusic
@@ -79,6 +79,12 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
   
 ![Tombs](https://github.com/user-attachments/assets/881853ec-0a50-405c-9e11-ab6f0bd680ac)
 
+## v1.2c Rare Rings ##
+- Added quick display for valuable rings (Dual Leech for Meele & FCR rings for casters)
+- Rings will also show single leech (Mana/Life) & FCR+Mana Rings
+- This should be used as a "quick view" only, please still check all rare rings for value
+
+![Ring-Update](https://github.com/user-attachments/assets/19a75f90-8266-41ae-8582-59c48306a482)
 
 
 
