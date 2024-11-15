@@ -86,5 +86,11 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 ![Ring-Update](https://github.com/user-attachments/assets/19a75f90-8266-41ae-8582-59c48306a482)
 
+## v1.3 Patch P22 ##
+- Added new Berserker Hatchet Stats (5 Sockets)
+- Added Heavenly Garb
+- Added Iron Jang Bong (change: Double Frost Nova)
+- Added shockwave stat to Non-Magic Pelts for Metamorphosis Runeword
+
 
 
