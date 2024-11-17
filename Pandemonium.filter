@@ -59,7 +59,7 @@ ItemStyle[GG1]: MapIcon = 26, BorderColor = 155, BorderSize = 2, NotificationCol
 // GOLD
 // -------------------------------------------------------------------------
 ItemDisplay[GOLD<5000]:
-ItemDisplay[GOLD>4999]: %NAME%
+ItemDisplay[GOLD>1999]: %NAME%
 // -------------------------------------------------------------------------
 // HEALTH & MANA POTS
 // -------------------------------------------------------------------------
@@ -483,6 +483,14 @@ ItemDisplay[SET !ETH tbt !FILTERLVL=2]:  %ORANGE%Vidala's%NL%%GREEN%%NAME%<:GG: 
 // -------------------------------------------------------------------------
 //Shop Items
 // -------------------------------------------------------------------------
+//hemo
+ItemDisplay[WP12 MAG TABSK16>2 SK477>2 SOCK=0]: %NAME% %WHITE%(%PURPLE%6 Hemo%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
+ItemDisplay[WP12 NMAG TABSK16>2 SK477>2 SOCK=0]: %NAME% %WHITE%(%PURPLE%6 Hemo%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
+ItemDisplay[WP12 (MAG OR RARE) (((TABSK16>1 OR CLSK2>1) SK477>2) OR (TABSK16>2 SK477>1)) SOCK=0]: %NAME% %WHITE%(%RED%5 Hemo%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
+ItemDisplay[WP12 MAG TABSK16>2 SK477>2 SOCK>0]: %NAME% %WHITE%(%PURPLE%6 Hemo%WHITE%) %YELLOW%[%SOCKETS%] %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
+ItemDisplay[WP12 (MAG OR RARE) (((TABSK16>1 OR CLSK2>1) SK477>2) OR (TABSK16>2 SK477>1)) SOCK>0]: %NAME% %WHITE%(%RED%5 Hemo%WHITE%) %YELLOW%[%SOCKETS%] %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
+ItemDisplay[CL4 MAG TABSK16>2 SK477>2 SOCK=0]: %NAME% %WHITE%(%PURPLE%6 Hemo%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
+ItemDisplay[CL4 MAG TABSK16>2 SK477>2 SOCK>0]: %NAME% %WHITE%(%PURPLE%6 Hemo%WHITE%) %YELLOW%[%SOCKETS%] %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
 //charges items
 ItemDisplay[MAG !ETH WP11 CHSK53>0]: %WHITE%(%PURPLE%TELE %ORANGE%Charges%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]%NL% %BLUE%%NAME% <<BASICLOW>>
 ItemDisplay[MAG !ETH !WP11 CHSK91>0]: %WHITE%(%PURPLE%Lower%YELLOW% Res %ORANGE%Charges%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]%NL% %BLUE%%NAME% <<BASICLOW>>
@@ -528,13 +536,6 @@ ItemDisplay[(ob5 OR oba OR obf) NMAG (SK52>2 AND SK62>0) SOCK=0]: %NAME%   %WHIT
 ItemDisplay[(ob5 OR oba OR obf) NMAG (SK52>2 AND SK60>0) SOCK=0]: %NAME%   %WHITE%(%BLUE%3 Enflame + %SKILL(60)% Chilling%WHITE%){%ORANGE%Larzuk 3os}<<BASIC>>
 ItemDisplay[(ob5 OR oba OR obf) NMAG (SK52>2 AND SK50>0) SOCK=0]: %NAME%   %WHITE%(%BLUE%3 Enflame + %SKILL(50)% Shiver%WHITE%){%ORANGE%Larzuk 3os}<<BASIC>>
 ItemDisplay[(ob5 OR oba OR obf) NMAG SK52>2 SOCK=0]: %NAME%   %WHITE%(%BLUE%3 Enflame%WHITE%){%ORANGE%Larzuk 3os}<<BASIC>>
-//hemo
-ItemDisplay[WP12 MAG TABSK16>2 SK477>2 SOCK=0]: %NAME% %WHITE%(%RED%6 Hemo%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
-ItemDisplay[WP12 (MAG OR RARE) (((TABSK16>1 OR CLSK2>1) SK477>2) OR (TABSK16>2 SK477>1)) SOCK=0]: %NAME% %WHITE%(%RED%5 Hemo%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
-ItemDisplay[WP12 MAG TABSK16>2 SK477>2 SOCK>0]: %NAME% %WHITE%(%RED%6 Hemo%WHITE%) %YELLOW%[%SOCKETS%] %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
-ItemDisplay[WP12 (MAG OR RARE) (((TABSK16>1 OR CLSK2>1) SK477>2) OR (TABSK16>2 SK477>1)) SOCK>0]: %NAME% %WHITE%(%RED%5 Hemo%WHITE%) %YELLOW%[%SOCKETS%] %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
-ItemDisplay[CL4 MAG TABSK16>2 SK477>2 SOCK=0]: %NAME% %WHITE%(%RED%6 Hemo%WHITE%) %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
-ItemDisplay[CL4 MAG TABSK16>2 SK477>2 SOCK>0]: %NAME% %WHITE%(%RED%6 Hemo%WHITE%) %YELLOW%[%SOCKETS%] %WHITE%[%YELLOW%%PRICE% %GOLD%$%WHITE%]{%TEAL%Hemo OMEGALUL}<<BASICHIGH>>
 //BARB HELMS TABSK34 warcries CLSK4 barbskills SK149 Battle Orders SK154 War Cry 
 ItemDisplay[(MAG OR RARE) CL2 CLSK4>1 SK149>2 SK154>2 SOCK=0]: %NAME% %WHITE%(%RED%+5 BO +5 Warcry%WHITE%)  <<BASIC>>
 ItemDisplay[(MAG OR RARE) CL2 CLSK4>1 SK149>2 SOCK=0]: %NAME% %WHITE%(%RED%+5 BO%WHITE%)  <<BASIC>>
