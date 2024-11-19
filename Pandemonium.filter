@@ -228,7 +228,7 @@ ItemDisplay[RUNETIER>14 AND RUNETIER<20]: %ORANGE%%NAME%<<BASIC>>
 //RUNES 19-23 MID RUNES
 ItemDisplay[RUNETIER>19 AND RUNETIER<26]: %NL%     %RED%O%WHITE%O%RED%O %WHITE%%NAME% %RED%O%WHITE%O%RED%O     %NL%%GOLD%<<MID>>
 //RUNES 24-33
-ItemDisplay[RUNETIER>25 AND RUNETIER<33]: %NL%         %!RUNESSTART!% %WHITE%%NAME% %!RUNESEND!%          %NL%%GOLD%<<HR>>
+ItemDisplay[RUNETIER>25 AND RUNETIER<34]: %NL%         %!RUNESSTART!% %WHITE%%NAME% %!RUNESEND!%          %NL%%GOLD%<<HR>>
 
 
 // -------------------------------------------------------------------------
