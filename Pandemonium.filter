@@ -1297,7 +1297,8 @@ ItemDisplay[MAG !ID cm1 ILVL<48 ]: %NL%%ORANGE%O %CORAL% %NAME% %ORANGE%O [L%ILV
 ItemDisplay[MAG cm3 (ILVL>49 AND ILVL<55)]: %TEAL%Reroll GC %ORANGE%[L%ILVL%]{%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems}<<BASICMED>>
 ItemDisplay[MAG !ID cm3 ILVL>49]: %ORANGE%O %BLUE% %NAME% %ORANGE%O [L%ILVL%]<:BASICMED: Map Icon = 2>
 ItemDisplay[MAG !ID cm1 ILVL>47]: %ORANGE%O %BLUE% %NAME% %ORANGE%O [L%ILVL%]<<BASICHIGH1>>
-ItemDisplay[MAG !ID cm2 ILVL<80]: %GRAY% %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
+ItemDisplay[MAG !ID cm2 CLVL<80]: %GRAY% %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
+//ItemDisplay[MAG !ID cm2 ILVL<80]: %GRAY% %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 ItemDisplay[MAG (cm3 OR cm2 OR cm1) CLVL<55]: %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 ItemDisplay[MAG cm3]:
 ItemDisplay[MAG cm1]:
