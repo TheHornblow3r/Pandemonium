@@ -92,5 +92,14 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 - Added Iron Jang Bong (change: Double Frost Nova)
 - Added shockwave stat to Non-Magic Pelts for Metamorphosis Runeword
 
+## v1.3b ##
+- Large Charms hidden under level 80
+- Gold adjusted to show over 2k gold
+- Java/Martial Arts/Bowa Gloves show with +3 Skills (for shopping)
+- Added shockwave stat to Non-Magic Pelts for Metamorphosis Runeword
+- Crystal Swords with 4os show at all levels/difficulty
+- Claws shopping fixed (wasnt showing before)
+- Minor formatting fixes
+
 
 
