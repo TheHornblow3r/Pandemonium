@@ -228,7 +228,7 @@ ItemDisplay[RUNETIER>14 AND RUNETIER<20]: %ORANGE%%NAME%<<BASIC>>
 //RUNES 19-23 MID RUNES
 ItemDisplay[RUNETIER>19 AND RUNETIER<26]: %NL%     %RED%O%WHITE%O%RED%O %WHITE%%NAME% %RED%O%WHITE%O%RED%O     %NL%%GOLD%<<MID>>
 //RUNES 24-33
-ItemDisplay[RUNETIER>25 AND RUNETIER<33]: %NL%         %!RUNESSTART!% %WHITE%%NAME% %!RUNESEND!%          %NL%%GOLD%<<HR>>
+ItemDisplay[RUNETIER>25 AND RUNETIER<34]: %NL%         %!RUNESSTART!% %WHITE%%NAME% %!RUNESEND!%          %NL%%GOLD%<<HR>>
 
 
 // -------------------------------------------------------------------------
@@ -1294,7 +1294,7 @@ ItemDisplay[MAG ID jew STAT138>2]: %BLUE% JEWEL %WHITE%(%PURPLE%%STAT(138,0)% MP
 //Random/unid Charms
 ItemDisplay[MAG !ID cm3 ILVL<50]: %NL%%ORANGE%O %SAGE% %NAME% %ORANGE%O [L%ILVL%] (LOW)%NL%<<BASICLOW>>
 ItemDisplay[MAG !ID cm1 ILVL<48 ]: %NL%%ORANGE%O %CORAL% %NAME% %ORANGE%O [L%ILVL%] (LOW)%NL%<<BASICLOW>>
-ItemDisplay[MAG cm3 (ILVL>49 AND ILVL<55)]: %BOLD%Reroll GC %ORANGE%[L%ILVL%]{%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems}<<BASICMED>>
+ItemDisplay[MAG cm3 (ILVL>49 AND ILVL<55)]: %TEAL%Reroll GC %ORANGE%[L%ILVL%]{%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems}<<BASICMED>>
 ItemDisplay[MAG !ID cm3 ILVL>49]: %ORANGE%O %BLUE% %NAME% %ORANGE%O [L%ILVL%]<:BASICMED: Map Icon = 2>
 ItemDisplay[MAG !ID cm1 ILVL>47]: %ORANGE%O %BLUE% %NAME% %ORANGE%O [L%ILVL%]<<BASICHIGH1>>
 ItemDisplay[MAG !ID cm2 ILVL<80]: %GRAY% %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
@@ -1304,26 +1304,26 @@ ItemDisplay[MAG cm1]:
 ItemDisplay[MAG cm2 DIFFICULTY<2]: %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 ItemDisplay[MAG cm2]:
 //TORCH ANNI GHEEDS 
-ItemDisplay[UNI !ID cm1]: %NL%       %NAME% %BOLD% ANNI        %NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=10]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%10 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=11]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%11 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=12]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%12 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=13]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%13 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=14]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%14 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=15]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%15 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=16]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%16 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=17]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%17 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=18]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%18 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=19]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%19 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm1 STAT0=20]: Small Charm%NL%       %BOLD%Annihilus %WHITE%( %ORANGE%20 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
-ItemDisplay[UNI !ID cm2]: %NL%       %NAME% %BOLD% TORCH        %NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm2 CLSK0=3]: %GOLD%%NAME% %WHITE%( %BOLD%Zon %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK1=3]: %GOLD%%NAME% %WHITE%( %BOLD%Sorc %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK2=3]: %GOLD%%NAME% %WHITE%( %BOLD%Necro %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK3=3]: %GOLD%%NAME% %WHITE%( %BOLD%Pally %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK4=3]: %GOLD%%NAME% %WHITE%( %BOLD%Barb %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK5=3]: %GOLD%%NAME% %WHITE%( %BOLD%Druid %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK6=3]: %GOLD%%NAME% %WHITE%( %BOLD%Sin %WHITE%/%CONTINUE%
+ItemDisplay[UNI !ID cm1]: %NL%       %NAME% %PURPLE% ANNI        %NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=10]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%10 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=11]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%11 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=12]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%12 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=13]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%13 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=14]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%14 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=15]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%15 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=16]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%16 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=17]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%17 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=18]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%18 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=19]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%19 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm1 STAT0=20]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%20 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
+ItemDisplay[UNI !ID cm2]: %NL%       %NAME% %PURPLE% TORCH        %NL%<<BASICNOT>>
+ItemDisplay[UNI ID cm2 CLSK0=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Zon %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK1=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Sorc %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK2=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Necro %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK3=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Pally %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK4=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Barb %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK5=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Druid %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK6=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Sin %WHITE%/%CONTINUE%
 ItemDisplay[UNI ID cm2 STAT0=10]: %NAME% %ORANGE%10 %WHITE%/%CONTINUE%
 ItemDisplay[UNI ID cm2 STAT0=11]: %NAME% %ORANGE%11 %WHITE%/%CONTINUE%
 ItemDisplay[UNI ID cm2 STAT0=12]: %NAME% %ORANGE%12 %WHITE%/%CONTINUE%
@@ -1337,7 +1337,7 @@ ItemDisplay[UNI ID cm2 STAT0=19]: %NAME% %ORANGE%19 %WHITE%/%CONTINUE%
 ItemDisplay[UNI ID cm2 STAT0=20]: %NAME% %ORANGE%20 %WHITE%/%CONTINUE%
 ItemDisplay[UNI ID cm2]: %NAME% %ORANGE%%RES% %WHITE%)<<BASIC1>>
 ItemDisplay[UNI !ID cm3]: %NL%       %!STARS1!%%NAME%%!STARS1!%        %NL%%GOLD%<<BASICNOT>>
-ItemDisplay[UNI ID cm3 STAT79>0]: %BOLD%Gheed's Fortune %WHITE%( %ORANGE%%STAT(79,0)% %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm3 STAT79>0]: %PURPLE%Gheed's Fortune %WHITE%( %ORANGE%%STAT(79,0)% %WHITE%/%CONTINUE%
 ItemDisplay[UNI ID cm3 STAT87>0]: %NAME% %ORANGE%%STAT(87,0)% %WHITE%/ %CONTINUE%
 ItemDisplay[UNI ID cm3]: Grand Charm%NL%%NAME% %ORANGE%%STAT(80,0)% %WHITE%)<<BASICNOT>>
 // -------------------------------------------------------------------------
@@ -1551,8 +1551,8 @@ ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) NMAG SOCK=0 (SK58>2 AND SK6
 ItemDisplay[WP11 NMAG SOCK=4 SK58>2]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %WHITE%(%BLUE%3 ES%WHITE%){%PURPLE%Memory: %WHITE%Lum %SAGE%+ %LIGHT_GRAY%Io %SAGE%+ %WHITE%Sol %SAGE%+ %LIGHT_GRAY%Eth}<<BASIC>>
 ItemDisplay[(cst OR bst OR 8cs OR 8bs OR 6cs OR 6bs) NMAG SOCK=0 SK58>2]: %DGREEN%%NAME% %WHITE%(%BLUE%3 ES%WHITE%)<<BASIC>>
 //scepters HOLY SHIELD
-ItemDisplay[WP13 NMAG SK117>0 SOCK=0]: %DGREEN%%NAME% %WHITE%(%BOLD%HOLY SHIELD%WHITE%) %!STARS!%<<BASICHIGH>>
-ItemDisplay[WP13 NMAG SK117>0 SOCK>2]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %WHITE%(%BOLD%HOLY SHIELD%WHITE%) %!STARS!%<<BASICHIGH>>
+ItemDisplay[WP13 NMAG SK117>0 SOCK=0]: %DGREEN%%NAME% %WHITE%(%PURPLE%HOLY SHIELD%WHITE%) %!STARS!%<<BASICHIGH>>
+ItemDisplay[WP13 NMAG SK117>0 SOCK>2]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %WHITE%(%PURPLE%HOLY SHIELD%WHITE%) %!STARS!%<<BASICHIGH>>
 //5os Crystal Sword, War Scepter, Flail = CTA = Call to Arms
 //ItemDisplay[WP13 NMAG SOCK=5 (SK117>0)]: %RED%%NAME%%YELLOW%[%SOCKETS%] (CTA Base)
 ItemDisplay[(crs OR fla) ETH NMAG SOCK=5 FILTERLVL=2]:
