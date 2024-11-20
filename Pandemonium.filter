@@ -1863,7 +1863,7 @@ ItemDisplay[NMAG !RW ILVL>14 !SOCK=4 6cb]:
 //Low Str 3SOC Masks (NON ETH)
 ItemDisplay[NMAG SOCK=3 !ETH (msk OR xsk) ILVL<86]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]<<BASIC>>
 //103-106 str helms for archon plate builds
-ItemDisplay[NMAG SOCK=0 !ETH (usk OR uh9 OR ci2 OR ci3) ILVL<86]: %DGREEN%%NAME%<<BASIC>>
+ItemDisplay[NMAG SOCK=0 !ETH (usk OR uh9 OR ci2 OR ci3) ILVL<86]: %DGREEN%%NAME% {%PINK%Helm for Archon Plate Builds}<<BASIC>>
 ItemDisplay[NMAG SOCK=0 !ETH (usk OR uh9 OR ci2 OR ci3)]:
 ItemDisplay[NMAG SOCK=3 !ETH (usk OR uh9 OR ci2 OR ci3) ILVL<86]: %DGREEN%%NAME% %WHITE%[%SOCKETS%]<<BASIC>>
 ItemDisplay[NMAG SOCK=3 !ETH (usk OR uh9 OR ci2 OR ci3 OR msk OR xsk)]:
