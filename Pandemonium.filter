@@ -1639,7 +1639,7 @@ ItemDisplay[CL4 NMAG SK73>2 !SOCK=1 !FILTERLVL=2 ILVL<86]: %DGREEN%%NAME%  %RED%
 //non-magic druid pelt bases for Metamorphosis
 ItemDisplay[NMAG CL1 SKILL("Fire Claws")>2 !SOCK=1 !SOCK=2]: %NAME%%RED% +%SKILL(239)% Fire Claw%CONTINUE%
 ItemDisplay[NMAG CL1 SKILL("Rabies")>2 !SOCK=1 !SOCK=2]: %NAME%%DGREEN% +%SKILL(238)% Rabies%CONTINUE%
-ItemDisplay[NMAG CL1 SKILL("Shock Wave")>2 !SOCK=1 !SOCK=2]: %NAME%%DGREEN% +%SKILL(153)% Shock Wave%CONTINUE%
+ItemDisplay[NMAG CL1 SKILL("Shock Wave")>2 !SOCK=1 !SOCK=2]: %NAME%%DGREEN% +3 Shock Wave%CONTINUE%
 ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")>2 !SOCK=1 !SOCK=2]: %NAME%%RED% +%SKILL(247)% Bear%CONTINUE%
 ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) SKILL("Oak Sage")>0 !SOCK=1 !SOCK=2]: %NAME%%ORANGE% +%SKILL(226)% OAK%CONTINUE%
 ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) SKILL("Heart of Wolverine")>0 !SOCK=1 !SOCK=2]: %NAME%%RED% +%SKILL(236)% HoW%CONTINUE%
