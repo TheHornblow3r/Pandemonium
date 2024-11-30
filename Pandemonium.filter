@@ -16,7 +16,7 @@ Option[IgnoreMissingSounds]: True
 // FILTER LEVELS
 // -------------------------------------------------------------------------
 FilterLevel[1]: Normal 
-FilterLevel[2]: Strict (Engame)
+FilterLevel[2]: ÿc1Strict (Engame)
 Option[DefaultFilterLevel]: Normal
 Option[DefaultNotifyLevel]: LOW
 
@@ -92,7 +92,7 @@ ItemDisplay[cx5]: %NL%%RED%O %PURPLE%Orb Of Corruption %RED%O%NL%%GOLD%<<OOC>> {
 ItemDisplay[cx6]: %PURPLE%O %ORANGE%%NAME%%PURPLE% O<<BASICHIGH1>>
 ItemDisplay[cx7]: %PURPLE%O %ORANGE%%NAME%%PURPLE% O<<BASICHIGH1>>
 ItemDisplay[cx8]: %PURPLE%Orb %ORANGE%of %PURPLE%Enchantment<<BASICNOT>>
-ItemDisplay[cx9]: %NL%%RED%O %GOLD%Orb Of Alteration %RED%O%NL%%GOLD%<<BASICHIGH1>> 
+ItemDisplay[cx9]: %NL%%RED%O %GOLD%Orb Of Alteration %RED%O%NL%%GOLD% <<BASICHIGH1>> {%RED%Note: Can also roll into same relics with new mods%NL% Alters map relics into another one of the same tier.}
 // -------------------------------------------------------------------------
 // MAPS							        
 // ------------------------------------------------------------------------- 
@@ -171,7 +171,7 @@ ItemDisplay[tbk PLRCLASS(BAR)]: %NAME%{ %GOLD%FCR%WHITE%: 9, 20, 37, 63, 105, 20
 ItemDisplay[tbk PLRCLASS(NEC)]: %NAME%{ %GOLD%FCR%ORANGE%(Human)%WHITE%: 9, 18, 30, 48, 75, 125%NL%%GOLD%Faster Block%WHITE%: 6, 13, 20, 32, 52, 86, 174, 600%NL%%GOLD%FHR%ORANGE%(Human)%WHITE%: 5, 10, 15, 26, 39, 56, 86, 152%NL%%PURPLE%Necromancer Breakpoints%WHITE%%NL%}
 ItemDisplay[tbk PLRCLASS(PAL)]: %NAME%{ %GOLD%FCR%WHITE%: 9, 18, 30, 48, 75, 125%NL%%GOLD%Faster Block%ORANGE%(Holy Shield)%WHITE%: 0, 86%NL%%GOLD%Faster Block%WHITE%: 13, 32, 86%NL%%GOLD%FHR%ORANGE%(Spear/Staves)%WHITE%: 3, 7, 13, 20, 32, 48, 75, 129%NL%%GOLD%FHR%WHITE%: 7, 15, 27, 48, 86, 200%NL%%PURPLE%Paladin Breakpoints%WHITE%%NL%}
 ItemDisplay[tbk PLRCLASS(SOR)]: %NAME%{ %GOLD%FCR%WHITE%: 9, 20, 37, 63, 105, 200%NL%%GOLD%FCR%ORANGE%(Lightning)%WHITE%: 7, 15, 23, 35, 52, 78, 117, 194%NL%%GOLD%Faster Block%WHITE%: 7, 15, 27, 48, 86, 200%NL%%GOLD%FHR%WHITE%: 5, 9, 14, 20, 30, 42, 60, 86, 142%NL%%PURPLE%Sorceress Breakpoints%WHITE%%NL%}
-ItemDisplay[ibk]: %WHITE%Tome of Identify<<BASIC>>
+ItemDisplay[ibk]: %WHITE%Tome of Identify {%TAN%Hitpower %WHITE%Cold Arrows: %WHITE%El%SAGE%+%BLUE%Sapphire%SAGE%+%BLUE%Jewel%NL%%RED%Blood %WHITE%Fire Arrows: %WHITE%Eld%SAGE%+%RED%Ruby%SAGE%+%BLUE%Jewel%NL%%PURPLE%Caster %WHITE%Ice Arrows: %WHITE%Eld%SAGE%+%PURPLE%Ameth%SAGE%+%BLUE%Jewel%NL%%ORANGE%Safety %WHITE%Magic Arrows: %WHITE%El%SAGE%+%GREEN%Emerald%SAGE%+%BLUE%Jewel%NL%%ORANGE%Arrows / Bolts%NL%%TAN%Boots 4-7 FRW: %WHITE%Ral%SAGE%+%BLUE%Sapphire%SAGE%+%BLUE%Jewel%NL%%TAN%Amulet +1 to Summon: %WHITE%Thul%SAGE%+%BLUE%Sapphire%SAGE%+%BLUE%Jewel%NL%%TAN%Hitpower%NL%%PURPLE%Belt: %WHITE%Ith%SAGE%+%PURPLE%Ameth%SAGE%+%BLUE%Jewel%NL%%PURPLE%Ring: %WHITE%Amn%SAGE%+%PURPLE%Ameth%SAGE%+%BLUE%Jewel%NL%%PURPLE%Amulet: %WHITE%Ral%SAGE%+%PURPLE%Ameth%SAGE%+%BLUE%Jewel%NL%%PURPLE%Caster%WHITE%}<<BASIC>>
 //Options
 // %GOLD%IAS%WHITE%: 0, 10, 26, 50, 95%NL%
 // %GOLD%FHR%WHITE%: 0, 6, 13, 20, 32, 52%NL%
@@ -239,7 +239,7 @@ ItemDisplay[bkd]: %NAME% %RED% O <<BASICNOT>>//Key to the Cairn Stones Act I
 ItemDisplay[hdm]: %NAME% %RED% O <<BASICNOT>>//Horadric Malus Act I
 ItemDisplay[ass]: %NAME% %RED% O <<BASICNOT>>//Book of Skill Act II
 ItemDisplay[tr1]: //Horadric Scroll Act II
-ItemDisplay[box]: %NL%%PURPLE%O %GOLD%%NAME% %PURPLE%O %NL%%GOLD% 
+ItemDisplay[box]: %NL%%PURPLE%O %GOLD%%NAME% %PURPLE%O %NL%%GOLD% {%GRAY%Armor: %WHITE%Ral%SAGE%+%LIGHT_GRAY%Flawed gem for charges%NL%%GRAY%Weapon: %WHITE%Ort%SAGE%+%LIGHT_GRAY%Chipped gem for charges%NL%%RED%Repair%NL%%GRAY%Helm: %WHITE%Ral%SAGE%+%LIGHT_GRAY%Thul%SAGE%+%BLUE%Sapphire%NL%%GRAY%Shield: %WHITE%Tal%SAGE%+%LIGHT_GRAY%Amn%SAGE%+%RED%Ruby%NL%%GRAY%Armor: %WHITE%Tal%SAGE%+%LIGHT_GRAY%Thul%SAGE%+%YELLOW%Topaz%NL%%GRAY%Weapon: %WHITE%Ral%SAGE%+%LIGHT_GRAY%Amn%SAGE%+%PURPLE%Ameth%NL%%GRAY%Socket%TAN%%NL%%WHITE%Normal Armor: %WHITE%Tal%SAGE%+%LIGHT_GRAY%Shael%SAGE%+%WHITE%Diamond%NL%Exceptional Armor: %WHITE%Ko%SAGE%+%LIGHT_GRAY%Lem%SAGE%+%WHITE%Diamond%NL%%WHITE%Normal Weapon: %WHITE%Ral%SAGE%+%LIGHT_GRAY%Sol%SAGE%+%GREEN%Emerald%NL%%WHITE%Exceptional Weapon: %WHITE%Lum%SAGE%+%LIGHT_GRAY%Pul%SAGE%+%GREEN%Emerald%NL%%TAN%Unique Upgrade}
 //Cube Recipe Text
 //{%GOLD%Exc Armor > %ORANGE%Lem Ko %WHITE%Diam %NL%%GOLD% Exc Weapon > %ORANGE%Lum Pul %GREEN%Emer%GOLD% %NL% Norm Armor > %ORANGE%Tal Shael %WHITE%Diam %NL% %GOLD% Unique Upgr: Norm Weapon > %ORANGE%Sol Ral %GREEN%Emer%NL%%NL%%WHITE%Shield > %ORANGE%Tal Amn %RED%Ruby%GRAY%%NL% %WHITE%Armor > %ORANGE%Tal Thul %YELLOW%Topz%GRAY%%NL% %WHITE%Socket: Weap > %ORANGE%Ral Amn %PURPLE%Amth}
 ItemDisplay[msf]: %NAME% %RED% O <<BASICNOT>>//Staff of Kings Act II
@@ -850,7 +850,7 @@ ItemDisplay[!ETH SET !ID zhb !FILTERLVL=2]: %ORANGE%IK Belt%NL%%GREEN%%NAME%<:GG
 ItemDisplay[!ETH SET !ID ba5 !FILTERLVL=2]: %ORANGE%IK Helm%NL%%GREEN%%NAME%<:GG: NotificationPriority = LOW, NotificationColor = GREEN>
 //Trang-Oul's
 ItemDisplay[!ETH SET !ID xul !FILTERLVL=2]: %ORANGE% Trang Armor%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
-ItemDisplay[!ETH SET !ID xmg]: %ORANGE%Trang Gloves%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
+ItemDisplay[!ETH SET !ID xmg]: %ORANGE%Trang Gloves%NL%%GREEN%%NAME% <<GG1>>
 ItemDisplay[!ETH SET !ID ne9]: %ORANGE%Trang Shield%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET !ID utc]: %ORANGE%Trang Belt%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET !ID uh9]: %ORANGE%Trang Helm%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
@@ -1292,6 +1292,11 @@ ItemDisplay[MAG ID jew STAT2>0 STAT17>37]: %BLUE% JEWEL %WHITE%(%PURPLE%%STAT(17
 ItemDisplay[MAG ID jew STAT17>35]: %BLUE% JEWEL %WHITE%(%PURPLE%%STAT(17,0)% ED%WHITE%)<<BASIC1>>
 ItemDisplay[MAG ID jew STAT17>10]: %BLUE% JEWEL %WHITE%(%SAGE%%STAT(17,0)% ED%WHITE%)<<BASIC1>>
 ItemDisplay[MAG ID jew STAT138>2]: %BLUE% JEWEL %WHITE%(%PURPLE%%STAT(138,0)% MPK%WHITE%)<<BASIC1>>
+//IAS Only
+ItemDisplay[MAG ID jew IAS>14]: %BLUE% JEWEL %WHITE%(%TAN%15IAS%WHITE%)<<BASIC1>>
+// -------------------------------------------------------------------------
+//Charms
+// -------------------------------------------------------------------------
 //Random/unid Charms
 ItemDisplay[MAG !ID cm3 ILVL<50]: %NL%%ORANGE%O %SAGE% %NAME% %ORANGE%O [L%ILVL%] (LOW)%NL%<<BASICLOW>>
 ItemDisplay[MAG !ID cm1 ILVL<48 ]: %NL%%ORANGE%O %CORAL% %NAME% %ORANGE%O [L%ILVL%] (LOW)%NL%<<BASICLOW>>
@@ -1319,13 +1324,13 @@ ItemDisplay[UNI ID cm1 STAT0=18]: Small Charm%NL%       %PURPLE%Annihilus %WHITE
 ItemDisplay[UNI ID cm1 STAT0=19]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%19 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
 ItemDisplay[UNI ID cm1 STAT0=20]: Small Charm%NL%       %PURPLE%Annihilus %WHITE%( %ORANGE%20 %WHITE%/ %ORANGE%%RES% %WHITE%/ %ORANGE%%STAT(85,0)% %WHITE%)%NL%<<BASICNOT>>
 ItemDisplay[UNI !ID cm2]: %NL%       %NAME% %PURPLE% TORCH        %NL%<<BASICNOT>>
-ItemDisplay[UNI ID cm2 CLSK0=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Zon %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK1=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Sorc %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK2=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Necro %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK3=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Pally %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK4=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Barb %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK5=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Druid %WHITE%/%CONTINUE%
-ItemDisplay[UNI ID cm2 CLSK6=3]: %GOLD%%NAME% %WHITE%( %%PURPLE%Sin %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK0=3]: %GOLD%%NAME% %WHITE%( %PURPLE%Zon %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK1=3]: %GOLD%%NAME% %WHITE%( %PURPLE%Sorc %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK2=3]: %GOLD%%NAME% %WHITE%( %PURPLE%Necro %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK3=3]: %GOLD%%NAME% %WHITE%( %PURPLE%Pally %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK4=3]: %GOLD%%NAME% %WHITE%( %PURPLE%Barb %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK5=3]: %GOLD%%NAME% %WHITE%( %PURPLE%Druid %WHITE%/%CONTINUE%
+ItemDisplay[UNI ID cm2 CLSK6=3]: %GOLD%%NAME% %WHITE%( %PURPLE%Sin %WHITE%/%CONTINUE%
 ItemDisplay[UNI ID cm2 STAT0=10]: %NAME% %ORANGE%10 %WHITE%/%CONTINUE%
 ItemDisplay[UNI ID cm2 STAT0=11]: %NAME% %ORANGE%11 %WHITE%/%CONTINUE%
 ItemDisplay[UNI ID cm2 STAT0=12]: %NAME% %ORANGE%12 %WHITE%/%CONTINUE%
