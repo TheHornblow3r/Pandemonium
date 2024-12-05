@@ -34,6 +34,7 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 + Displays iLvl of unid charms and jewels
 + Shows number of sockets/skill levels on runeword bases
 + Shows runeword & cube recipes underneath items
++ Detailed Gambling Window
 
 # Filter Showcase
 
