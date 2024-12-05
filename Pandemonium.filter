@@ -43,9 +43,9 @@ ItemStyle[MAP1W]: MapIcon = 14, BorderColor = 32, BorderSize = 2, NotificationCo
 ItemStyle[MAP2Y]: MapIcon = 15, BorderColor = 168, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 16, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\skill\paladin\charge"
 ItemStyle[MAP3R]: MapIcon = 13, BorderColor = 98, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 41, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\skill\paladin\charge"
 ItemStyle[OOC]: MapIcon = 17, BorderColor = 132, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 59, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\combat\impact\stun3"
-ItemStyle[UBERD]: MapIcon = 47, BorderColor = 132, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 59, NotificationPriority = HIGH, NotificationSoundPriority = HIGH, NotificationSound = "@local\sfx\act2\monster\durieltaunt1"
-ItemStyle[UBERL]: MapIcon = 47, BorderColor = 132, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 59, NotificationPriority = HIGH, NotificationSoundPriority = HIGH, NotificationSound = "@local\sfx\act1\monster\andarieltaunt1"
-ItemStyle[UBERI]: MapIcon = 47, BorderColor = 132, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 59, NotificationPriority = HIGH, NotificationSoundPriority = HIGH, NotificationSound = "@local\sfx\act4\izual\izualtaunt1"
+ItemStyle[UBERD]: MapIcon = 47, BorderColor = 132, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 59, NotificationPriority = MEDIUM, NotificationSoundPriority = HIGH, NotificationSound = "@local\sfx\act2\monster\durieltaunt1"
+ItemStyle[UBERL]: MapIcon = 47, BorderColor = 132, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 59, NotificationPriority = MEDIUM, NotificationSoundPriority = HIGH, NotificationSound = "@local\sfx\act1\monster\andarieltaunt1"
+ItemStyle[UBERI]: MapIcon = 47, BorderColor = 132, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 59, NotificationPriority = MEDIUM, NotificationSoundPriority = HIGH, NotificationSound = "@local\sfx\act4\izual\izualtaunt1"
 ItemStyle[KEYS]: MapIcon = 47, BorderColor = 132, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 59, NotificationPriority = HIGH, NotificationSoundPriority = HIGH,
 ItemStyle[GG]: MapIcon = 26, BorderColor = 155, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 35, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM
 ItemStyle[GG1]: MapIcon = 26, BorderColor = 155, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 35, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\hostile"
@@ -200,7 +200,7 @@ ItemDisplay[RARE ID aq2]: %NAME%<<BASIC>>
 // -------------------------------------------------------------------------
 // Hide MAGIC Quivers & Bolts above level 60 / Unique arrows NEW
 // -------------------------------------------------------------------------
-ItemDisplay[UNI !ID (aq2 OR cq2)]: %NAME% %GREEN%*
+ItemDisplay[UNI !ID (aq2 OR cq2)]: %NAME% %GREEN%O
 ItemDisplay[aq2 MAG ILVL>20]:
 ItemDisplay[aq2 OR cq2 (RARE OR UNI) ILVL>60 FILTERLVL=3]:
 ItemDisplay[aq2 RARE !ID ILVL>60]:%NAME%%GREEN% O<<BASIC>>
@@ -219,9 +219,10 @@ ItemDisplay[INF ILVL>14 !RW !leg]:
 // RUNES							               
 // -------------------------------------------------------------------------
 //RUNES 1-18
-ItemDisplay[RUNETIER>00 AND RUNETIER<19 FILTERLVL=3]:
-ItemDisplay[RUNETIER>00 AND RUNETIER<07 OR RUNETIER>09 AND RUNETIER<14  FILTERLVL=2]:
+//ItemDisplay[RUNETIER>00 AND RUNETIER<19 FILTERLVL=3]:
+//ItemDisplay[RUNETIER>00 AND RUNETIER<07 OR RUNETIER>09 AND RUNETIER<14  FILTERLVL=2]:
 ItemDisplay[r08]: %TAN%%NAME% %GREEN%O<<BASICLOW>>
+temDisplay[r09]: %TAN%%NAME% %GREEN%O<<BASICLOW>>
 ItemDisplay[RUNETIER>00 AND RUNETIER<15]: %TAN%%NAME%<<BASIC>>
 //RUNES 15-18
 ItemDisplay[RUNETIER>14 AND RUNETIER<20]: %ORANGE%%NAME%<<BASIC>>
@@ -1228,9 +1229,9 @@ ItemDisplay[SET SOCK>0]: %NAME% %ORANGE%[%SOCKETS%]<<BASIC>>
 ItemDisplay[UNI !cm1 !cm2 !cm3]: %NAME%<<BASIC>>
 ItemDisplay[SET !cm1 !cm2 !cm3]: %NAME%<<BASIC>>
 //Remove shield/armor/helm with shit sockets
-ItemDisplay[NMAG EQ3 !RW SOCK=3 DIFFICULTY<1]: %NAME% %GREEN%[%SOCKETS%]{%GRAY%Ancient's Pledge%NL%%PURPLE%Ancestor's Pride: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Ort %SAGE%+ %WHITE%Tal}<<BASICMED>> 
+ItemDisplay[NMAG EQ3 !CL3 !RW SOCK=3 DIFFICULTY<1]: %NAME% %GREEN%[%SOCKETS%]{%GRAY%Ancient's Pledge%NL%%PURPLE%Ancestor's Pride: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Ort %SAGE%+ %WHITE%Tal}<<BASICMED>> 
 ItemDisplay[NMAG EQ3 !RW SOCK=1]:
-ItemDisplay[NMAG EQ3 !RW (SOCK=2 OR SOCK=3) CLVL>60]:
+ItemDisplay[NMAG EQ3 !CL3 !RW (SOCK=2 OR SOCK=3) CLVL>60]:
 ItemDisplay[NMAG EQ2 !RW SOCK=1 CLVL>40]:
 ItemDisplay[NMAG EQ1 !RW SOCK=1 CLVL>30]:
 //3/20 java / 3 bo buff weaps for shoping
@@ -1484,9 +1485,9 @@ ItemDisplay[RARE !ETH (ci0 OR ci1 OR ci2 OR ci3) !ID]: %NL%%YELLOW%%NAME% %PURPL
 ItemDisplay[RARE !ETH (amu OR rin OR jew) !ID]: %NL%     %YELLOW%%NAME% %RED%O     %NL%%GOLD%<<BASICHIGH1>>
 ItemDisplay[RARE ETH (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR jew) !ID]: %ORANGE%ETH %YELLOW%%NAME%<<BASICLOW>>
 ItemDisplay[RARE !ETH (ci0 OR ci1) ID]: %NAME% %NL%%WHITE%(%CORAL%Up before slam%WHITE%) {%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %PURPLE%PAmethyst}<<BASICLOW>>
-ItemDisplay[MAG !ETH 7cr ID STAT218=4 STAT224=33 IAS>39 SOCK=0]: %NAME% %WHITE%(%ORANGE%FOOL'S %WHITE%, %ORANGE%40 IAS%WHITE%)%PURPLE%O%NL%%GOLD%<<BASICLOW>>
-ItemDisplay[MAG !ETH 7cr ID TABSK24>2 IAS>39 SOCK=0]: %NAME% %WHITE%(%ORANGE%Off Aura %WHITE%, %ORANGE%40 IAS%WHITE%)%PURPLE%O%NL%%GOLD%<<BASICLOW>>
-ItemDisplay[MAG !ETH 7cr ID STAT218=4 STAT224=33 IAS>39 SOCK>4]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%FOOL'S %WHITE%, %ORANGE%40 IAS%WHITE%)%PURPLE%O%NL%%GOLD%<<BASICLOW>>
+ItemDisplay[MAG !ETH 7cr ID STAT218=4 STAT224=33 IAS>39 SOCK=0]: %NAME% %WHITE%(%ORANGE%FOOL'S %WHITE%, %ORANGE%40 IAS%WHITE%)%PURPLE%O%NL%%GOLD%<<BASICHIGH1>>
+ItemDisplay[MAG !ETH 7cr ID TABSK24>2 IAS>39 SOCK=0]: %NAME% %WHITE%(%ORANGE%Off Aura %WHITE%, %ORANGE%40 IAS%WHITE%)%PURPLE%O%NL%%GOLD%<<BASICHIGH1>>
+ItemDisplay[MAG !ETH 7cr ID STAT218=4 STAT224=33 IAS>39 SOCK>4]: %NAME% %PURPLE%[%SOCKETS%] %WHITE%(%ORANGE%FOOL'S %WHITE%, %ORANGE%40 IAS%WHITE%)%PURPLE%O%NL%%GOLD%<<BASICHIGH1>>
 // -------------------------------------------------------------------------
 //BASES
 // -------------------------------------------------------------------------
@@ -1647,6 +1648,8 @@ ItemDisplay[NMAG ETH !SUP SOCK=6 (7h7 OR 7wc) FILTERLVL=2]:
 ItemDisplay[NMAG ETH !SUP SOCK=6 (7h7 OR 7wc)]: %ORANGE%ETH %WHITE%%NAME% %YELLOW%[%SOCKETS%]<<BASIC>>
 ItemDisplay[NMAG ETH SUP SOCK=0 ED>0 (7h7 OR 7wc)]: %ORANGE%ETH %WHITE%%NAME%  %WHITE%(%ORANGE%%EDAMAGE% ED%WHITE%){%ORANGE%Larzuk 6os}<<BASIC>>
 ItemDisplay[NMAG ETH SUP SOCK=6 ED>0 (7h7 OR 7wc)]: %ORANGE%ETH %WHITE%%NAME% %YELLOW%[%SOCKETS%] %WHITE%(%ORANGE%%EDAMAGE% ED%WHITE%){%PURPLE%Silence: %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Hel %SAGE%+ %LIGHT_GRAY%Ist %SAGE%+ %WHITE%Tir %SAGE%+ %LIGHT_GRAY%Vex}<<BASIC>>
+ItemDisplay[NMAG !ETH SUP SOCK=0 7gd !FILTERLVL=2]: %WHITE%%NAME% <<BASIC>>
+ItemDisplay[NMAG !ETH SUP SOCK=6 7gd !FILTERLVL=2]: %WHITE%%NAME% %YELLOW%[%SOCKETS%]<<BASIC>>
 ItemDisplay[NMAG !ETH SOCK=6 (7h7 OR 7wc)]:
 ItemDisplay[NMAG ETH (7pa OR 7vo)]:
 ItemDisplay[NMAG !ETH (WP8 OR spr OR 9sr OR 7sr OR tri OR 9tr OR 7tr OR brn OR 9br OR 7br OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7 OR 7gm OR 7fb OR 7gd OR 7pa OR 7vo)]:
@@ -1758,7 +1761,7 @@ ItemDisplay[CL4 NMAG SK73>2 !SOCK=1 !FILTERLVL=2 ILVL<86]: %DGREEN%%NAME%  %RED%
 //non-magic druid pelt bases for Metamorphosis
 ItemDisplay[NMAG CL1 SKILL("Fire Claws")>2 !SOCK=1 !SOCK=2]: %NAME%%RED% +%SKILL(239)% Fire Claw%CONTINUE%
 ItemDisplay[NMAG CL1 SKILL("Rabies")>2 !SOCK=1 !SOCK=2]: %NAME%%DGREEN% +%SKILL(238)% Rabies%CONTINUE%
-ItemDisplay[NMAG CL1 SKILL("Shock Wave")>2 !SOCK=1 !SOCK=2]: %NAME%%DGREEN% +3 Shock Wave%CONTINUE%
+ItemDisplay[NMAG CL1 SKILL("Shock Wave")>2 !SOCK=1 !SOCK=2]: %NAME%%DGREEN% +%SKILL(243)% Shock Wave%CONTINUE%
 ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")>2 !SOCK=1 !SOCK=2]: %NAME%%RED% +%SKILL(247)% Bear%CONTINUE%
 ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) SKILL("Oak Sage")>0 !SOCK=1 !SOCK=2]: %NAME%%ORANGE% +%SKILL(226)% OAK%CONTINUE%
 ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) SKILL("Heart of Wolverine")>0 !SOCK=1 !SOCK=2]: %NAME%%RED% +%SKILL(236)% HoW%CONTINUE%
@@ -2045,13 +2048,13 @@ ItemDisplay[NMAG (ob1 OR ob2 OR ob3 OR ob4 OR ob5 OR ob6 OR ob7 OR ob8 OR ob9 OR
 //Catchall
 ItemDisplay[(RARE OR MAG OR CRAFT) !ETH ID]: %NAME%<<BASIC>>
 ItemDisplay[RARE ETH]: %ORANGE%ETH %YELLOW%%NAME%<<BASIC>>
-ItemDisplay[MAG ETH ILVL<86]: %ORANGE%ETH %BLUE%%NAME%<<BASIC>>
+ItemDisplay[MAG ETH ILVL<80]: %ORANGE%ETH %BLUE%%NAME%<<BASIC>>
 ItemDisplay[CRAFT ETH ID]: %ORANGE%ETH %NAME%<<BASIC>>
 ItemDisplay[ETH NMAG SOCK>0]: %ORANGE%ETH %GRAY%%NAME% [%SOCKETS%]<<BASIC>>
 ItemDisplay[ETH NMAG EQ6]: %ORANGE%ETH %GRAY%%NAME%%ORANGE% Crafting<<BASIC>>
 ItemDisplay[ETH NMAG SOCK=0]: %ORANGE%ETH %GRAY%%NAME%<<BASIC>>
-ItemDisplay[ETH SOCK>0]: %ORANGE%ETH %NAME% [%SOCKETS%]<<BASIC>>
-ItemDisplay[ETH SOCK=0]: %ORANGE%ETH %NAME%<<BASIC>>
+ItemDisplay[ETH SOCK>0 ID]: %NAME% [%SOCKETS%]%ORANGE%ETH <<BASIC>>
+ItemDisplay[ETH SOCK=0 ID]: %NAME%%ORANGE%ETH <<BASIC>>
 ItemDisplay[SOCK>0]: %NAME% [%SOCKETS%]<<BASIC>>
 //ItemDisplay[tsc]: %GREEN%!%WHITE%TP
 ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP<<BASIC>>
