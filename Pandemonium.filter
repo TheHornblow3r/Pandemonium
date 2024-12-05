@@ -481,6 +481,120 @@ ItemDisplay[SET CLVL<40 !ETH hgl]:  %GREEN%Sigon gloves %ORANGE%(20AR, 10STR) %R
 //Vidala
 ItemDisplay[SET !ETH tbt !FILTERLVL=2]:  %ORANGE%Vidala's%NL%%GREEN%%NAME%<:GG: NotificationPriority = LOW>
 // -------------------------------------------------------------------------
+//Gambling
+// -------------------------------------------------------------------------
+ItemDisplay[NMAG amu !ID]:%NL%%NL%%GREEN%	Tal Rasha's Adjudication%NL%%GOLD%The Rising Sun%NL%Metalgrid%NL%Cat's Eye%NL%Highlord's Wrath%NL%Mara's Kaleidoscope%NL%%NL%%BLUE% Magical +3 skills%NL%%YELLOW%Rare +2 CSkills%NL%%NL% %GOLD%Gambling%NL%
+ItemDisplay[NMAG (ci1 OR ci2 OR ci2) !ID]:%NL%	%GREEN%M'avina's True Sight%NL%%NL%%GOLD%Kira's Guardian%NL%Griffon's Eye%NL%%NL%%BLUE% Magical +3 skills%NL%%YELLOW%Rare +2 CSkills%NL%%NL% %GOLD%Gambling%NL%
+ItemDisplay[NMAG (crs) !ID]:%NL%%GOLD%Lightsabre%NL%Azurewrath%NL%%NL%%YELLOW%Rare Fools mod + 60IAS%NL%%NL% %GOLD%Gambling%NL%
+ItemDisplay[NMAG aq2 OR cq2 !ID]:
+ItemDisplay[NMAG rin !ID]:
+ItemDisplay[NMAG ci0 !ID]:
+ItemDisplay[NMAG cap !ID]:
+ItemDisplay[NMAG hlm !ID]:
+ItemDisplay[NMAG msk !ID]:
+ItemDisplay[NMAG bhm !ID]:
+ItemDisplay[NMAG ghm !ID]:
+ItemDisplay[NMAG crn !ID]:
+ItemDisplay[NMAG ci0 !ID]: 
+ItemDisplay[NMAG (qui) !ID]:
+ItemDisplay[NMAG (lea) !ID]:
+ItemDisplay[NMAG (stu) !ID]:
+ItemDisplay[NMAG (scl) !ID]:
+ItemDisplay[NMAG (chn) !ID]:
+ItemDisplay[NMAG (brs) !ID]:
+ItemDisplay[NMAG (spl) !ID]:
+ItemDisplay[NMAG (plt) !ID]:
+ItemDisplay[NMAG (fld) !ID]:
+ItemDisplay[NMAG (gth) !ID]:
+ItemDisplay[NMAG (ltp) !ID]:
+ItemDisplay[NMAG (ful) !ID]:
+ItemDisplay[NMAG (aar) !ID]:
+ItemDisplay[NMAG (kit) !ID]:
+ItemDisplay[NMAG (bsh) !ID]:
+ItemDisplay[NMAG (tow) !ID]:
+ItemDisplay[NMAG (gts) !ID]:
+ItemDisplay[NMAG (lgl) !ID]:
+ItemDisplay[NMAG (vgl) !ID]:
+ItemDisplay[NMAG (mgl) !ID]:
+ItemDisplay[NMAG (tgl) !ID]: 
+ItemDisplay[NMAG (hgl) !ID]:
+ItemDisplay[NMAG (lbt) !ID]:
+ItemDisplay[NMAG (vbt) !ID]:
+ItemDisplay[NMAG (mbt) !ID]:
+ItemDisplay[NMAG (tbt) !ID]:
+ItemDisplay[NMAG (hbt) !ID]:
+ItemDisplay[NMAG (lbl) !ID]:
+ItemDisplay[NMAG (vbl) !ID]:
+ItemDisplay[NMAG (mbl) !ID]:
+ItemDisplay[NMAG (tbl) !ID]:
+ItemDisplay[NMAG (hbl) !ID]:
+ItemDisplay[NMAG (dr1) !ID]:
+ItemDisplay[NMAG (dr3) !ID]:
+ItemDisplay[NMAG (dr4) !ID]:
+ItemDisplay[NMAG (ba1) !ID]:
+ItemDisplay[NMAG (ba2) !ID]:
+ItemDisplay[NMAG (ba3) !ID]:
+ItemDisplay[NMAG (ba4) !ID]:
+ItemDisplay[NMAG (ba5) !ID]:
+ItemDisplay[NMAG (pa2) !ID]:
+ItemDisplay[NMAG (pa4) !ID]:
+ItemDisplay[NMAG (pa5) !ID]:
+ItemDisplay[NMAG (ne1) !ID]:
+ItemDisplay[NMAG (ne3) !ID]:
+ItemDisplay[NMAG (ne4) !ID]:
+ItemDisplay[NMAG (ne5) !ID]:
+ItemDisplay[NMAG (axe) !ID]:
+ItemDisplay[NMAG (btx) !ID]:
+ItemDisplay[NMAG (gax) !ID]:
+ItemDisplay[NMAG (spc) !ID]:
+ItemDisplay[NMAG (mst) !ID]:
+ItemDisplay[NMAG (fla) !ID]:
+ItemDisplay[NMAG (whm) !ID]:
+ItemDisplay[NMAG (mau) !ID]:
+ItemDisplay[NMAG (gma) !ID]:
+ItemDisplay[NMAG (crs) !ID]:
+ItemDisplay[NMAG (lsd) !ID]:
+ItemDisplay[NMAG (gis) !ID]:
+ItemDisplay[NMAG (bsw) !ID]:
+ItemDisplay[NMAG (flb) !ID]:
+ItemDisplay[NMAG (gsd) !ID]:
+ItemDisplay[NMAG (dgr) !ID]:
+ItemDisplay[NMAG (kri) !ID]:
+ItemDisplay[NMAG (bld) !ID]:
+ItemDisplay[NMAG (tax) !ID]:
+ItemDisplay[NMAG (bkf) !ID]:
+ItemDisplay[NMAG (bal) !ID]:
+ItemDisplay[NMAG (ssp) !ID]:
+ItemDisplay[NMAG (glv) !ID]:
+ItemDisplay[NMAG (tsp) !ID]:
+ItemDisplay[NMAG (pik) !ID]:
+ItemDisplay[NMAG (bar) !ID]:
+ItemDisplay[NMAG (scy) !ID]:
+ItemDisplay[NMAG (pax) !ID]:
+ItemDisplay[NMAG (wsc) !ID]:
+ItemDisplay[NMAG (sbb) !ID]:
+ItemDisplay[NMAG (lbb) !ID]:
+ItemDisplay[NMAG (swb) !ID]:
+ItemDisplay[NMAG (lwb) !ID]:
+ItemDisplay[NMAG (mxb) !ID]:
+ItemDisplay[NMAG (hxb) !ID]:
+ItemDisplay[NMAG (rxb) !ID]:
+ItemDisplay[NMAG (cst) !ID]:
+ItemDisplay[NMAG (bst) !ID]:
+ItemDisplay[NMAG (wst) !ID]:
+ItemDisplay[NMAG (bwn) !ID]:
+ItemDisplay[NMAG (gwn) !ID]:
+ItemDisplay[NMAG (scp) !ID]:
+ItemDisplay[NMAG (gsc) !ID]:
+ItemDisplay[NMAG (wsp) !ID]:
+ItemDisplay[NMAG (ces) !ID]:
+ItemDisplay[NMAG (ob1) !ID]:
+ItemDisplay[NMAG (ob2) !ID]:
+ItemDisplay[NMAG (ob5) !ID]:
+ItemDisplay[NMAG (am2) !ID]:
+ItemDisplay[NMAG (am5) !ID]:
+ItemDisplay[NMAG (WEAPON OR ARMOR) !ID]:
+// -------------------------------------------------------------------------
 //Shop Items
 // -------------------------------------------------------------------------
 //hemo
@@ -1090,16 +1204,16 @@ ItemDisplay[SET !ID amu]: %ORANGE% O %GREEN%%NAME% %ORANGE% O<:GG: NotificationC
 ItemDisplay[SET !ID rin FILTERLVL=2]:
 ItemDisplay[SET !ID rin]: %ORANGE% O %GREEN%%NAME% %ORANGE% O<:BASICLOW: NotificationPriority = LOW, NotificationColor = GREEN>
 ItemDisplay[SET ID rin]: %ORANGE% O %GREEN%%NAME% %ORANGE% O<:GG: NotificationPriority = LOW, NotificationColor = GREEN>
-ItemDisplay[UNI !ID jew]: %NL%%ORANGE%rainbow facet%NL%        %PURPLE%OOOOOO %GOLD%%NAME% %PURPLE%OOOOOO        %NL%%GOLD%<<GG>>
+ItemDisplay[UNI !ID jew]: %NL%%ORANGE%rainbow facet%NL%        %PURPLE%OOOOOO %GOLD%%NAME% %PURPLE%OOOOOO        %NL%%GOLD%<<GG1>>
 ItemDisplay[UNI !ID cm3]: %NL%       %RED% OOO %GOLD%%NAME% %RED% OOO        %NL%%GOLD%<<GG>>
 ItemDisplay[MAG !ID jew]: %YELLOW%O %BLUE%%NAME% %YELLOW%O<<BASIC>>
 //Rainbow Facets
-ItemDisplay[UNI ID jew STAT329>2]: %RED%Fire | +%STAT(329)% | -%STAT(333)% %GOLD%%NAME%%CONTINUE% //Fire Facet
-ItemDisplay[UNI ID jew STAT330>2]: %YELLOW%Light | +%STAT(330)% | -%STAT(334)% %GOLD%%NAME%%CONTINUE% //Light Facet
-ItemDisplay[UNI ID jew STAT331>2]: %BLUE%Cold | +%STAT(331)% | -%STAT(335)% %GOLD%%NAME%%CONTINUE% //Cold Facet
-ItemDisplay[UNI ID jew STAT332>2]: %GREEN%Poison | +%STAT(332)% | -%STAT(336)% %GOLD%%NAME%%CONTINUE% //Poison Facet
-ItemDisplay[UNI ID jew STAT357>2]: %WHITE%Magic | +%STAT(357)% | -%STAT(358)% %GOLD%%NAME%%CONTINUE% //Magic Facet
-ItemDisplay[UNI ID jew STAT399>2]: %LIGHT_GRAY%Phys | +%STAT(399)% | -%STAT(400)% %GOLD%%NAME%%CONTINUE% //Phys Facet
+ItemDisplay[UNI ID jew STAT329>2]: %RED%Fire | +%STAT(329)% | -%STAT(333)% %GOLD%%NAME%%CONTINUE%<<GG>> //Fire Facet
+ItemDisplay[UNI ID jew STAT330>2]: %YELLOW%Light | +%STAT(330)% | -%STAT(334)% %GOLD%%NAME%%CONTINUE%<<GG>> //Light Facet
+ItemDisplay[UNI ID jew STAT331>2]: %BLUE%Cold | +%STAT(331)% | -%STAT(335)% %GOLD%%NAME%%CONTINUE%<<GG>> //Cold Facet
+ItemDisplay[UNI ID jew STAT332>2]: %GREEN%Poison | +%STAT(332)% | -%STAT(336)% %GOLD%%NAME%%CONTINUE%<<GG>> //Poison Facet
+ItemDisplay[UNI ID jew STAT357>2]: %WHITE%Magic | +%STAT(357)% | -%STAT(358)% %GOLD%%NAME%%CONTINUE%<<GG>> //Magic Facet
+ItemDisplay[UNI ID jew STAT399>2]: %LIGHT_GRAY%Phys | +%STAT(399)% | -%STAT(400)% %GOLD%%NAME%%CONTINUE%<<GG>> //Phys Facet
 //UNIQUE&SET Eth/Socket Catchall
 ItemDisplay[UNI ETH !ID FILTERLVL=2]:
 ItemDisplay[UNI ETH !ID]: %ORANGE%ETH %GOLD%%NAME%<<BASIC>>
@@ -1600,8 +1714,8 @@ ItemDisplay[(7wa OR 7gi OR 7fb OR 7gd) ETH NMAG SOCK=5 !FILTERLVL=2]: %ORANGE%ET
 ItemDisplay[(7wa OR 7gi OR 7fb OR 7gd) ETH NMAG FILTERLVL=2]:
 //Faith Mist
 ItemDisplay[amc SOCK=4 NMAG TABSK0>2]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %RED%+3{%PURPLE%Faith: %WHITE%Ohm %SAGE%+ %LIGHT_GRAY%Jah %SAGE%+ %WHITE%Lem %SAGE%+ %LIGHT_GRAY%Eld}<<BASIC>>
-ItemDisplay[amc SOCK=0 NMAG TABSK0>2]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %RED%+3{%PURPLE%Faith: %WHITE%Ohm %SAGE%+ %LIGHT_GRAY%Jah %SAGE%+ %WHITE%Lem %SAGE%+ %LIGHT_GRAY%Eld%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASIC>>
-ItemDisplay[amc SOCK=4 NMAG TABSK0>1]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %RED%+2{%PURPLE%Faith: %WHITE%Ohm %SAGE%+ %LIGHT_GRAY%Jah %SAGE%+ %WHITE%Lem %SAGE%+ %LIGHT_GRAY%Eld}<<BASIC>>
+ItemDisplay[amc !SUP SOCK=0 NMAG TABSK0>2]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %RED%+3{%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASIC>>
+ItemDisplay[amc SOCK=4 NMAG TABSK0>1 CLVL<80]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %RED%+2{%PURPLE%Faith: %WHITE%Ohm %SAGE%+ %LIGHT_GRAY%Jah %SAGE%+ %WHITE%Lem %SAGE%+ %LIGHT_GRAY%Eld}<<BASIC>>
 ItemDisplay[amb SOCK=4 NMAG TABSK0>2]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %RED%+3{%PURPLE%Faith: %WHITE%Ohm %SAGE%+ %LIGHT_GRAY%Jah %SAGE%+ %WHITE%Lem %SAGE%+ %LIGHT_GRAY%Eld}<<BASIC>>
 ItemDisplay[amb SOCK=0 SUP NMAG STAT17>14 TABSK0>2]: %DGREEN%%NAME% %RED%+3 %TEAL%15 ED{%PURPLE%Mist: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Gul %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %WHITE%Ith }<<BASIC>>
 ItemDisplay[amb SOCK=5 SUP NMAG STAT17>14 TABSK0>2]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%] %RED%+3 %TEAL%15 ED{%PURPLE%Mist: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Gul %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %WHITE%Ith }<<BASIC>>
@@ -1934,6 +2048,7 @@ ItemDisplay[RARE ETH]: %ORANGE%ETH %YELLOW%%NAME%<<BASIC>>
 ItemDisplay[MAG ETH ILVL<86]: %ORANGE%ETH %BLUE%%NAME%<<BASIC>>
 ItemDisplay[CRAFT ETH ID]: %ORANGE%ETH %NAME%<<BASIC>>
 ItemDisplay[ETH NMAG SOCK>0]: %ORANGE%ETH %GRAY%%NAME% [%SOCKETS%]<<BASIC>>
+ItemDisplay[ETH NMAG EQ6]: %ORANGE%ETH %GRAY%%NAME%%ORANGE% Crafting<<BASIC>>
 ItemDisplay[ETH NMAG SOCK=0]: %ORANGE%ETH %GRAY%%NAME%<<BASIC>>
 ItemDisplay[ETH SOCK>0]: %ORANGE%ETH %NAME% [%SOCKETS%]<<BASIC>>
 ItemDisplay[ETH SOCK=0]: %ORANGE%ETH %NAME%<<BASIC>>
