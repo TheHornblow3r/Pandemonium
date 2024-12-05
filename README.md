@@ -56,7 +56,20 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 ## Misc Items ##
 ![Misc](https://github.com/TheHornblow3r/HornblowerFilter/assets/17283160/eb1d2f5a-24fa-4d8e-b051-ba3546c5dbd3)
 
+## Gambling ##
+![Gamling-Main](https://github.com/user-attachments/assets/3420cc2e-c05d-4826-801c-cfd3f2bc9226)
+
+
 # Updates #
+
+## v1.3d Gambling ##
+```
+- Adding Gambling Information (View Screenshots)
+- Highlights high rolls only (Amulets, Coronets & Crystal Swords)
+- Gambling shows potential rolls
+- Fixed minor text editing & missing sounds
+```
+![Gambling-Update](https://github.com/user-attachments/assets/7a77d881-f2c5-4a40-9d62-1749b57a130f)
 
 ## v1.3c ##
 ```
