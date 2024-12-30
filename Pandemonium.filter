@@ -203,6 +203,7 @@ ItemDisplay[INF ILVL>14 !RW !leg]:
 //RUNES 1-18
 ItemDisplay[r08]: %TAN%%NAME% %GREEN%O<<BASICLOW>>
 ItemDisplay[r09]: %TAN%%NAME% %GREEN%O<<BASICLOW>>
+ItemDisplay[r11]: %TAN%%NAME% %GREEN%O<<BASICLOW>>
 ItemDisplay[RUNETIER>00 AND RUNETIER<15]: %TAN%%NAME%<<BASIC>>
 //RUNES 15-18
 ItemDisplay[RUNETIER>14 AND RUNETIER<20]: %ORANGE%%NAME%<<BASIC>>
@@ -2047,6 +2048,7 @@ ItemDisplay[NMAG !RW CL4 SOCK=1 ILVL<25]:
 ItemDisplay[NMAG !RW CL4 SOCK=2 !ETH ILVL>24]:
 ItemDisplay[NMAG (ob1 OR ob2 OR ob3 OR ob4 OR ob5 OR ob6 OR ob7 OR ob8 OR ob9 OR oba OR obb OR obc OR obd OR obe OR obf)]:
 //Catchall
+ItemDisplay[CRAFT !ETH ID]: %BASENAME%%NL%%ITEMNAME%%NL%%RED%Crafted <<BASIC>>
 ItemDisplay[(RARE OR MAG OR CRAFT) !ETH ID]: %NAME%<<BASIC>>
 ItemDisplay[RARE ETH]: %ORANGE%ETH %YELLOW%%NAME%<<BASIC>>
 ItemDisplay[MAG ETH ILVL<80]: %ORANGE%ETH %BLUE%%NAME%<<BASIC>>
