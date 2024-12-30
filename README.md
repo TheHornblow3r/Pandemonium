@@ -63,7 +63,7 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 # Updates #
 
-## v1.4 Gambling ##
+## v1.4 SemiStrict ##
 ```
 - Adding semi-strict game filter
 - Fixed some unique item stats
