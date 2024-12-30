@@ -9,8 +9,8 @@
 //Find Item/Skillcodes at: 	https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions
 Attribute[Author]: Thehornblower
 Attribute[Name]: Pandemonium Filter
-Attribute[Version]: 1.3d
-Attribute[Date]: 2024/12/05
+Attribute[Version]: 1.4
+Attribute[Date]: 2024/12/30
 Option[IgnoreMissingSounds]: True
 // -------------------------------------------------------------------------
 // FILTER LEVELS
@@ -1039,15 +1039,9 @@ ItemDisplay[ETH UNI ID UNIQUE("Thunderstroke") TABSK2=4]: %GOLD%%BASENAME%%NL%%Y
 ItemDisplay[UNIQUE("Doomslinger") !ETH ID rxb SOCK>0]: %GOLD%%NAME% %GREEN%[%SOCKETS%] {%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %GREEN%PEmerald}<<BASIC>>
 ItemDisplay[UNIQUE("Doomslinger") !ETH ID rxb]: %GOLD%%NAME% {%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %GREEN%PEmerald}<<BASIC>>
 //Gull
-<<<<<<< HEAD
-ItemDisplay[UNI !ETH !ID dgr !FILTERLVL=3]: %ORANGE%Gull %RED%MF%NL%%GOLD%%NAME% <:GG: NotificationPriority = MEDIUM>
-ItemDisplay[UNI ETH dgr SOCK=0]: %ORANGE%ETH %GOLD%Gull {%BLUE%+1 to All Skills}<<GG>>
-ItemDisplay[UNI ETH dgr SOCK>0]: %ORANGE%ETH %GOLD%Gull %GREEN%[%SOCKETS%] {%BLUE%+1 to All Skills}<<GG>>
-=======
 ItemDisplay[UNI !ETH !ID dgr !FILTERLVL=2]: %ORANGE%Gull %RED%MF%NL%%GOLD%%NAME% <:GG: NotificationPriority = MEDIUM>
 ItemDisplay[UNI ETH dgr SOCK=0]: %ORANGE%ETH %GOLD%Gull<<GG>>
 ItemDisplay[UNI ETH dgr SOCK>0]: %ORANGE%ETH %GOLD%Gull %GREEN%[%SOCKETS%]<<GG>>
->>>>>>> 23aaaf0ee48659ac0f140fcf5d494c0096ceb9b8
 //Alibaba
 ItemDisplay[UNI !ETH !ID 9fc !FILTERLVL=3]: %ORANGE%Alibaba %RED%MF%NL%%GOLD%%NAME% <:GG: NotificationPriority = MEDIUM>
 //Death Cleaver
