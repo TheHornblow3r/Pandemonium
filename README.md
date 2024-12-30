@@ -63,6 +63,14 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 # Updates #
 
+## v1.4 Gambling ##
+```
+- Adding semi-strict game filter
+- Fixed some unique item stats
+- Magic rings only show on Normal Filter
+- Some text changes/formatting on items
+```
+
 ## v1.3d Gambling ##
 ```
 - Adding Gambling Information (View Screenshots)
