@@ -374,13 +374,13 @@ ItemDisplay[!ID UNI CLVL<40 !ETH scl]:  %GOLD%Hawkmail %RED%Lv15 %ORANGE%(CNBF, 
 ItemDisplay[!ID UNI CLVL<40 ETH scl]: %ORANGE%ETH  %GOLD%Hawkmail %RED%Lv15 %ORANGE%(CNBF, FRW) <<GG>>
 //Lenymo
 ItemDisplay[!ID UNI CLVL<40 !ETH lbl]:  %GOLD%Lenymo %RED%Lv7 %ORANGE%(@res, manaregen, mana) <<GG>>
-ItemDisplay[UNI ETH lbl]:  %ORANGE%ETH %GOLD%Lenymo {%BLUE%+1 to All Skills}<<GG>>
+ItemDisplay[UNI ETH lbl]:  %ORANGE%ETH %GOLD%Lenymo<<GG>>
 //Greyform
 ItemDisplay[!ID UNI CLVL<40 !ETH qui]:  %GOLD%Greyform %RED%Lv7 %ORANGE%(Cres, Fres,LL) <<GG>>
-ItemDisplay[UNI ETH qui]:  %ORANGE%ETH %GOLD%Greyform {%BLUE%+1 to All Skills}<<GG>>
+ItemDisplay[UNI ETH qui]:  %ORANGE%ETH %GOLD%Greyform<<GG>>
 //hotspurs
 ItemDisplay[!ID UNI CLVL<40 !ETH lbt]:  %GOLD%Hotspur %RED%Lv12 %ORANGE%(45 Fres,max fres, life) <<GG>>
-ItemDisplay[UNI ETH lbt]:  %ORANGE%ETH %GOLD%Hotspur {%BLUE%+1 to All Skills}<<GG>>
+ItemDisplay[UNI ETH lbt]:  %ORANGE%ETH %GOLD%Hotspur<<GG>>
 //Nightsmoke
 ItemDisplay[!ID UNI CLVL<40 !ETH mbl]:  %GOLD%Nightsmoke %RED%Lv20 %ORANGE%(dmg taken to mana, @res, mana) <<GG>>
 //Gorefoot
@@ -389,17 +389,17 @@ ItemDisplay[!ID UNI CLVL<40 !ETH vbt]:  %GOLD%Gorefoot %ORANGE%(20FRW, ML) <<GG>
 ItemDisplay[!ID UNI CLVL<40 !ETH mbt]:  %GOLD%Treads %RED%Lv15 %ORANGE%(30FRW, Life) <<GG>>
 //The Hand of Broc
 ItemDisplay[!ID UNI CLVL<40 !ETH lgl]:  %GOLD%Hand of Broc %RED%Lv5 %ORANGE%(LL, ML, Mana) <<GG>>
-ItemDisplay[UNI ETH lgl]:  %ORANGE%ETH %GOLD%Hand of Broc {%BLUE%+1 to All Skills}<<GG>>
+ItemDisplay[UNI ETH lgl]:  %ORANGE%ETH %GOLD%Hand of Broc<<GG>>
 //Biggins Bonnet
 ItemDisplay[!ID UNI CLVL<30 !ETH cap]:  %GOLD%Biggins Bonnet %RED%Lv3 %ORANGE%(Mana, Life, AR) <<GG>>
-ItemDisplay[UNI ETH cap]:  %ORANGE%ETH %GOLD%Biggin's Bonnet {%BLUE%+1 to All Skills}<<GG>>
+ItemDisplay[UNI ETH cap]:  %ORANGE%ETH %GOLD%Biggin's Bonnet<<GG>>
 //Tarnhelm
 ItemDisplay[!ID UNI CLVL<80 !ETH skp]:  %GOLD%Tarnhelm %RED%Lv15 %ORANGE%(+1skill, MF) <<GG>>
 //Duskdeep
 ItemDisplay[!ID UNI !ETH CLVL<40 fhl]:  %GOLD%Duskdeep %RED%Lv17 %ORANGE%(15@res, max dmg, 7pdr) <<GG>>
 //Pelta Lunata
 ItemDisplay[!ID UNI CLVL<40 !ETH buc]:  %GOLD%Pelta Lunata %RED%Lv2 %ORANGE%(Energy, Vit, block) <<GG>>
-ItemDisplay[UNI ETH buc]:  %ORANGE%ETH %GOLD%Pelta Lunata {%BLUE%+1 to All Skills}<<GG>>
+ItemDisplay[UNI ETH buc]:  %ORANGE%ETH %GOLD%Pelta Lunata<<GG>>
 //Stormguild
 ItemDisplay[!ID UNI CLVL<40 !ETH lrg]:  %GOLD%Stormguild %RED%Lv13 %ORANGE%(25LR, 1mdr) <<GG>>
 //Serpant Lord
@@ -1039,9 +1039,15 @@ ItemDisplay[ETH UNI ID UNIQUE("Thunderstroke") TABSK2=4]: %GOLD%%BASENAME%%NL%%Y
 ItemDisplay[UNIQUE("Doomslinger") !ETH ID rxb SOCK>0]: %GOLD%%NAME% %GREEN%[%SOCKETS%] {%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %GREEN%PEmerald}<<BASIC>>
 ItemDisplay[UNIQUE("Doomslinger") !ETH ID rxb]: %GOLD%%NAME% {%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %GREEN%PEmerald}<<BASIC>>
 //Gull
+<<<<<<< HEAD
 ItemDisplay[UNI !ETH !ID dgr !FILTERLVL=3]: %ORANGE%Gull %RED%MF%NL%%GOLD%%NAME% <:GG: NotificationPriority = MEDIUM>
 ItemDisplay[UNI ETH dgr SOCK=0]: %ORANGE%ETH %GOLD%Gull {%BLUE%+1 to All Skills}<<GG>>
 ItemDisplay[UNI ETH dgr SOCK>0]: %ORANGE%ETH %GOLD%Gull %GREEN%[%SOCKETS%] {%BLUE%+1 to All Skills}<<GG>>
+=======
+ItemDisplay[UNI !ETH !ID dgr !FILTERLVL=2]: %ORANGE%Gull %RED%MF%NL%%GOLD%%NAME% <:GG: NotificationPriority = MEDIUM>
+ItemDisplay[UNI ETH dgr SOCK=0]: %ORANGE%ETH %GOLD%Gull<<GG>>
+ItemDisplay[UNI ETH dgr SOCK>0]: %ORANGE%ETH %GOLD%Gull %GREEN%[%SOCKETS%]<<GG>>
+>>>>>>> 23aaaf0ee48659ac0f140fcf5d494c0096ceb9b8
 //Alibaba
 ItemDisplay[UNI !ETH !ID 9fc !FILTERLVL=3]: %ORANGE%Alibaba %RED%MF%NL%%GOLD%%NAME% <:GG: NotificationPriority = MEDIUM>
 //Death Cleaver
