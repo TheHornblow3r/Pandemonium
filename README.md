@@ -63,6 +63,15 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 # Updates #
 
+## v1.4a SemiStrict ##
+```
+- Added Warpspear to drops
+- Added +2/IAS Martial Arts rare gloves to filter
+- Added more bases to semi-strict
+- Some items will show both roll & larzuk options for bases
+- Text formatting
+```
+
 ## v1.4 SemiStrict ##
 ```
 - Adding semi-strict game filter
