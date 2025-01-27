@@ -9,7 +9,7 @@
 //Find Item/Skillcodes at: 	https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions
 Attribute[Author]: Thehornblower
 Attribute[Name]: Pandemonium Filter
-Attribute[Version]: 1.4c
+Attribute[Version]: 1.4b
 Attribute[Date]: 2025/01/27
 Option[IgnoreMissingSounds]: True
 // -------------------------------------------------------------------------
@@ -132,7 +132,7 @@ ItemDisplay[SYNTH ETH]: %ORANGE%ETH %GOLD%%NAME% %CONTINUE%
 ItemDisplay[SYNTH NORM WEAPON]: %NAME%{%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %GREEN%PEmerald} %CONTINUE%
 ItemDisplay[SYNTH EXC WEAPON]: %NAME%{%PURPLE%Upgrade: %WHITE%Lum %SAGE%+ %LIGHT_GRAY%Pul %SAGE%+ %GREEN%PEmerald} %CONTINUE%
 ItemDisplay[SYNTH SOCK>0]: %NAME% %GREEN%[%SOCKETS%] %CONTINUE%
-ItemDisplay[SYNTH]: %SPACE%%NL%%GOLD%%NAME% %GOLD%%NL%%SPACE% <:GG: NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\hostile">
+ItemDisplay[SYNTH]: %SPACE%%NL%%GOLD%%NAME% %GOLD%%NL%%SPACE% <:GG: NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\object\shrine\combatboost">
 //ItemDisplay[SPECIAL]: %SPACE%%NL%%NAME%%!STARS!%%NL%%SPACE%<:GG: NotificationSoundPriority = MEDIUM>
 // -------------------------------------------------------------------------
 // UTILITY
