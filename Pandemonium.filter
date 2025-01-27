@@ -34,6 +34,7 @@ TextMacro[STARS2]: %RED%O%WHITE%OO%RED%O
 ItemStyle[HR]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\hostile"
 ItemStyle[MID]: MapIcon = 24, MapIconColor = 3, BorderColor = 10, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\levelup"
 ItemStyle[BASIC]: BorderColor = 4, BorderSize = 2, BackgroundColor = 172
+ItemStyle[BASICETH]: BorderColor = 96, BorderSize = 2, BackgroundColor = 172
 ItemStyle[BASICLOW]: NotificationPriority = LOW, NotificationColor = ITEM, BorderColor = 4, BorderSize = 2, BackgroundColor = 15
 ItemStyle[BASICMED]: NotificationPriority = MEDIUM, NotificationColor = ITEM, BorderColor = 4, BorderSize = 2, BackgroundColor = 15
 ItemStyle[BASICHIGH]: NotificationPriority = HIGH, NotificationColor = ITEM, BorderColor = 4, BorderSize = 2, BackgroundColor = 15
@@ -207,7 +208,7 @@ ItemDisplay[aq2 UNI ILVL>60]: %NAME%<<BASIC>>
 ItemDisplay[aq2 SET ILVL>60]: %NAME%<<BASIC>>
 ItemDisplay[cq2 MAG ILVL>60]:
 ItemDisplay[cq2 RARE FILTERLVL=3]: 
-ItemDisplay[cq2 RARE ILVL>60]: %NAME%<<BASIC>>
+ItemDisplay[cq2 RARE ILVL>60]: %NAME%<:BASIC: BorderColor = 12>
 ItemDisplay[cq2 UNI ILVL>60]: %NAME%<<BASIC>>
 ItemDisplay[cq2 SET ILVL>60]: %NAME%<<BASIC>>
 // -------------------------------------------------------------------------
@@ -1110,7 +1111,7 @@ ItemDisplay[UNIQUE("Mang Song's Lesson") ETH ID SOCK=0]: %ORANGE%ETH %GOLD%%NAME
 ItemDisplay[UNIQUE("Mang Song's Lesson") !ETH ID SOCK>0]: %GOLD%%NAME% %GREEN%[%SOCKETS%]<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\questdone">
 ItemDisplay[UNIQUE("Mang Song's Lesson") ETH ID SOCK>0]: %ORANGE%ETH %GOLD%%NAME% %GREEN%[%SOCKETS%]<:GG: NotificationPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\questdone">
 //The iron jang bong
-ItemDisplay[UNI !ETH !ID wst !FILTERLVL=3]: %ORANGE%Jang Bong (double nova)%NL%%GOLD%%NAME%<:GG: NotificationPriority = LOW>
+ItemDisplay[UNI !ETH !ID wst]: %ORANGE%The Iron Jang Bong%NL%%GOLD%%NAME%%NL%%BLUE%Double Nova<:GG: NotificationPriority = LOW>
 //Hand of blessed light
 ItemDisplay[UNI !ETH !ID 9ws !FILTERLVL=3]: %ORANGE%Hand of Blessed Light%NL%%GOLD%%NAME% <:GG: NotificationPriority = LOW>
 //Fleshrender
@@ -1525,10 +1526,10 @@ ItemDisplay[RARE !ETH (crs OR 9cr OR 7cr) ID ((STAT218=4 AND STAT224=33 AND IAS>
 ItemDisplay[RARE !ETH (crs OR 9cr OR 7cr) ID ((STAT218=4 AND STAT224=33 AND IAS>29) OR (IAS>29 AND CLSK3>1) OR (IAS>29 AND CLSK4>1)) SOCK=6]: %NL%%YELLOW%%NAME% %PURPLE%[%SOCKETS%] %PURPLE%O%NL%%GOLD%<<BASICLOW>>
 ItemDisplay[RARE ETH (7cr OR 9cr OR crs) !ID]:
 ItemDisplay[RARE !ETH (ci0 OR ci1 OR ci2 OR ci3) !ID]: %NL%%PURPLE%O %YELLOW%%NAME% %PURPLE%O%NL%%GOLD% <:BASICHIGH1: MapIcon = 93, BorderColor = 12>
-ItemDisplay[RARE !ETH amu !ID]: %NL%     %YELLOW%%NAME% %RED%O     %NL%%GOLD% <:BASICHIGH1: MapIcon = 59, BorderColor = 12, BackgroundColor = 97>
+ItemDisplay[RARE !ETH amu !ID]: %NL%     %RED%O %YELLOW%%NAME% %RED%O     %NL%%GOLD% <:BASICHIGH1: MapIcon = 59, BorderColor = 12, BackgroundColor = 97>
 ItemDisplay[RARE !ETH rin !ID]: %NL%     %YELLOW%%NAME% %RED%O     %NL%%GOLD% <:BASICHIGH1: MapIcon = 31, BorderColor = 12>
 ItemDisplay[RARE !ETH jew !ID]: %NL%     %YELLOW%%NAME% %RED%O     %NL%%GOLD% <:BASICHIGH1: MapIcon = 54, BorderColor = 12>
-ItemDisplay[RARE ETH (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR jew) !ID]: %ORANGE%ETH %YELLOW%%NAME%<<BASICLOW>>
+ItemDisplay[RARE ETH (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR jew) !ID]: %ORANGE%ETH %YELLOW%%NAME%<<BASICETH>>
 ItemDisplay[RARE !ETH (ci0 OR ci1) ID]: %NAME% {%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %PURPLE%PAmethyst%NL%%CORAL%Upgrade Before Slam}<<BASICLOW>>
 ItemDisplay[MAG !ETH 7cr ID STAT218=4 STAT224=33 IAS>39 SOCK=0]: %NAME% %WHITE%(%ORANGE%FOOL'S %WHITE%, %ORANGE%40 IAS%WHITE%)%PURPLE%O%NL%%GOLD%<<BASICHIGH1>>
 ItemDisplay[MAG !ETH 7cr ID TABSK24>2 IAS>39 SOCK=0]: %NAME% %WHITE%(%ORANGE%Off Aura %WHITE%, %ORANGE%40 IAS%WHITE%)%PURPLE%O%NL%%GOLD%<<BASICHIGH1>>
@@ -1825,18 +1826,18 @@ ItemDisplay[7wa !ETH NMAG SOCK>4 !FILTERLVL=3]: %DGREEN%%NAME% %YELLOW%[%SOCKETS
 ItemDisplay[7cr NMAG SOCK=4]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]{%PURPLE%Hand of Jusitice: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Amn %SAGE%+ %LIGHT_GRAY%Lo%NL%%PURPLE%Spirit: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %WHITE%Ort %SAGE%+ %LIGHT_GRAY%Amn}<<BASIC>>
 ItemDisplay[NMAG !ETH !RW 7ws !SK117>0 SOCK=4 !FILTERLVL=3]: %DGREEN%%NAME% %ORANGE%[%SOCKETS%] {%PURPLE%Hand of Jusitice: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Amn %SAGE%+ %LIGHT_GRAY%Lo} <<BASIC>>
 //Breath of the Dying = BotD 
-ItemDisplay[(7gm OR 7p7) ETH ED>0 NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]%NL%%ORANGE%%EDAMAGE%% ED{%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASIC>>
-ItemDisplay[(7gm OR 7p7) ETH ED>0 NMAG SOCK=0]: %DGREEN%%NAME%%NL%%ORANGE%%EDAMAGE%% ED{%ORANGE%Larzuk Max Sockets: 6}<<BASIC>>
-ItemDisplay[(7gm OR 7p7) ETH SUP NMAG SOCK=6]: %PURPLE%O%ORANGE%O%PURPLE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%] %PURPLE%O%ORANGE%O{%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASIC>>
-ItemDisplay[(7gm OR 7p7) ETH SUP NMAG SOCK=0]: %PURPLE%O%ORANGE%O%PURPLE%ETH %DGREEN%%NAME% %PURPLE%O%ORANGE%O{%ORANGE%Larzuk Max Sockets: 6}<<BASIC>>
-ItemDisplay[6ws NMAG ETH SOCK=0]: %ORANGE%ETH %DGREEN%%NAME% <<BASIC>>
-ItemDisplay[6ws NMAG ETH SOCK=6]: %ORANGE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%]<<BASIC>>
-ItemDisplay[7wa NMAG ETH SOCK=4]: %ORANGE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%]{%PURPLE%Phoenix: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Vex %SAGE%+ %WHITE%Lo %SAGE%+ %LIGHT_GRAY%Jah}<<BASIC>>
-ItemDisplay[7wa !SUP NMAG ETH SOCK=0]: %ORANGE%ETH %DGREEN%%NAME%{%ORANGE%Larzuk Max Sockets: 6%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASIC>>
-ItemDisplay[7wa ETH SUP NMAG SOCK=0]: %ORANGE%ETH %DGREEN%%NAME%{%ORANGE%Larzuk Max Sockets: 6}<<BASIC>>
-ItemDisplay[7wa ETH NMAG SOCK=6]: %ORANGE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%]{%PURPLE%Silence: %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Hel %SAGE%+ %LIGHT_GRAY%Ist %SAGE%+ %WHITE%Tir %SAGE%+ %LIGHT_GRAY%Vex%NL%%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASIC>>
-ItemDisplay[(7gm OR 7p7) ETH !SUP NMAG SOCK=6]: %ORANGE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%]{%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASIC>>
-ItemDisplay[(7gm OR 7p7) ETH !SUP NMAG SOCK=0]: %ORANGE%ETH %DGREEN%%NAME% {%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst%NL%%ORANGE%Larzuk Max Sockets: 6}<<BASIC>>
+ItemDisplay[(7gm OR 7p7) ETH ED>0 NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%]%NL%%ORANGE%%EDAMAGE%% ED%NL%%GRAY%Breath of the Dying Base{%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASICETH>>
+ItemDisplay[(7gm OR 7p7) ETH ED>0 NMAG SOCK=0]: %DGREEN%%NAME%%NL%%ORANGE%%EDAMAGE%% ED%NL%%GRAY%Breath of the Dying Base{%ORANGE%Larzuk Max Sockets: 6}<<BASICETH>>
+ItemDisplay[(7gm OR 7p7) ETH SUP NMAG SOCK=6]: %PURPLE%O%ORANGE%O%PURPLE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%] %PURPLE%O%ORANGE%O%NL%%GRAY%Breath of the Dying Base{%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASICETH>>
+ItemDisplay[(7gm OR 7p7) ETH SUP NMAG SOCK=0]: %PURPLE%O%ORANGE%O%PURPLE%ETH %DGREEN%%NAME% %PURPLE%O%ORANGE%O%NL%%GRAY%Breath of the Dying Base{%ORANGE%Larzuk Max Sockets: 6}<<BASICETH>>
+ItemDisplay[6ws NMAG ETH SOCK=0]: %ORANGE%ETH %DGREEN%%NAME% <<BASICETH>>
+ItemDisplay[6ws NMAG ETH SOCK=6]: %ORANGE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%]<<BASICETH>>
+ItemDisplay[7wa NMAG ETH SOCK=4]: %ORANGE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%]{%PURPLE%Phoenix: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Vex %SAGE%+ %WHITE%Lo %SAGE%+ %LIGHT_GRAY%Jah}<<BASICETH>>
+ItemDisplay[7wa !SUP NMAG ETH SOCK=0]: %ORANGE%ETH %DGREEN%%NAME%{%ORANGE%Larzuk Max Sockets: 6%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICETH>>
+ItemDisplay[7wa ETH SUP NMAG SOCK=0]: %ORANGE%ETH %DGREEN%%NAME%{%ORANGE%Larzuk Max Sockets: 6}<<BASICETH>>
+ItemDisplay[7wa ETH NMAG SOCK=6]: %ORANGE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%]{%PURPLE%Silence: %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Hel %SAGE%+ %LIGHT_GRAY%Ist %SAGE%+ %WHITE%Tir %SAGE%+ %LIGHT_GRAY%Vex%NL%%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASICETH>>
+ItemDisplay[(7gm OR 7p7) ETH !SUP NMAG SOCK=6]: %ORANGE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%]%NL%%GRAY%Breath of the Dying Base {%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASICETH>>
+ItemDisplay[(7gm OR 7p7) ETH !SUP NMAG SOCK=0]: %ORANGE%ETH %DGREEN%%NAME%%NL%%GRAY%Breath of the Dying Base {%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst%NL%%ORANGE%Larzuk Max Sockets: 6}<<BASICETH>>
 ItemDisplay[7wa NMAG SOCK=6]: %DGREEN%%NAME% %YELLOW%[%SOCKETS%] {%PURPLE%Last Wish: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Mal %SAGE%+ %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Sur %SAGE%+ %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ber}<<BASIC>>
 //Death glorious axe 0os 5os 6os 
 ItemDisplay[7gi SUP ETH NMAG SOCK=6 ED>12 !FILTERLVL=3]: %ORANGE%ETH %DGREEN%%NAME% %YELLOW%[%SOCKETS%]%NL%%BLUE%%EDAMAGE% %RED%ED{%PURPLE%Botd: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Hel %SAGE%+ %WHITE%El %SAGE%+ %LIGHT_GRAY%Eld %SAGE%+ %WHITE%Zod %SAGE%+ %LIGHT_GRAY%Eth}<<BASIC>>
@@ -1988,8 +1989,8 @@ ItemDisplay[ILVL<66 EXC RARE (ARMOR OR WEAPON)]: %NAME%<<BASIC>>
 ItemDisplay[ILVL<66 ELT MAG ARMOR !ID]: %NAME%<<BASIC>>
 ItemDisplay[ILVL<66 ELT MAG ARMOR ID]: %NAME%<<BASIC>>
 ItemDisplay[ILVL<66 ELT RARE (ARMOR OR WEAPON)]: %NAME%<<BASIC>>
-//RARES
-//Boots
+// RARES
+// Rare Boots
 ItemDisplay[RARE EQ5 ID]: %YELLOW%%NAME%%NL% %CONTINUE%
 ItemDisplay[RARE EQ5 ID STAT96>9]: %YELLOW%%NAME%%ORANGE%+%STAT(96)% FRW %CONTINUE%
 ItemDisplay[RARE EQ5 ID (STAT96>9) STAT99>9]: %YELLOW%%NAME%%PURPLE% +%STAT(99)% FHR %CONTINUE%
@@ -2001,10 +2002,13 @@ ItemDisplay[RARE EQ5 ID (STAT96>9) STAT45>0]: %YELLOW%%NAME%%GREEN% +%STAT(45)%%
 ItemDisplay[RARE EQ5 ID (STAT96>9) STAT80>0]: %YELLOW%%NAME%%GOLD% +%STAT(80)%% Magic Find %CONTINUE%
 ItemDisplay[RARE EQ5 ID]: %NAME%<<BASIC>>
 //Best Rares (crystalsword, dimensional blade, phase blade, Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
+ItemDisplay[RARE EQ5 !ID ILVL>35 FILTERLVL>1]: %YELLOW%    %NAME%    %YELLOW%<:BASICNOT: BorderColor = 12>
+ItemDisplay[RARE EQ5 !ID ILVL<36 FILTERLVL>1]:
+ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NL%    %NAME%    %NL%%YELLOW%<:BASICNOT: BorderColor = 12>
+ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NL%    %NAME%    %NL%%YELLOW%<:BASICNOT: BorderColor = 12>
 ItemDisplay[RARE EQ6 !ID]:
 ItemDisplay[RARE !ID EQ4]: %GRAY% Java | Bow | MA %NL%%YELLOW%%NAME% <:BASIC: MapIcon = 77, BorderColor = 12>
 ItemDisplay[(MAG OR RARE) !ID FILTERLVL=3]:
-ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NAME%<<BASIC>>
 //Class Specific Rares (Druid Pelts, Barb Helms, Paladin Shields, Necro Heads, Assassin Claws, Sorc Orbs, Amazon Bow/Jav
 ItemDisplay[RARE (CL1 OR CL2) !ID FILTERLVL>1]:
 ItemDisplay[RARE (CL1 OR CL2) !ID]: %YELLOW%%NAME%<<BASIC>>
@@ -2157,6 +2161,7 @@ ItemDisplay[NMAG ETH !RW EQ3]:
 ItemDisplay[NMAG (EQ4 OR EQ5 OR EQ6 OR ci0 OR ci1) !RW ILVL>14]:
 //Gloves
 ItemDisplay[RARE !ID EQ4]: %GRAY% Java | Bow | MA %NL%%YELLOW%%NAME% 
+ItemDisplay[MAG !ID EQ4]: %GRAY% Java | Bow | MA %NL%%BLUE%%NAME% <:BASIC: BorderColor = 151>
 ItemDisplay[RARE EQ4 !ETH ILVL>59]: %NAME%<<BASIC>>
 ItemDisplay[RARE EQ4 ETH ILVL>59]: %ORANGE%ETH %YELLOW%%NAME%<<BASIC>>
 ItemDisplay[RARE ID EQ4 TABSK2>1 IAS=20]: %ORANGE%+2 | 20IAS %NL%%YELLOW%%NAME%<<BASICHIGH>>
