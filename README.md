@@ -8,8 +8,8 @@
 
 This loot filter is a redesign of the popular loot filter created by mackanmusic with back-end changes and complete visual rework.
 
-Thank you to Mackanmusic for letting me fork his code & give me permission to post this online.<br>
-Follow him online at: https://www.twitch.tv/mackanmusic
+Follow me on twitch.tv if you have questions or changes & want to ask me live.<br>
+Follow him online at: [https://www.twitch.tv/Thehornblower](https://www.twitch.tv/thehornblower)
 
 I'm open to any advice/changes you would like to see in the filter **(DM me on discord)**
 
@@ -62,6 +62,21 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 
 # Updates #
+
+## v1.4b ##
+```
+- Added highlight stats to Rare Jewels, Amulets & Boots (Circlets soon!)
+- Updated sounds for Synth Items (less annoying when dropped in town)
+- Rework to rare arrows/bolts (Now showing Doomsliger stats)
+- Showing Elite 4os armours for Fortitude Bases
+- Added Superior 3os Mageplates (8+ Enhanced Damage)
+- Added 5os Death runeword Bases
+- Added Borders to items
+- Text/Design fixes
+```
+![Update-1 4b](https://github.com/user-attachments/assets/b23de3f8-36d5-4605-ab5e-5d70836fdfb2)
+
+
 
 ## v1.4a SemiStrict ##
 ```
