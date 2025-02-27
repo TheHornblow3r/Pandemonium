@@ -63,6 +63,20 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 # Updates #
 
+## v1.4c ##
+```
+- New sounds for Synth Items & Lowlevel Uniques/Sets
+- Added highlighted stats to crafted amulets (Character and Cskill stats)
+- Crafted arrows now highlight what type there are
+- Now showing magic arrows/bolts for craft (hidden only in maps)
+- Crafting recipe now shows on all magic arrows/bolts
+- Low Level Uniques/Sets changed to area-level instead of character requirement
+- Added more highlight stats Low-Level uniques/sets to filter (eg. Stormshrike, Sparking Mail, Carin Shard, Rattlecage, etc)
+- Added more bases to filter
+```
+![craftedAmy-Update](https://github.com/user-attachments/assets/bf570f1b-05ea-43d4-88cf-f3450ba71188)
+
+
 ## v1.4b ##
 ```
 - Added highlight stats to Rare Jewels, Amulets & Boots (Circlets soon!)
@@ -75,8 +89,6 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 - Text/Design fixes
 ```
 ![Update-1 4b](https://github.com/user-attachments/assets/b23de3f8-36d5-4605-ab5e-5d70836fdfb2)
-
-
 
 ## v1.4a SemiStrict ##
 ```
