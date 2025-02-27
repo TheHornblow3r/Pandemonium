@@ -63,13 +63,13 @@ ItemDisplay[GOLD>1999]: %NAME%
 // -------------------------------------------------------------------------
 // HEALTH & MANA POTS
 // -------------------------------------------------------------------------
-ItemDisplay[rvl]: %PURPLE%R %WHITE%100%<<BASIC>>
+ItemDisplay[rvl]: %PURPLE%R %WHITE%100% <:BASIC: BorderColor = 75>
 ItemDisplay[hp4 CLVL<70]: %RED%!%WHITE%H<<BASIC>>
 ItemDisplay[(mp5 OR hp5) FILTERLVL=3]:
 ItemDisplay[hp5]: %RED% !%WHITE%H+ <<BASIC>> 
 ItemDisplay[mp4 CLVL<70]: %BLUE%!%WHITE%M<<BASIC>>
 ItemDisplay[mp5]: %BLUE% !%WHITE%M+  <<BASIC>>
-ItemDisplay[rvs]: %PURPLE%R %WHITE%35%<<BASIC>>
+ItemDisplay[rvs]: %PURPLE%R %WHITE%35% <:BASIC: BorderColor = 75>
 ItemDisplay[hp1 CLVL<15]: %RED%!%WHITE%Minor Heal<<BASIC>>
 ItemDisplay[hp2 CLVL<18]: %RED%!%WHITE%Light Heal<<BASIC>>
 ItemDisplay[hp3 CLVL<24]: %RED%!%WHITE%Healing<<BASIC>>
@@ -777,7 +777,7 @@ ItemDisplay[!ETH UNI ID uap]: %BASENAME%%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]
 ItemDisplay[ETH UNI !ID uap]: %ORANGE%ETH %GOLD%%NAME% <<BASIC>>
 //Crown of Ages
 ItemDisplay[!ETH UNI !ID urn]: %ORANGE%Crown of Ages%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG>>
-ItemDisplay[!ETH UNI ID urn]: %PURPLE%O %GOLD%%NAME% %PURPLE%O%NL%%PURPLE%+%STAT(36,0)% PDR %ORANGE%[%SOCKETS%]<<GG>>
+ItemDisplay[!ETH UNI ID urn]: %BASENAME%%ORANGE% [%SOCKETS%]%NL%%PURPLE%O %GOLD%%ITEMNAME% %PURPLE%O%NL%%PURPLE%+%STAT(36,0)% PDR%NL%%!ALLRES!% <<GG>>
 ItemDisplay[ETH UNI !ID urn]: %ORANGE%ETH %GOLD%%NAME% <<BASIC>>
 //Andariel's Visage
 ItemDisplay[!ETH UNI !ID usk]: %ORANGE%Andariel's Visage%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
@@ -1080,8 +1080,8 @@ ItemDisplay[UNIQUE("Titan's Revenge") ID IAS>9]: %GOLD%%BASENAME%%NL%%ITEMNAME%%
 ItemDisplay[ETH UNIQUE("Titan's Revenge") ID]: %GOLD%%BASENAME%%NL%%ORANGE%ETH %GOLD%%ITEMNAME% <:GG: NotificationPriority = MEDIUM>
 ItemDisplay[!ETH UNIQUE("Titan's Revenge") ID]: %GOLD%%BASENAME%%NL%%GOLD%%ITEMNAME% <:GG: NotificationPriority = MEDIUM>
 //Thunderstroke
-ItemDisplay[!ETH UNI !ID amf]: %ORANGE%Tstroke%NL%%GOLD%%NAME% <<GG1>>
-ItemDisplay[ETH UNI !ID amf]: %ORANGE%Tstroke%NL%%ORANGE%ETH %GOLD%%NAME% <<BASIC>>
+ItemDisplay[!ETH UNI !ID amf]: %ORANGE%Thunderstrokes%NL%%GOLD%%NAME% <<GG1>>
+ItemDisplay[ETH UNI !ID amf]: %ORANGE%Thunderstrokes%NL%%ORANGE%ETH %GOLD%%NAME% <<BASIC>>
 ItemDisplay[!ETH UNI ID UNIQUE("Thunderstroke") TABSK2=4]: %RED%+4 %ORANGE%Skills%NL%%GOLD%%NAME%<:GG: NotificationPriority = MEDIUM>
 ItemDisplay[ETH UNI ID UNIQUE("Thunderstroke") TABSK2=4]: %GOLD%%BASENAME%%NL%%YELLOW%+4 Skills%NL%%ORANGE%ETH %GOLD%%ITEMNAME%<<BASIC>>
 //Doomslinger
@@ -1114,7 +1114,7 @@ ItemDisplay[UNI ETH !ID 9sb !FILTERLVL=3]: %ORANGE%Hexfire%NL%%ORANGE%ETH %GOLD%
 //Warshrike
 ItemDisplay[UNI !ETH !ID 7bk]: %ORANGE%Warshrikes%NL%       %GOLD%%NAME%       %GOLD%<<GG>>
 ItemDisplay[ETH UNI !ID 7bk]: %ORANGE%Warshrikes%NL%       %ORANGE%ETH %GOLD%%NAME%       %GOLD%<<GG>>
-//Warpspear 
+//Warpspear
 ItemDisplay[UNI !ETH !ID 8bs]: %ORANGE%Warpspear%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
 ItemDisplay[UNI ETH !ID 8bs]: %ORANGE%ETH %GOLD%%NAME% %ORANGE%Warpspear<<GG1>>
 //Fleshripper
@@ -1427,12 +1427,13 @@ ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT96>0]: %NAME% %PURPLE%+%STAT(96)% FRW 
 ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str%CONTINUE%
 ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex%CONTINUE%
 ItemDisplay[MAG ID cm3 STAT22>5]: %NAME% <<BASIC>>
-//Small Charms - mana life
+//Small Charms - mana life FRW
 ItemDisplay[MAG ID cm1]: %RED%Small Charm %ORANGE%[%ILVL%]%NL% %CONTINUE%
 ItemDisplay[MAG ID cm1 MANA>0 LIFE>0]: %NAME% %TAN%+%STAT(7)% Life %CONTINUE%
 ItemDisplay[MAG ID cm1 MANA>0 LIFE>0]: %NAME% %BLUE%+%STAT(9)% Mana <<BASIC>>
-ItemDisplay[MAG ID cm1 MANA>13 STAT99>0]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%BLUE%+%STAT(9)% Mana %DGREEN%+%STAT(99)% FHR <<BASIC>>
-ItemDisplay[MAG ID cm1 MANA>13 STAT96>0]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%BLUE%+%STAT(9)% Mana %PURPLE%+%STAT(96)% FRW <<BASIC>>
+ItemDisplay[MAG ID cm1 MANA>9 STAT99>0]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%BLUE%+%STAT(9)% Mana %DGREEN%+%STAT(99)% FHR <<BASIC>>
+ItemDisplay[MAG ID cm1 MANA>9 STAT96>0]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%BLUE%+%STAT(9)% Mana %PURPLE%+%STAT(96)% FRW <<BASIC>>
+ItemDisplay[MAG ID cm1 STAT96=3]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%PURPLE%+%STAT(96)% FRW <<BASIC>>
 ItemDisplay[MAG ID cm1 MANA>13]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%BLUE%%STAT(9)% Mana <<BASIC>>
 ItemDisplay[MAG ID cm1 LIFE>17]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%TAN%+%STAT(7)% Life <<BASIC>>
 ItemDisplay[MAG ID cm1 LIFE>0 CLVL<91]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%TAN%+%STAT(7)% Life <<BASIC>>
@@ -1554,9 +1555,9 @@ ItemDisplay[RW]: %GRAY%%BASENAME%%NL%%PURPLE%O %GOLD%%ITEMNAME% %PURPLE%O <<BASI
 // -------------------------------------------------------------------------
 //Best Rares (crystalsword, dimensional blade, phase blade, Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
 // -------------------------------------------------------------------------
-ItemDisplay[RARE !ETH 7cr !ID]: %YELLOW%Phase Blade %PURPLE%O<<BASIC>>
-ItemDisplay[RARE !ETH 9cr !ID]: %YELLOW%Dimensional Blade %PURPLE%O<<BASIC>>
-ItemDisplay[RARE !ETH crs !ID]: %YELLOW%Crystal Sword %PURPLE%O<<BASIC>>
+ItemDisplay[RARE !ETH 7cr !ID]: %YELLOW%Phase Blade %PURPLE%O <:BASIC: BorderColor = 12>
+ItemDisplay[RARE !ETH 9cr !ID]: %YELLOW%Dimensional Blade %PURPLE%O <:BASIC: BorderColor = 12>
+ItemDisplay[RARE !ETH crs !ID]: %YELLOW%Crystal Sword %PURPLE%O <:BASIC: BorderColor = 12>
 ItemDisplay[RARE !ETH (crs OR 9cr OR 7cr) ID ((STAT218=4 AND STAT224=33 AND IAS>29) OR (IAS>29 AND CLSK3>1) OR (IAS>29 AND CLSK4>1)) SOCK=0]: %NL%%YELLOW%%NAME% %PURPLE%O%NL%%GOLD%<<BASICLOW>>
 ItemDisplay[RARE !ETH (crs OR 9cr OR 7cr) ID ((STAT218=4 AND STAT224=33 AND IAS>29) OR (IAS>29 AND CLSK3>1) OR (IAS>29 AND CLSK4>1)) SOCK=6]: %NL%%YELLOW%%NAME% %PURPLE%[%SOCKETS%] %PURPLE%O%NL%%GOLD%<<BASICLOW>>
 ItemDisplay[RARE ETH (7cr OR 9cr OR crs) !ID]:
@@ -1670,9 +1671,10 @@ ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult 
 //0 soc 2soc 3soc Mage Plate/Light Plate
 ItemDisplay[xtp NMAG !ETH SUP ED>8 SOCK=3]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
 ItemDisplay[xtp NMAG FILTERLVL=3]:
-ItemDisplay[xtp NMAG !ETH SOCK=2 ILVL>85]: %DGREEN%%NAME% %GRAY%[%SOCKETS%] 
-ItemDisplay[xtp NMAG !ETH SOCK=0]: %DGREEN% %NAME% {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %YELLOW%PTopaz}<<BASIC>>
-ItemDisplay[xtp NMAG !ETH SOCK=3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%] {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
+ItemDisplay[xtp NMAG !ETH SOCK=2 ILVL>85]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense <<BASIC>>
+ItemDisplay[xtp NMAG SUP !ETH SOCK=0]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 3} <<BASIC>>
+ItemDisplay[xtp NMAG !ETH SOCK=0]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %YELLOW%PTopaz}<<BASIC>>
+ItemDisplay[xtp NMAG !ETH SOCK=3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
 ItemDisplay[(xtp OR ltp) NMAG (SOCK=1 OR ETH)]:
 //Shields 
 //4os Monarch, 15ed Monarch 4os, Monarch -REQ
@@ -2234,14 +2236,16 @@ ItemDisplay[NMAG (ob1 OR ob2 OR ob3 OR ob4 OR ob5 OR ob6 OR ob7 OR ob8 OR ob9 OR
 // Crafted Items
 // -------------------------------------------------------------------------
 // Arrows
+ItemDisplay[CRAFT aq2 STAT495]: Blood Arrows%NL%%RED%Crafted%NL%+%STAT(495)% Ele & Poison Skills<<BASIC>>
 ItemDisplay[CRAFT aq2 LIFE>0 AND STAT60]: Blood Arrows%NL%%RED%Crafted <<BASIC>>
 ItemDisplay[CRAFT cq2 LIFE>0 AND STAT60]: Blood Bolts%NL%%RED%Crafted <<BASIC>>
 ItemDisplay[CRAFT aq2 STAT9 AND STAT27]: Caster Arrows%NL%%RED%Crafted <<BASIC>>
 ItemDisplay[CRAFT cq2 STAT9 AND STAT27]: Caster Bolts%NL%%RED%Crafted <<BASIC>>
 ItemDisplay[CRAFT aq2 STAT35]: Safety Arrows%NL%%RED%Crafted <<BASIC>>
 ItemDisplay[CRAFT cq2 STAT35]: Safety Bolts%NL%%RED%Crafted <<BASIC>>
-ItemDisplay[CRAFT aq2]: Hitpower Arrows%NL%%RED%Crafted <<BASIC>>
-ItemDisplay[CRAFT cq2]: Hitpower Bolts%NL%%RED%Crafted <<BASIC>>
+ItemDisplay[CRAFT aq2 STAT224]: Hitpower Arrows%NL%%RED%Crafted <<BASIC>>
+ItemDisplay[CRAFT cq2 STAT224]: Hitpower Bolts%NL%%RED%Crafted <<BASIC>>
+//ItemDisplay[CRAFT cq2 CTCSKILL(GETHIT_MELEE, "Frost Nova")>1]: FNova Hitpower Bolts%NL%%RED%Crafted%NL% <<BASIC>> - Currently gives error code but works
 // Amulets
 ItemDisplay[CRAFT amu FCR>4 AND MANA>9]: Caster Amulet%NL%%RED%Crafted %CONTINUE%
 ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) CLSK0>1]: Caster Amulet%NL%%RED%Crafted%PURPLE% +2 Zon %CONTINUE%
@@ -2257,6 +2261,8 @@ ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) TABSK10>1]: Caster Amulet%NL%%RED%Craft
 ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) TABSK16>1]: Caster Amulet%NL%%RED%Crafted%SAGE% +2 Curse %CONTINUE%
 ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) TABSK17>1]: Caster Amulet%NL%%RED%Crafted%SAGE% +2 PnB %CONTINUE%
 ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) TABSK41>1]: Caster Amulet%NL%%RED%Crafted%SAGE% +2 SS %CONTINUE%
+ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) TABSK25>1]: Caster Amulet%NL%%RED%Crafted%SAGE% +2 Offensive %CONTINUE%
+ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) ALLSK=1]: %NAME%%NL%%PURPLE%+1 All Skills %CONTINUE%
 ItemDisplay[CRAFT amu FCR>4 AND MANA>9]: %NAME% <<BASIC>>
 ItemDisplay[CRAFT amu STAT96>4 AND STAT60]: Blood Amulet%NL%%RED%Crafted %CONTINUE%
 ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK0>1]: Blood Amulet%NL%%RED%Crafted%PURPLE% +2 Zon %CONTINUE%
@@ -2266,8 +2272,10 @@ ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK3>1]: Blood Amulet%NL%%RED%Craft
 ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK4>1]: Blood Amulet%NL%%RED%Crafted%PURPLE% +2 Barb %CONTINUE%
 ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK5>1]: Blood Amulet%NL%%RED%Crafted%PURPLE% +2 Druid %CONTINUE%
 ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK6>1]: Blood Amulet%NL%%RED%Crafted%PURPLE% +2 Assassin %CONTINUE%
+ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) ALLSK=1]: %NAME%%NL%%PURPLE%+1 All Skills %CONTINUE%
 ItemDisplay[CRAFT amu STAT96>4 AND STAT60]: %NAME% <<BASIC>>
-ItemDisplay[CRAFT amu CTCSKILL(GETHIT,"Frost Nova")>1]: Hitpower Amulet%NL%%RED%Crafted <<BASIC>>
+ItemDisplay[CRAFT amu STAT224]: Hitpower Amulet%NL%%RED%Crafted <<BASIC>>
+//ItemDisplay[CRAFT amu CTCSKILL(GETHIT_MELEE,"Frost Nova")>1]: Hitpower Amulet%NL%%RED%Crafted <<BASIC>> Works but gives error
 //Catchall
 ItemDisplay[CRAFT !ETH ID]: %BASENAME%%NL%%ITEMNAME%%NL%%RED%Crafted <<BASIC>>
 ItemDisplay[(RARE OR MAG OR CRAFT) !ETH ID]: %NAME%<<BASIC>>
