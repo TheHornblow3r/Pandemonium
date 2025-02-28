@@ -1427,13 +1427,14 @@ ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT96>0]: %NAME% %PURPLE%+%STAT(96)% FRW 
 ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str%CONTINUE%
 ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex%CONTINUE%
 ItemDisplay[MAG ID cm3 STAT22>5]: %NAME% <<BASIC>>
-//Small Charms - mana life FRW
+//Small Charms - mana+life or FRW or fhr
 ItemDisplay[MAG ID cm1]: %RED%Small Charm %ORANGE%[%ILVL%]%NL% %CONTINUE%
 ItemDisplay[MAG ID cm1 MANA>0 LIFE>0]: %NAME% %TAN%+%STAT(7)% Life %CONTINUE%
 ItemDisplay[MAG ID cm1 MANA>0 LIFE>0]: %NAME% %BLUE%+%STAT(9)% Mana <<BASIC>>
 ItemDisplay[MAG ID cm1 MANA>9 STAT99>0]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%BLUE%+%STAT(9)% Mana %DGREEN%+%STAT(99)% FHR <<BASIC>>
 ItemDisplay[MAG ID cm1 MANA>9 STAT96>0]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%BLUE%+%STAT(9)% Mana %PURPLE%+%STAT(96)% FRW <<BASIC>>
 ItemDisplay[MAG ID cm1 STAT96=3]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%PURPLE%+%STAT(96)% FRW <<BASIC>>
+ItemDisplay[MAG ID cm1 STAT99=5]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%DGREEN%+%STAT(99)% FHR <<BASIC>>
 ItemDisplay[MAG ID cm1 MANA>13]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%BLUE%%STAT(9)% Mana <<BASIC>>
 ItemDisplay[MAG ID cm1 LIFE>17]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%TAN%+%STAT(7)% Life <<BASIC>>
 ItemDisplay[MAG ID cm1 LIFE>0 CLVL<91]: %RED%Small Charm %ORANGE%[%ILVL%]%NL%%TAN%+%STAT(7)% Life <<BASIC>>
@@ -1666,8 +1667,10 @@ ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult 
 ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) ETH NMAG SOCK=0]: %ORANGE%ETH%DGREEN% %NAME%%NL%%GRAY%+%STAT(31,0)% Defense<<BASIC>>
 ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) ETH NMAG !SOCK=1]: %ORANGE%ETH%DGREEN% %NAME% %YELLOW%[%SOCKETS%]%NL%%GRAY%+%STAT(31,0)% Defense<<BASIC>>
 //Elite Armor Non Eth
-ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH NMAG SUP SOCK=4]: %DGREEN% %NAME% %YELLOW%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense {%PURPLE%Fortitude: %WHITE%El %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Lo}<<BASIC>>
-ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH NMAG]:
+ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH NMAG SUP SOCK=4]: %DGREEN% %NAME% %YELLOW%[%SOCKETS%]%NL%%PURPLE%+%STAT(31,0)% Defense {%PURPLE%Fortitude: %WHITE%El %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Lo}<<BASIC>>
+ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH SUP NMAG DEF>600]: %DGREEN% %NAME%%NL%%PURPLE%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 4}
+ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH SUP NMAG]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 4}
+ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH NMAG]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31,0)% Defense
 //0 soc 2soc 3soc Mage Plate/Light Plate
 ItemDisplay[xtp NMAG !ETH SUP ED>8 SOCK=3]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
 ItemDisplay[xtp NMAG FILTERLVL=3]:
