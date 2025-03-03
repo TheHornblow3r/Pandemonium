@@ -1019,7 +1019,7 @@ ItemDisplay[SET !ETH !ID 6cs !FILTERLVL=3]: %ORANGE%Najs Weap%NL%%GREEN%%NAME%%N
 // Unique Weapons
 //Ondals
 ItemDisplay[!ETH UNI !ID 6cs]: %ORANGE%Ondals%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
-ItemDisplay[ETH UNI !ID 6cs]: %ORANGE%ETH %GOLD%%NAME% %ORANGE% Ondals %NOTIFY(ITEM)%<<GG1>>
+ItemDisplay[ETH UNI !ID 6cs]: %ORANGE%ETH %GOLD%%NAME%%NL%%ORANGE% Ondals <<GG1>>
 ItemDisplay[!ETH UNI ID UNIQUE("Ondal's Wisdom") SOCK=0]: %RED%+%STAT(127,0)%%ORANGE% Skills %NL%%GOLD%%NAME% <<GG>>
 ItemDisplay[!ETH UNI ID UNIQUE("Ondal's Wisdom")]: %RED%+%STAT(127,0)%%ORANGE% Skills %NL%%GOLD%%NAME% %GREEN%[%SOCKETS%]<<GG>>
 ItemDisplay[ETH UNI ID UNIQUE("Ondal's Wisdom") SOCK=0]: %RED%+%STAT(127,0)%%ORANGE% Skills%NL%%ORANGE%ETH %GOLD%%NAME% <<GG>>
@@ -1669,12 +1669,15 @@ ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult 
 ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) ETH NMAG SOCK=0]: %ORANGE%ETH%DGREEN% %NAME%%NL%%GRAY%+%STAT(31,0)% Defense<<BASICETH>>
 ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) ETH NMAG !SOCK=1]: %ORANGE%ETH%DGREEN% %NAME% %YELLOW%[%SOCKETS%]%NL%%GRAY%+%STAT(31,0)% Defense<<BASICETH>>
 //Elite Armor Non Eth
-ItemDisplay[(uar OR ula OR urs OR uul) !ETH NMAG ED>9 SUP SOCK=4]: %DGREEN% %NAME% %YELLOW%[%SOCKETS%]%NL%%PURPLE%+%STAT(31,0)% Defense {%PURPLE%Fortitude: %WHITE%El %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Lo}<<BASICLOW>>
-ItemDisplay[(uar OR ula OR urs OR uul) !ETH SUP NMAG DEF>600]: %DGREEN% %NAME%%NL%%PURPLE%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 4} <<BASICLOW>>
-ItemDisplay[(uar OR ula OR urs OR uul) !ETH SUP NMAG]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 4} 
-ItemDisplay[(uar OR ula OR urs OR uul) !ETH NMAG FILTERLVL>2]: 
-ItemDisplay[(uar OR ula OR urs OR uul) !ETH NMAG]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 4%NL%%PURPLE%Roll: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %YELLOW%PTopaz}
-ItemDisplay[(uar OR ula OR urs OR uul) !ETH NMAG (SOCK=1 OR SOCK=2)]:
+ItemDisplay[(uar OR uul) !ETH NMAG ED>9 SUP SOCK=4]: %DGREEN% %NAME% %YELLOW%[%SOCKETS%]%NL%%PURPLE%+%STAT(31,0)% Defense {%PURPLE%Fortitude: %WHITE%El %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Lo}<<BASICLOW>>
+ItemDisplay[(uar OR uul) !ETH NMAG ED>9 SUP SOCK=0]: %DGREEN% %NAME%%NL%%PURPLE%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 4} <<BASICLOW>>
+ItemDisplay[(uar OR uul) !ETH SUP NMAG (SOCK=1 OR SOCK=2 OR SOCK=3) FILTERLVL>2]:
+ItemDisplay[(uar OR uul) !ETH SUP NMAG SOCK=0]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 4}
+ItemDisplay[(uar OR uul) !ETH NMAG FILTERLVL>2]: 
+ItemDisplay[(uar OR uul) !ETH NMAG (SOCK=1 OR SOCK=2)]:
+ItemDisplay[(uar OR uul) !ETH NMAG (SOCK=3 OR SOCK=4)]: %NAME% %YELLOW%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense
+ItemDisplay[(uar OR uul) !ETH NMAG]: %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 4%NL%%PURPLE%Roll: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %YELLOW%PTopaz}
+ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH NMAG FILTERLVL=1]: %NAME% %YELLOW%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense
 ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH NMAG]:
 //0 soc 2soc 3soc Mage Plate/Light Plate
 ItemDisplay[xtp NMAG !ETH SUP ED>14 SOCK=3]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]%NL%%PURPLE%+%STAT(31,0)% Defense {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
