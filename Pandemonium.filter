@@ -352,7 +352,7 @@ ItemDisplay[skz]: %NL%%GOLD%OO %WHITE%P Skull%GOLD% OO%NL%%GOLD%<:BASICNOT: MapI
 // -------------------------------------------------------------------------
 //Low Level Uniques
 // -------------------------------------------------------------------------
-ItemDisplay[!ID UNI (dir OR kri OR mst OR mac OR clb OR fla OR bst OR hax OR gth OR axe OR 9wh OR 2ax OR scy OR scp OR brn OR tri OR sbb OR scm OR flc OR ssd OR sbr OR xlg OR ywn OR stu OR scl OR mbl OR vbt OR mbt OR skp OR fhl OR lrg OR kit OR spk OR tow OR bsh OR lbl OR (!ETH qui) OR (!ETH lbt) OR (!ETH lgl) OR (!ETH cap) OR (!ETH buc) OR chn OR 9yw) DIFFICULTY=2]:
+ItemDisplay[!ID UNI (dir OR kri OR mst OR mac OR clb OR fla OR bst OR hax OR gth OR axe OR xar OR 9wh OR xow OR 2ax OR scy OR scp OR brn OR tri OR sbb OR scm OR flc OR ssd OR sbr OR xlg OR ywn OR stu OR scl OR mbl OR vbt OR mbt OR skp OR fhl OR lrg OR kit OR spk OR tow OR bsh OR lbl OR (!ETH qui) OR (!ETH lbt) OR (!ETH lgl) OR (!ETH cap) OR (!ETH buc) OR chn OR 9yw) DIFFICULTY=2]:
 //The Diggler
 ItemDisplay[!ID UNI !ETH dir]:  %GOLD%Diggler %RED%Lv11%NL%%ORANGE%+ITD %WHITE%+30 IAS%RED% +25 Fres%BLUE% +25 Cres <<LOWUNI>>
 //The Jade Tan Do
@@ -451,6 +451,9 @@ ItemDisplay[!ID UNI !ETH bst]: %ORANGE%Salamander %RED%Lv21%NL%%GOLD%%NAME%%NL%%
 ItemDisplay[ID UNI !ETH bst]: %NAME% {%SAGE%Upgrade to Leaf Runeword ASAP} <<LOWUNI>>
 //Earthshaker
 ItemDisplay[!ID UNI !ETH 9wh]: %ORANGE%Earthshaker %RED%Lv43%NL%%GOLD%%NAME%%NL%%SAGE%+3 Druid Ele <<LOWUNI>>
+///Gerke's Sanctuary
+ItemDisplay[!ID UNI !ETH xow]: %ORANGE%Gerkes Sanctuary%NL%%GOLD%%NAME% <<LOWUNI>>
+ItemDisplay[ID UNI xow]: %GOLD%Gerkes Sanctuary%NL%%PURPLE%+%RES%% All Res
 // -------------------------------------------------------------------------
 //Low Level Sets
 // -------------------------------------------------------------------------
@@ -900,6 +903,9 @@ ItemDisplay[!ETH UNIQUE("Heavenly Garb") ID SOCK>0]: %GOLD%%BASENAME%%NL%%GOLD%H
 //Gbane
 ItemDisplay[!ETH UNI !ID utu]: %ORANGE%G Bane%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
 ItemDisplay[!ETH UNI ID utu]: %NAME%<<GG>>
+//Corpsemourn
+ItemDisplay[!ETH UNI !ID xar]: %NAME%%NL%%ORANGE%Corpsemourn <<BASIC>>
+ItemDisplay[ETH UNI !ID xar]: %ORANGE%ETH %GOLD%%NAME%%NL%%ORANGE%Corpsemourn <<BASICETH>>
 //
 //Gloves
 //Dracul's Grasp
@@ -1679,15 +1685,21 @@ ItemDisplay[(uar OR uul) !ETH NMAG (SOCK=3 OR SOCK=4)]: %NAME% %YELLOW%[%SOCKETS
 ItemDisplay[(uar OR uul) !ETH NMAG]: %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 4%NL%%PURPLE%Roll: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %YELLOW%PTopaz}
 ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH NMAG FILTERLVL=1]: %NAME% %YELLOW%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense
 ItemDisplay[(uui OR uea OR ula OR utu OR ung OR ucl OR uhn OR urs OR upl OR ult OR uld OR uth OR uul OR uar OR utp) !ETH NMAG]:
-//0 soc 2soc 3soc Mage Plate/Light Plate
+//0 soc 2soc 3soc Mage Plate/Light Plate/Gothic Plate
 ItemDisplay[xtp NMAG !ETH SUP ED>14 SOCK=3]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]%NL%%PURPLE%+%STAT(31,0)% Defense {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
 ItemDisplay[xtp NMAG !ETH SUP ED>8 SOCK=3]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
-ItemDisplay[xtp NMAG FILTERLVL=3]:
+ItemDisplay[(xtp OR gth NMAG FILTERLVL=3]:
 ItemDisplay[xtp NMAG !ETH SOCK=2 ILVL>85]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense <<BASIC>>
 ItemDisplay[xtp NMAG SUP !ETH SOCK=0]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 3} <<BASIC>>
 ItemDisplay[xtp NMAG !ETH SOCK=0]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31,0)% Defense {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %YELLOW%PTopaz}<<BASIC>>
 ItemDisplay[xtp NMAG !ETH SOCK=3]: %DGREEN%%NAME% %GRAY%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
 ItemDisplay[(xtp OR ltp) NMAG (SOCK=1 OR ETH)]:
+ItemDisplay[gth NMAG (SOCK=1 OR SOCK=2 OR ETH)]:
+ItemDisplay[gth NMAG !ETH SUP ED>14 SOCK=4]: %DGREEN%%NAME% %GREEN%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense {%PURPLE%Fortitude: %WHITE%El %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Lo%NL%%PURPLE%CoH: %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Um %SAGE%+ %WHITE%Ber %SAGE%+ %LIGHT_GRAY%Ist}<<BASIC>>
+ItemDisplay[gth NMAG !ETH SUP ED>8 SOCK=4]: %DGREEN%%NAME% %GREEN%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense {%PURPLE%Fortitude: %WHITE%El %SAGE%+ %LIGHT_GRAY%Sol %SAGE%+ %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Lo%NL%%PURPLE%CoH: %WHITE%Dol %SAGE%+ %LIGHT_GRAY%Um %SAGE%+ %WHITE%Ber %SAGE%+ %LIGHT_GRAY%Ist}<<BASIC>>
+ItemDisplay[gth NMAG !ETH SUP ED>14 SOCK=3]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]%NL%%PURPLE%+%STAT(31,0)% Defense {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
+ItemDisplay[gth NMAG !ETH SUP ED>8 SOCK=3]: %DGREEN%%NAME% %PURPLE%[%SOCKETS%]%NL%%GREEN%+%STAT(31,0)% Defense {%PURPLE%Enigma: %WHITE%Jah %SAGE%+ %LIGHT_GRAY%Ith %SAGE%+ %WHITE%Ber%NL%%PURPLE%Dragon: %WHITE%Sur %SAGE%+ %LIGHT_GRAY%Lo %SAGE%+ %WHITE%Sol}<<BASIC>>
+ItemDisplay[gth NMAG SUP !ETH SOCK=0]: %DGREEN% %NAME%%NL%%GREEN%+%STAT(31)% Defense {%ORANGE%Larzuk Max Sockets: 4} <<BASIC>>
 //Shields 
 //4os Monarch, 15ed Monarch 4os, Monarch -REQ
 ItemDisplay[uit SUP !ETH NMAG STAT91<0 SOCK=4]: %DGREEN% %NAME% %PURPLE%[%SOCKETS%] %NL%%ORANGE%%STAT(91,0)% REQ{%PURPLE%Spirit: %WHITE%Tal %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %WHITE%Ort %SAGE%+ %LIGHT_GRAY%Amn%NL%%PURPLE%Phoenix: %WHITE%Vex %SAGE%+ %LIGHT_GRAY%Vex %SAGE%+ %WHITE%Lo %SAGE%+ %LIGHT_GRAY%Jah}<<BASICHIGH>>
