@@ -6,8 +6,6 @@
 **Version:** P21-Shungite<br>
 **Discord:** Thehornblower
 
-This loot filter is a redesign of the popular loot filter created by mackanmusic with back-end changes and complete visual rework.
-
 Follow me on twitch.tv if you have questions or changes & want to ask me live.<br>
 Follow him online at: [https://www.twitch.tv/Thehornblower](https://www.twitch.tv/thehornblower)
 
@@ -73,6 +71,12 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 - Low Level Uniques/Sets changed to area-level instead of character requirement
 - Added more highlight stats Low-Level uniques/sets to filter (eg. Stormshrike, Sparking Mail, Carin Shard, Rattlecage, etc)
 - Added more bases to filter
+- Added superior 3os and 4os gothic plates
+- Added Gerkes Sanctuary & Corpsemourn to filter
+- Added Crown of Thieves Identification on drop (only shows on Normal)
+- Added Bartuc's, Jade Talon's, Shadow Killer & Firelizard claws to highlight
+- Added Shadow Skillers
+- +3 Venom Elite base claws now show on ground
 ```
 ![craftedAmy-Update](https://github.com/user-attachments/assets/bf570f1b-05ea-43d4-88cf-f3450ba71188)
 
