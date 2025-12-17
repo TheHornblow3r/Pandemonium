@@ -66,6 +66,7 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 - Added Monster Resistances & Immunities to Relics
 - Added Reroll Recipes to Perfect Gems
 ```
+![Resistances-Relics](https://github.com/user-attachments/assets/3b37da09-7982-4471-8451-4db52f874bbc)
 
 ## v1.4c ##
 ```
