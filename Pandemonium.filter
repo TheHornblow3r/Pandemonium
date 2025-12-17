@@ -5,7 +5,7 @@
 //Find Item/Skillcodes at: 	https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions
 Attribute[Author]: Thehornblower
 Attribute[Name]: Pandemonium Filter
-Attribute[Version]: 1.4c
+Attribute[Version]: 1.4d
 Attribute[Date]: 2025/12/04
 Option[IgnoreMissingSounds]: True
 // -------------------------------------------------------------------------
@@ -96,15 +96,26 @@ ItemDisplay[cx9]: %NL%%RED%O %GOLD%Orb Of Alteration %RED%O%NL%%GOLD% <:BASICHIG
 // -------------------------------------------------------------------------
 // MAPS							        
 // ------------------------------------------------------------------------- 
-ItemDisplay[MAP !ID MAG MAPTIER=2]: %YELLOW%O %BLUE%%NAME% %YELLOW%O %CORAL%[T2]<<MAP2Y>>
-ItemDisplay[MAP !ID RARE MAPTIER=2]: %YELLOW%O %TAN%%NAME% %YELLOW%O %CORAL%[T2]<<MAP2Y>>
-ItemDisplay[MAP !ID MAG MAPTIER=3]: %RED%O %BLUE%%NAME% %RED%O %CORAL%[T3]<<MAP3R>>
-ItemDisplay[MAP !ID RARE MAPTIER=3]: %RED%O %TAN%%NAME% %RED%O %CORAL%[T3]<<MAP3R>>
-ItemDisplay[MAP ID MAG MAPTIER=2]: %BLUE%%NAME% %CORAL%T2 %DGREEN%[L%ILVL%]<<MAP2Y>>
-ItemDisplay[MAP ID RARE MAPTIER=2]: %YELLOW%%NAME% %CORAL%T2 %DGREEN%[L%ILVL%]<<MAP2Y>>
-ItemDisplay[MAP ID RARE MAPTIER=3]: %RED%%NAME% %CORAL%T3%DGREEN% [L%ILVL%]<<MAP3R>>
-ItemDisplay[MAP ID MAG MAPTIER=3]: %BLUE%%NAME% %CORAL%T3%DGREEN% [L%ILVL%]<<MAP3R>>
-ItemDisplay[MAP ID (RARE OR MAG)]: %WHITE%%NAME% %CORAL%T1 %DGREEN%[L%ILVL%]<<MAP1W>>
+ItemDisplay[MAP !ID MAG MAPTIER=2]: %YELLOW%O %BLUE%%NAME% %YELLOW%O %CORAL%[T2] <<MAP2Y>>
+ItemDisplay[MAP !ID RARE MAPTIER=2]: %YELLOW%O %TAN%%NAME% %YELLOW%O %CORAL%[T2] <<MAP2Y>>
+ItemDisplay[MAP !ID MAG MAPTIER=3]: %RED%O %BLUE%%NAME% %RED%O %CORAL%[T3] <<MAP3R>>
+ItemDisplay[MAP !ID RARE MAPTIER=3]: %RED%O %TAN%%NAME% %RED%O %CORAL%[T3] <<MAP3R>>
+ItemDisplay[MAP ID MAG MAPTIER=2]: %BLUE%%NAME% %CORAL%T2 %DGREEN%[L%ILVL%] <<MAP2Y>>
+ItemDisplay[MAP ID RARE MAPTIER=2]: %YELLOW%%NAME% %CORAL%T2 %DGREEN%[L%ILVL%] %CONTINUE% <<MAP2Y>>
+ItemDisplay[MAP ID (RARE OR MAG) ma10]: %YELLOW%%NAME% {%RED%F%WHITE%:%CORAL%140 %BLUE%C%WHITE%:80 %YELLOW%L%WHITE%:80 %GREEN%P%WHITE%:80 %ORANGE%M%WHITE%:80 %GOLD%P%WHITE%:%CORAL%100%NL%%WHITE%Monster Resistances:} // Icey Cavern
+ItemDisplay[MAP ID (RARE OR MAG) ma4]: %YELLOW%%NAME% {%RED%F%WHITE%:75 %BLUE%C%WHITE%:88 %YELLOW%L%WHITE%:85 %GREEN%P%WHITE%:%CORAL%110 %ORANGE%M%WHITE%:%CORAL%100 %GOLD%P%WHITE%:90%NL%Monster Resistances:} // Desecrated Temple
+ItemDisplay[MAP ID (RARE OR MAG) ma9]: %YELLOW%%NAME% {%RED%F%WHITE%:87 %BLUE%C%WHITE%:%CORAL%101 %YELLOW%L%WHITE%:%CORAL%119 %GREEN%P%WHITE%:68 %ORANGE%M%WHITE%:50 %GOLD%P%WHITE%:66%NL%Monster Resistances:} // Dim Cellar
+ItemDisplay[MAP ID (RARE OR MAG) ma14]: %YELLOW%%NAME% {%RED%F%WHITE%:75 %BLUE%C%WHITE%:88 %YELLOW%L%WHITE%:%CORAL%124 %GREEN%P%WHITE%:%CORAL%111 %ORANGE%M%WHITE%:80 %GOLD%P%WHITE%:80%NL%Monster Resistances:} // Abyssal Furnace
+ItemDisplay[MAP ID MAG MAPTIER=3]: %BLUE%%NAME% %CORAL%T3%DGREEN% [L%ILVL%] %CONTINUE% <<MAP3R>>
+ItemDisplay[MAP ID RARE MAPTIER=3]: %RED%%NAME% %CORAL%T3%DGREEN% [L%ILVL%] %CONTINUE% <<MAP3R>>
+ItemDisplay[MAP ID (RARE OR MAG) ma2]: %RED%%NAME% {%RED%F%WHITE%:88 %BLUE%C%WHITE%:%CORAL%130 %YELLOW%L%WHITE%:%CORAL%136 %GREEN%P%WHITE%:90 %ORANGE%M%WHITE%:%CORAL%100 %GOLD%P%WHITE%:%CORAL%103%NL%%WHITE%Monster Resistances:} // Forgotten Desert
+ItemDisplay[MAP ID (RARE OR MAG) ma5]: %RED%%NAME% {%RED%F%WHITE%:%CORAL%131 %BLUE%C%WHITE%:95 %YELLOW%L%WHITE%:75 %GREEN%P%WHITE%:%CORAL%134 %ORANGE%M%WHITE%:75 %GOLD%P%WHITE%:%CORAL%100%NL%%WHITE%Monster Resistances:} // Frigid Highlands
+ItemDisplay[MAP ID (RARE OR MAG) ma6]: %RED%%NAME% {%RED%F%WHITE%:%CORAL%118 %BLUE%C%WHITE%:%CORAL%127 %YELLOW%L%WHITE%:%CORAL%118 %GREEN%P%WHITE%:80 %ORANGE%M%WHITE%:85 %GOLD%P%WHITE%:%CORAL%100%NL%%WHITE%Monster Resistances:} // Ruined Citadel
+ItemDisplay[MAP ID (RARE OR MAG) ma7]: %RED%%NAME% {%RED%F%WHITE%:%CORAL%119 %BLUE%C%WHITE%:85 %YELLOW%L%WHITE%:%CORAL%117 %GREEN%P%WHITE%:%CORAL%105 %ORANGE%M%WHITE%:%CORAL%100 %GOLD%P%WHITE%:%CORAL%133%NL%%WHITE%Monster Resistances:} // Burnt Forest
+ItemDisplay[MAP ID (RARE OR MAG) ma8]: %RED%%NAME% {%RED%F%WHITE%:%CORAL%121 %BLUE%C%WHITE%:%CORAL%124 %YELLOW%L%WHITE%:%CORAL%125 %GREEN%P%WHITE%:%CORAL%115 %ORANGE%M%WHITE%:75 %GOLD%P%WHITE%:78%NL%Monster Resistances:} // Musty Crypt
+ItemDisplay[MAP ID (RARE OR MAG)]: %WHITE%%NAME% %CORAL%T1 %DGREEN%[L%ILVL%] %CONTINUE% <<MAP1W>>
+ItemDisplay[MAP ID (RARE OR MAG) ma12]: %WHITE%%NAME% {%RED%F%WHITE%:66 %BLUE%C%WHITE%:33 %YELLOW%L%WHITE%:66 %GREEN%P%WHITE%:66 %ORANGE%M%WHITE%:75 %GOLD%P%WHITE%:50%NL%Monster Resistances:} // Baleful Alcazar
+ItemDisplay[MAP ID (RARE OR MAG) ma13]: %WHITE%%NAME% {%RED%F%WHITE%:60 %BLUE%C%WHITE%:55 %YELLOW%L%WHITE%:66 %GREEN%P%WHITE%:66 %ORANGE%M%WHITE%:66 %GOLD%P%WHITE%:66%NL%Monster Resistances:} // Decomposing Settlement
 ItemDisplay[MAP !ID (RARE OR MAG)]: %WHITE%O %TAN%%NAME% %WHITE%O %CORAL%[T1]<<MAP1W>>
 // -------------------------------------------------------------------------
 // WIRT'S LEG							              
@@ -335,20 +346,20 @@ ItemDisplay[skl]: %NL%%GOLD%O %WHITE%Skull%GOLD% O%NL%%GOLD%<:BASICNOT: MapIcon 
 // -------------------------------------------------------------------------
 //Gems Perfect
 // -------------------------------------------------------------------------
-ItemDisplay[gpv FILTERLVL>1]: %PURPLE%[OO]<<BASIC>>
-ItemDisplay[gpw FILTERLVL>1]: %WHITE%[OO]<<BASIC>>
-ItemDisplay[gpg FILTERLVL>1]: %GREEN%[OO]<<BASIC>>
-ItemDisplay[gpr FILTERLVL>1]: %RED%[OO]<<BASIC>>
-ItemDisplay[gpb FILTERLVL>1]: %BLUE%[OO]<<BASIC>>
-ItemDisplay[gpy FILTERLVL>1]: %YELLOW%[OO]<<BASIC>>
-ItemDisplay[skz FILTERLVL>1]: %NL%%GOLD%OO %WHITE%P Skull%GOLD% OO%NL%%GOLD%<:BASICNOT: MapIcon = 36, BorderColor = 32>
-ItemDisplay[gpv]: %PURPLE%O P Amethyst O<<BASIC>>
-ItemDisplay[gpw]: %WHITE%O P Diamond O<<BASIC>>
-ItemDisplay[gpg]: %GREEN%O P Emerald O<<BASIC>>
-ItemDisplay[gpr]: %RED%O P Ruby O<<BASIC>>
-ItemDisplay[gpb]: %BLUE%O P Sapphire O<<BASIC>>
-ItemDisplay[gpy]: %YELLOW%O P Topaz O<<BASIC>>
-ItemDisplay[skz]: %NL%%GOLD%OO %WHITE%P Skull%GOLD% OO%NL%%GOLD%<:BASICNOT: MapIcon = 36, BorderColor = 32>
+ItemDisplay[gpv FILTERLVL>1]: %PURPLE%[OO] {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpw FILTERLVL>1]: %WHITE%[OO] {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpg FILTERLVL>1]: %GREEN%[OO] {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%WHITE% 2 PSkulls + %GREEN%2 PEmeralds %WHITE%+ %YELLOW%Rare Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpr FILTERLVL>1]: %RED%[OO] {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpb FILTERLVL>1]: %BLUE%[OO] {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpy FILTERLVL>1]: %YELLOW%[OO] {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[skz FILTERLVL>1]: %NL%%GOLD%OO %WHITE%P Skull%GOLD% OO%NL%%GOLD% {%WHITE% 2 PSkulls + %GREEN%2 PEmeralds %WHITE%+ %YELLOW%Rare Relic%NL%%WHITE% 3 PSkulls + %YELLOW%Rare Relic%NL%%GOLD%Reroll Maps:%NL%} <:BASICNOT: MapIcon = 36, BorderColor = 32>
+ItemDisplay[gpv]: %PURPLE%O P Amethyst O {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpw]: %WHITE%O P Diamond O {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpg]: %GREEN%O P Emerald O {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%WHITE% 2 PSkulls + %GREEN%2 PEmeralds %WHITE%+ %YELLOW%Rare Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpr]: %RED%O P Ruby O {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpb]: %BLUE%O P Sapphire O {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[gpy]: %YELLOW%O P Topaz O {%TEAL% 3 PGems + %BLUE%Magic Relic%NL%%GOLD%Reroll Maps:%NL%} <<BASIC>>
+ItemDisplay[skz]: %NL%%GOLD%OO %WHITE%P Skull%GOLD% OO%NL%%GOLD% {%WHITE% 2 PSkulls + %GREEN%2 PEmeralds %WHITE%+ %YELLOW%Rare Relic%NL%%WHITE% 3 PSkulls + %YELLOW%Rare Relic%NL%%GOLD%Reroll Maps:%NL%} <:BASICNOT: MapIcon = 36, BorderColor = 32>
 // -------------------------------------------------------------------------
 //Low Level Uniques
 // -------------------------------------------------------------------------
