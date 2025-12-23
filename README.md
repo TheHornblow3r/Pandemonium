@@ -61,6 +61,13 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 # Updates #
 
+## v1.4d ##
+```
+- Added Monster Resistances & Immunities to Relics
+- Added Reroll Recipes to Perfect Gems
+```
+![Resistances-Relics](https://github.com/user-attachments/assets/3b37da09-7982-4471-8451-4db52f874bbc)
+
 ## v1.4c ##
 ```
 - New sounds for Synth Items & Lowlevel Uniques/Sets
