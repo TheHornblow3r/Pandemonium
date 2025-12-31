@@ -1303,7 +1303,7 @@ ItemDisplay[UNI ID 6rx SOCK=0]: %NAME% <<BASIC1>>
 ItemDisplay[UNI ID 8rx SOCK>0]: %NAME% %GREEN%[%SOCKETS%] {%!WEPUPGRADE2!%} <<BASIC1>>
 ItemDisplay[UNI ID 6rx SOCK>0]: %NAME% %GREEN%[%SOCKETS%] <<BASIC1>>
 //Doomslinger
-ItemDisplay[UNI !ID rxb]: %ORANGE%Pus Spitter%NL%%GOLD%%NAME% <<BASIC1>>
+ItemDisplay[UNI !ID rxb]: %ORANGE%Doom Slinger%NL%%GOLD%%NAME% <<BASIC1>>
 ItemDisplay[UNI ID rxb SOCK=0]: %NAME% {%!WEPUPGRADE1!%} <<BASIC1>>
 ItemDisplay[UNI ID 8rx SOCK=0]: %NAME% {%!WEPUPGRADE2!%} <<BASIC1>>
 ItemDisplay[UNI ID 6rx SOCK=0]: %NAME% <<BASIC1>>
