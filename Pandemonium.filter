@@ -1581,16 +1581,21 @@ ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT80>0]: %NAME% %LIGHT_GRAY%+%STAT(80)% 
 ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str %CONTINUE%
 ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex %CONTINUE%
 ItemDisplay[MAG ID cm1 STAT22>2]: %NAME% <<BASIC>>
-ItemDisplay[MAG ID cm3]: %BLUE%Grand Charm %ORANGE%[%ILVL%]%NL% %CONTINUE%
-ItemDisplay[MAG cm3 ILVL>90]: %NAME% {%NAME%91+ %BLUE%Charm %WHITE%Always Roll 2 Affixes%NL%%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems} %CONTINUE%
-ItemDisplay[MAG ID (cm3 AND STAT22>5)]: %NAME% %ORANGE%+%STAT(24)% MaxDmg %CONTINUE%
-ItemDisplay[MAG ID cm3 STAT19>0]: %NAME% %GRAY%+%STAT(19)% AR %CONTINUE%
-ItemDisplay[MAG ID (cm3 AND STAT22>5) LIFE>0]: %NAME% %TAN%+%STAT(7)% Life %CONTINUE%
-ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT99>0]: %NAME% %DGREEN%+%STAT(99)% FHR %CONTINUE%
-ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT96>0]: %NAME% %PURPLE%+%STAT(96)% FRW %CONTINUE%
-ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str%CONTINUE%
-ItemDisplay[MAG ID (cm3 AND STAT22>5) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex%CONTINUE%
+// 1. Base Name & ILVL (High ILVL = Teal, Lower = Blue)
+ItemDisplay[MAG ID cm3 ILVL>90]: %TEAL%Grand Charm %ORANGE%[%ILVL%] {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems%NL%%TEAL%91+ Charm: %WHITE%Best Reroll Charms for max Vita}%CONTINUE%
+ItemDisplay[MAG ID cm3 ILVL<91]: %BLUE%Grand Charm %ORANGE%[%ILVL%]%CONTINUE%
+// 2. Add Max Damage & AR (Fine Prefix)
+ItemDisplay[MAG ID cm3 STAT22>0]: %NAME% %ORANGE%+%STAT(22)% MaxDmg%CONTINUE%
+ItemDisplay[MAG ID cm3 STAT19>0]: %NAME% %GRAY%+%STAT(19)% AR%CONTINUE%
+// 3. Add Suffixes (Life, FHR, FRW, Stats)
+ItemDisplay[MAG ID cm3 STAT7>0]: %NAME% %TAN%+%STAT(7)% Life%CONTINUE%
+ItemDisplay[MAG ID cm3 STAT99>0]: %NAME% %DGREEN%+%STAT(99)% FHR%CONTINUE%
+ItemDisplay[MAG ID cm3 STAT96>0]: %NAME% %PURPLE%+%STAT(96)% FRW%CONTINUE%
+ItemDisplay[MAG ID cm3 STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str%CONTINUE%
+ItemDisplay[MAG ID cm3 STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex%CONTINUE%
+// 4. Final Catch-all (Ends the string building)
 ItemDisplay[MAG ID cm3 STAT22>5]: %NAME% <<BASIC>>
+ItemDisplay[MAG ID cm3]: %NAME%
 //Small Charms - mana+life or FRW or fhr
 ItemDisplay[MAG ID cm1]: %RED%Small Charm %ORANGE%[%ILVL%]%NL% %CONTINUE%
 ItemDisplay[MAG ID cm1 MANA>0 LIFE>0]: %NAME% %TAN%+%STAT(7)% Life %CONTINUE%
