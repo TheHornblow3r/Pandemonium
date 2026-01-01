@@ -34,8 +34,8 @@ TextMacro[PERFMF]: %GOLD%---+ %GREEN%M%BLUE%a%PURPLE%x %SAGE%M%RED%a%ORANGE%g%YE
 / -------------------------------------------------------------------------
 // Item Styles
 // -------------------------------------------------------------------------
-ItemStyle[HR]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\cursor\hostile", NotificationSoundPriority = HIGH
-ItemStyle[MID]: MapIcon = 24, MapIconColor = 3, BorderColor = 10, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\cursor\levelup", NotificationSoundPriority = MEDIUM
+ItemStyle[HR]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\cursor\hostile"
+ItemStyle[MID]: MapIcon = 24, MapIconColor = 3, BorderColor = 10, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\cursor\levelup"
 ItemStyle[BASIC]: BorderColor = 4, BorderSize = 2, BackgroundColor = 172
 ItemStyle[BASICETH]: BorderColor = 96, BorderSize = 2, BackgroundColor = 172
 ItemStyle[BASICLOW]: NotificationPriority = LOW, NotificationColor = ITEM, BorderColor = 4, BorderSize = 2, BackgroundColor = 15
@@ -1582,17 +1582,17 @@ ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str %CO
 ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex %CONTINUE%
 ItemDisplay[MAG ID cm1 STAT22>2]: %NAME% <<BASIC>>
 // 1. Base Name & ILVL (High ILVL = Teal, Lower = Blue)
-ItemDisplay[MAG ID cm3 ILVL>90]: %TEAL%Grand Charm %ORANGE%[%ILVL%] {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems%NL%%TEAL%91+ Charm: %WHITE%Best Reroll Charms for max Vita}%CONTINUE%
-ItemDisplay[MAG ID cm3 ILVL<91]: %BLUE%Grand Charm %ORANGE%[%ILVL%]%CONTINUE%
+ItemDisplay[MAG ID cm3 ILVL>90]: %TEAL%Grand Charm %ORANGE%[%ILVL%]%NL% {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems%NL%%TEAL%ilvl 91+ Charm: %WHITE%Best for highet affixes}%CONTINUE%
+ItemDisplay[MAG ID cm3 ILVL<91]: %BLUE%Grand Charm %ORANGE%[%ILVL%]%NL%%CONTINUE%
 // 2. Add Max Damage & AR (Fine Prefix)
 ItemDisplay[MAG ID cm3 STAT22>0]: %NAME% %ORANGE%+%STAT(22)% MaxDmg%CONTINUE%
 ItemDisplay[MAG ID cm3 STAT19>0]: %NAME% %GRAY%+%STAT(19)% AR%CONTINUE%
 // 3. Add Suffixes (Life, FHR, FRW, Stats)
-ItemDisplay[MAG ID cm3 STAT7>0]: %NAME% %TAN%+%STAT(7)% Life%CONTINUE%
-ItemDisplay[MAG ID cm3 STAT99>0]: %NAME% %DGREEN%+%STAT(99)% FHR%CONTINUE%
-ItemDisplay[MAG ID cm3 STAT96>0]: %NAME% %PURPLE%+%STAT(96)% FRW%CONTINUE%
-ItemDisplay[MAG ID cm3 STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str%CONTINUE%
-ItemDisplay[MAG ID cm3 STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex%CONTINUE%
+ItemDisplay[MAG ID cm3 (STAT22 or STAT19) STAT7>0]: %NAME% %TAN%+%STAT(7)% Life%CONTINUE%
+ItemDisplay[MAG ID cm3 (STAT22 or STAT19) STAT99>0]: %NAME% %DGREEN%+%STAT(99)% FHR%CONTINUE%
+ItemDisplay[MAG ID cm3 (STAT22 or STAT19) STAT96>0]: %NAME% %PURPLE%+%STAT(96)% FRW%CONTINUE%
+ItemDisplay[MAG ID cm3 (STAT22 or STAT19) STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str%CONTINUE%
+ItemDisplay[MAG ID cm3 (STAT22 or STAT19) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex%CONTINUE%
 // 4. Final Catch-all (Ends the string building)
 ItemDisplay[MAG ID cm3 STAT22>5]: %NAME% <<BASIC>>
 ItemDisplay[MAG ID cm3]: %NAME%
