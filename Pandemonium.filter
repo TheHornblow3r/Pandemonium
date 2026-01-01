@@ -29,8 +29,11 @@ TextMacro[STARS1]: %R%O%WHITE%O%RED%O
 TextMacro[STARS2]: %RED%O%WHITE%OO%RED%O
 TextMacro[WEPUPGRADE1]: %PURPLE%Upgrade: %WHITE%Sol %SAGE%+ %LIGHT_GRAY%Ral %SAGE%+ %GREEN%PEmerald
 TextMacro[WEPUPGRADE2]: %PURPLE%Upgrade: %WHITE%Lum %SAGE%+ %LIGHT_GRAY%Pul %SAGE%+ %GREEN%PEmerald
-TextMacro[PERFITEM]: %GOLD%---+ %ORANGE%P%RED%e%GOLD%r%YELLOW%f%GREEN%e%BLUE%c%PURPLE%t %SAGE%I%ORANGE%t%RED%e%GOLD%m %YELLOW%S%GREEN%h%BLUE%o%PURPLE%w%SAGE%c%ORANGE%a%RED%s%GOLD%e %GOLD%+---
+TextMacro[PERFGOD]: %GOLD%---+ %ORANGE%G%RED%o%SAGE%d%YELLOW%-%GREEN%T%BLUE%i%PURPLE%e%SAGE%r %ORANGE%I%RED%t%SAGE%e%YELLOW%m %GOLD%+---
+TextMacro[PERFOOC]: %GOLD%---+ %ORANGE%G%RED%G %SAGE%C%YELLOW%o%GREEN%r%BLUE%r%PURPLE%u%SAGE%p%ORANGE%t%RED%i%SAGE%o%YELLOW%n %GOLD%+---
+TextMacro[PERFITEM]: %GOLD%---+ %ORANGE%P%RED%e%SAGE%r%YELLOW%f%GREEN%e%BLUE%c%PURPLE%t %SAGE%I%ORANGE%t%RED%e%SAGE%m %YELLOW%R%GREEN%o%BLUE%l%PURPLE%l%SAGE%s %GOLD%+---
 TextMacro[PERFMF]: %GOLD%---+ %GREEN%M%BLUE%a%PURPLE%x %SAGE%M%RED%a%ORANGE%g%YELLOW%i%GREEN%c %BLUE%F%PURPLE%i%SAGE%n%RED%d %GOLD%+---
+TextMacro[MAXSOCK]: %GOLD%---+ %ORANGE%M%RED%a%SAGE%x%YELLOW%i%GREEN%m%BLUE%u%PURPLE%m %SAGE%S%ORANGE%o%RED%c%SAGE%k%YELLOW%e%GREEN%t%BLUE%s %GOLD%+---
 / -------------------------------------------------------------------------
 // Item Styles
 // -------------------------------------------------------------------------
@@ -56,7 +59,7 @@ ItemStyle[LOWSET]: MapIcon = 2, BorderColor = 132, BorderSize = 2, NotificationC
 ItemStyle[LOWUNI]: MapIcon = 2, BorderColor = 132, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 115, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\object\shrine\shrineofenirhs"
 ItemStyle[GG]: MapIcon = 22, BorderColor = 155, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 35, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\object\shrine\shrineofenirhs"
 ItemStyle[GG1]: MapIcon = 26, BorderColor = 155, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 35, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM, NotificationSound = "@global\sfx\cursor\hostile"
-
+ItemStyle[GGUNI]: MapIcon = 26, BorderColor = 155, BorderSize = 2, NotificationColor = ITEM, BackgroundColor = 35, NotificationPriority = HIGH, NotificationSoundPriority = MEDIUM
 // -------------------------------------------------------------------------
 // TO-DO LIST
 // -------------------------------------------------------------------------
@@ -908,8 +911,9 @@ ItemDisplay[!ETH UNIQUE("Valkyrie Wing") ID CLSK0=2]: %GOLD%%NAME%%NL%%ORANGE%+2
 ItemDisplay[!ETH UNI !ID bac]: %ORANGE%Wolfhowl%NL%       %GOLD%%NAME%       %GOLD%<<GG>>
 //Kiras
 ItemDisplay[!ETH UNI !ID ci2]: %ORANGE%Kira's%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
-ItemDisplay[!ETH UNI ID ci2 SOCK=3]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GREEN%[%SOCKETS%]
-ItemDisplay[!ETH UNI ID ci2 SOCK>0]: %BASENAME%%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]
+ItemDisplay[!ETH UNI ID ci2 SOCK=3]: %NAME% %PURPLE%[%SOCKETS%]%NL%%!ALLRES!% <<GGUNI>>
+ItemDisplay[!ETH UNI ID ci2 SOCK>0]: %NAME% %GREEN%[%SOCKETS%]%NL%%!ALLRES!% <<GGUNI>>
+ItemDisplay[!ETH UNI ID ci2]: %NAME%%NL%%!ALLRES!% <<GGUNI>>
 //Armor
 //Duriel's Shell
 ItemDisplay[!ETH UNI !ID xrs !FILTERLVL=3]: %ORANGE%Duriels%NL%%GOLD%%NAME%<:GG: NotificationPriority = LOW>
@@ -959,12 +963,13 @@ ItemDisplay[!ETH UNIQUE("Ormus' Robes") ID uui SOCK>0]: %BASENAME%%NL%%NAME%%NL%
 ItemDisplay[!ETH UNIQUE("Ormus' Robes") ID uui]: %NAME% <<GG>>
 //Viper Magi
 ItemDisplay[!ETH UNI !ID xea]: %ORANGE%Viper Magi%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
-ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID FCR>39 SOCK=0]: %ORANGE%40 FCR%WHITE% , %PURPLE%%STAT(39,0)% Res%NL%%GOLD%%NAME%  {%ORANGE%40 FCR}<:GG: NotificationPriority = MEDIUM, NotificationSound = "@local\sfx\common\hireables\male_illputthattogooduse1">
-ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID FCR>39 SOCK>0]: %ORANGE%40 FCR%WHITE% , %PURPLE%%STAT(39,0)% Res%NL%%GOLD%%NAME% %GREEN%[%SOCKETS%]{%ORANGE%40 FCR}<:GG: NotificationPriority = MEDIUM, NotificationSound = "@local\sfx\common\hireables\male_illputthattogooduse1">
-ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID SOCK>0]: %GOLD%%NAME% %GREEN%[%SOCKETS%]%NL%%PURPLE%+%STAT(39,0)% Res <:GG: NotificationPriority = MEDIUM, NotificationSound = "@local\sfx\common\hireables\male_illputthattogooduse1">
-ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID xea SOCK=0]: %GOLD%%NAME%%NL%%PURPLE%+%STAT(39,0)% Res  {%PURPLE%Upgrade: %ORANGE%Ko %SAGE%+ %RED%Lem %SAGE%+ %WHITE%PDiamond%NL%%CORAL%Upgrade Before Slam}<:GG: NotificationPriority = MEDIUM, NotificationSound = "@local\sfx\common\hireables\male_illputthattogooduse1">
-ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID xea SOCK>0]: %GOLD%%NAME% %GREEN%[%SOCKETS%]%NL%%PURPLE%+%STAT(39,0)% Res {%CORAL%Slammed Before Upgrade}<:GG: NotificationPriority = MEDIUM, NotificationSound = "@local\sfx\common\hireables\male_illputthattogooduse1">
-ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID uea SOCK=0]: %GOLD%%NAME%%NL%%PURPLE%+%STAT(39,0)% Res <:GG: NotificationPriority = MEDIUM, NotificationSound = "@local\sfx\common\hireables\male_illputthattogooduse1">
+ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID uea SOCK=4]: %BASENAME% %PURPLE%[%SOCKETS%]%NL%%GOLD%%ITEMNAME%%NL%%PURPLE%+%STAT(39,0)% Res {%!MAXSOCK!%}<<GGUNI>>
+ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID FCR>39 SOCK=0]: %ORANGE%40 FCR%WHITE% , %PURPLE%%STAT(39,0)% Res%NL%%GOLD%%NAME%  {%ORANGE%40 FCR} <<GGUNI>>
+ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID FCR>39 SOCK>0]: %ORANGE%40 FCR%WHITE% , %PURPLE%%STAT(39,0)% Res%NL%%GOLD%%NAME% %GREEN%[%SOCKETS%]{%ORANGE%40 FCR} <<GGUNI>>
+ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID SOCK>0]: %GOLD%%NAME% %GREEN%[%SOCKETS%]%NL%%PURPLE%+%STAT(39,0)% Res <<GGUNI>>
+ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID xea SOCK=0]: %GOLD%%NAME%%NL%%PURPLE%+%STAT(39,0)% Res  {%PURPLE%Upgrade: %ORANGE%Ko %SAGE%+ %RED%Lem %SAGE%+ %WHITE%PDiamond%NL%%CORAL%Upgrade Before Slam} <<GGUNI>>
+ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID xea SOCK>0]: %GOLD%%NAME% %GREEN%[%SOCKETS%]%NL%%PURPLE%+%STAT(39,0)% Res {%CORAL%Slammed Before Upgrade} <<GGUNI>>
+ItemDisplay[!ETH UNIQUE("Skin of the Vipermagi") ID uea SOCK=0]: %GOLD%%NAME%%NL%%PURPLE%+%STAT(39,0)% Res <<GGUNI>>
 //Skullders
 ItemDisplay[!ETH UNI !ID xpl]: %ORANGE%Skullder's%NL%       %GOLD%%NAME%       %GOLD%%NL%%RED%Magic Find<<GG1>>
 ItemDisplay[ETH UNI !ID xpl]: %ORANGE%ETH %GOLD%%NAME% %ORANGE%Skullders %RED%MF<<GG1>>
@@ -985,8 +990,10 @@ ItemDisplay[!ETH UNI !ID ltp FILTERLVL=3]:
 ItemDisplay[!ETH UNI !ID ltp !FILTERLVL=3]: %ORANGE%Heavenly Garb%NL%%GOLD%%NAME%<<GG>>
 ItemDisplay[!ETH UNIQUE("Heavenly Garb") ID SOCK>0]: %GOLD%%BASENAME%%NL%%GOLD%Heavenly Garb %GREEN%[%SOCKETS%]<<GG>>
 //Gbane
-ItemDisplay[!ETH UNI !ID utu]: %ORANGE%G Bane%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
-ItemDisplay[!ETH UNI ID utu]: %NAME%<<GG>>
+ItemDisplay[!ETH UNI !ID utu]: %ORANGE%G Bane%NL%       %GOLD%%NAME%       %GOLD% <<GG1>>
+ItemDisplay[!ETH UNI ID utu SOCK=4]: %NAME% %PURPLE%[%SOCKETS%] {%!MAXSOCK!%}<<GGUNI>>
+ItemDisplay[!ETH UNI ID utu SOCK>0]: %NAME% %GREEN%[%SOCKETS%] <<GGUNI>>
+ItemDisplay[!ETH UNI ID utu]: %NAME% <<GGUNI>>
 //Corpsemourn
 ItemDisplay[!ETH UNI !ID xar]: %NAME%%NL%%ORANGE%Corpsemourn <<BASIC>>
 ItemDisplay[ETH UNI !ID xar]: %ORANGE%ETH %GOLD%%NAME%%NL%%ORANGE%Corpsemourn <<BASICETH>>
@@ -1020,7 +1027,10 @@ ItemDisplay[!ETH UNI !ID xmg !FILTERLVL=3]: %GOLD%%NAME% <:GG: NotificationPrior
 //Belts
 //Arachnid Mesh
 ItemDisplay[!ETH UNI !ID ulc]: %ORANGE%Arachnids%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
-ItemDisplay[!ETH UNI ID ulc]: %PURPLE%O %GOLD%%ITEMNAME% %PURPLE%O%GOLD%<<GG>> 
+ItemDisplay[!ETH UNI ID ulc FCR=30 AND ED=120]: %PURPLE%O %GOLD%%ITEMNAME% %PURPLE%O%GOLD% {%!PERFGOD!%} <<GG1>>
+ItemDisplay[!ETH UNI ID ulc FCR=30]: %PURPLE%O %GOLD%%ITEMNAME% %PURPLE%O%GOLD% {%!PERFOOC!%} <<GGUNI>>
+ItemDisplay[!ETH UNI ID ulc ED=120]: %PURPLE%O %GOLD%%ITEMNAME% %PURPLE%O%GOLD% {%!PERFITEM!%}  <<GGUNI>>
+ItemDisplay[!ETH UNI ID ulc]: %PURPLE%O %GOLD%%ITEMNAME% %PURPLE%O%GOLD%<<GGUNI>> 
 //Verdungo's Hearty Cord
 ItemDisplay[!ETH UNI !ID umc]: %GOLD%%NAME%%NL%%ORANGE%      Verdungos      %GOLD%<<GG1>>
 ItemDisplay[ETH UNI !ID umc !FILTERLVL=3]: %ORANGE%Eth %GOLD%%NAME%%NL%%ORANGE%      Verdungos      %GOLD%<<BASIC>>
@@ -1068,6 +1078,7 @@ ItemDisplay[!ETH SET ID SET("Natalya's Totem") uh9 SOCK=0]: %GREEN%%NAME% {%CORA
 ItemDisplay[!ETH SET ID SET("Natalya's Totem") uh9 SOCK>0]: %GREEN%%NAME% %ORANGE%[%SOCKETS%] <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET !ID 7qr]: %ORANGE%Nat's Claws%NL%       %GREEN%%NAME%       %GOLD%<:GG1: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET ID SET("Natalya's Mark") 7qr SOCK=0]: %BASENAME%%NL%%GREEN%%ITEMNAME%<:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
+ItemDisplay[!ETH SET ID SET("Natalya's Mark") 7qr SOCK=3]: %NAME% %PURPLE%[%SOCKETS%] {%!MAXSOCK!%}<:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET ID SET("Natalya's Mark") 7qr SOCK>0]: %BASENAME%%NL%%GREEN%%ITEMNAME% %ORANGE%[%SOCKETS%]<:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET !ID xmb !FILTERLVL=3]: %ORANGE%Nats Boots%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET !ID ucl !FILTERLVL=3]: %ORANGE%Nats Armor%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
@@ -1078,7 +1089,8 @@ ItemDisplay[!ETH SET ID uth SOCK>0]: %BASENAME%%NL%%GREEN%%ITEMNAME% %ORANGE%[%S
 ItemDisplay[!ETH SET ID uth SOCK=0]: %BASENAME%%NL%%GREEN%%ITEMNAME% <:GG: NotificationColor = GREEN>
 ItemDisplay[!ETH SET !ID oba !FILTERLVL=3]: %ORANGE%Tal Weap%NL%%GREEN%%NAME% <:GG: NotificationPriority = LOW, NotificationColor = GREEN>
 ItemDisplay[!ETH SET !ID zmb !FILTERLVL=3]: %ORANGE%Tal Belt%NL%%GREEN%%NAME% <:GG: NotificationPriority = LOW, NotificationColor = GREEN>
-ItemDisplay[!ETH SET !ID xsk ]: %ORANGE%Tal Rasha Helm%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
+ItemDisplay[!ETH SET !ID xsk]: %ORANGE%Tal Rasha Helm%NL%%GREEN%%NAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
+ItemDisplay[!ETH SET("Tal Rasha's Horadric Crest") ID xsk SOCK=3]: %BASENAME% %NL%%GREEN%%ITEMNAME% %PURPLE%[%SOCKETS%] {%!MAXSOCK!%}<:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET("Tal Rasha's Horadric Crest") ID xsk SOCK>0]: %BASENAME% %NL%%GREEN%%ITEMNAME% %ORANGE%[%SOCKETS%]<:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 ItemDisplay[!ETH SET("Tal Rasha's Horadric Crest") ID xsk SOCK=0]: %BASENAME% %NL%%GREEN%%ITEMNAME% <:GG: NotificationPriority = MEDIUM, NotificationColor = GREEN>
 //Immortal King
@@ -1363,7 +1375,10 @@ ItemDisplay[UNI !ETH ID 7lw]: %GOLD%%BASENAME%%NL%%GOLD%%ITEMNAME% <:GG: Notific
 ItemDisplay[SET !ID paf !FILTERLVL=3]: %ORANGE%Gris shield%NL%%GREEN%%NAME% <:BASICLOW: NotificationPriority = LOW, NotificationColor = GREEN, NotificationSound = "@local\sfx\act3\sorceress\sor_act3_find_jadefigurine">
 ItemDisplay[SET ID paf]: %NAME% %ORANGE%[%SOCKETS%] <:BASICLOW: NotificationSoundPriority = LOW, NotificationPriority = LOW, NotificationColor = GREEN, NotificationSound = "@local\sfx\act3\sorceress\sor_act3_find_jadefigurine">
 //Stormshield 
-ItemDisplay[UNI !ID uit]: %ORANGE%Stormshield%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
+ItemDisplay[UNI !ID uit]: %ORANGE%Stormshield%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD% <<GG1>>
+ItemDisplay[UNI ID uit SOCK=4]: %NAME% %PURPLE%[%SOCKETS%] {%!MAXSOCK!%} <<GGUNI>>
+ItemDisplay[UNI ID uit SOCK>0]: %NAME% %PURPLE%[%SOCKETS%] <<GGUNI>>
+ItemDisplay[UNI ID uit]: %NAME% <<GGUNI>>
 //Homunculus
 ItemDisplay[!ETH UNI !ID nea]: %ORANGE%Homunculus%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
 ItemDisplay[UNIQUE("Homunculus") ID SOCK=2]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GREEN%[%SOCKETS%]<<GG1>>
@@ -1487,7 +1502,7 @@ ItemDisplay[MAG ID amu (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK1
 ItemDisplay[MAG ID amu (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK50=3) STAT2>0]: %NAME% %SAGE%+%STAT(2,0)% Dex%CONTINUE%
 ItemDisplay[MAG ID amu (TABSK18=3 OR TABSK40=3) STAT446>1]: %NAME% %SAGE%+2 Summon Skills %CONTINUE%
 ItemDisplay[MAG ID amu (TABSK18=3 OR TABSK40=3) STAT446=1]: %NAME% %SAGE%+1 Summon Skills %CONTINUE%
-ItemDisplay[MAG ID amu (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK50=3) ALLSK>0]: %NAME% %RED%+1 All Skills%CONTINUE%
+ItemDisplay[MAG ID amu (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK50=3) ALLSK>0]: %NAME% %RED%+1 All Skills {%!PERFOOC!%}%CONTINUE%
 ItemDisplay[MAG ID amu (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK50=3)]: %NAME%<<BASIC>>
 ItemDisplay[MAG (amu OR rin) !ID FILTERLVL>1]:
 ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%%ORANGE% [CLVL 96+] {%NL%%RED%Blood%SAGE%: %RED%Amn%SAGE%+%RED%Jewel%SAGE%+%RED%PRuby%NL%%PURPLE%Caster%SAGE%: %PURPLE%Ral%SAGE%+%PURPLE%Jewel%SAGE%+%PURPLE%PAmeth%NL%}<<BASIC>>
@@ -1582,7 +1597,7 @@ ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str %CO
 ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex %CONTINUE%
 ItemDisplay[MAG ID cm1 STAT22>2]: %NAME% <<BASIC>>
 // 1. Base Name & ILVL (High ILVL = Teal, Lower = Blue)
-ItemDisplay[MAG ID cm3 ILVL>90]: %TEAL%Grand Charm %ORANGE%[%ILVL%]%NL% {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems%NL%%TEAL%ilvl 91+ Charm: %WHITE%Best for highet affixes}%CONTINUE%
+ItemDisplay[MAG ID cm3 ILVL>90]: %TEAL%Grand Charm %ORANGE%[%ILVL%]%NL% {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems%NL%%TEAL%ilvl 91+ Charm: %WHITE%Best for highest affixes}%CONTINUE%
 ItemDisplay[MAG ID cm3 ILVL<91]: %BLUE%Grand Charm %ORANGE%[%ILVL%]%NL%%CONTINUE%
 // 2. Add Max Damage & AR (Fine Prefix)
 ItemDisplay[MAG ID cm3 STAT22>0]: %NAME% %ORANGE%+%STAT(22)% MaxDmg%CONTINUE%
@@ -1595,6 +1610,7 @@ ItemDisplay[MAG ID cm3 (STAT22 or STAT19) STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str
 ItemDisplay[MAG ID cm3 (STAT22 or STAT19) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex%CONTINUE%
 // 4. Final Catch-all (Ends the string building)
 ItemDisplay[MAG ID cm3 STAT22>5]: %NAME% <<BASIC>>
+ItemDisplay[MAG ID cm3 (ILVL>49 AND ILVL<55)]: %BLUE%%NAME% %ORANGE%[L%ILVL%]%NL%%TEAL%Skiller Reroll Charm {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems} <<BASICMED>>
 ItemDisplay[MAG ID cm3]: %NAME%
 //Small Charms - mana+life or FRW or fhr
 ItemDisplay[MAG ID cm1]: %RED%Small Charm %ORANGE%[%ILVL%]%NL% %CONTINUE%
@@ -1665,14 +1681,13 @@ ItemDisplay[MAG ID jew IAS>14]: %BLUE%Jewel%NL%%TAN%+15IAS<:BASIC1: BorderColor 
 //Random/unid Charms
 ItemDisplay[MAG !ID cm3 ILVL<50]: %NL%%ORANGE%O %SAGE% %NAME% %ORANGE%O [L%ILVL%]%NL%<<BASICLOW>>
 ItemDisplay[MAG !ID cm1 ILVL<48 ]: %NL%%ORANGE%O %CORAL% %NAME% %ORANGE%O [L%ILVL%]%NL%<<BASICLOW>>
-ItemDisplay[MAG cm3 (ILVL>49 AND ILVL<55)]: %TEAL%Reroll GC %ORANGE%[L%ILVL%] {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems}<<BASICMED>>
+ItemDisplay[MAG !ID cm3 (ILVL>49 AND ILVL<55)]: %BLUE%%NAME% %ORANGE%[L%ILVL%]%NL%%TEAL%Skiller Reroll Charm {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems} <<BASICMED>>
 ItemDisplay[MAG !ID cm3 ILVL>90]: %ORANGE%O %TEAL%%NAME% %ORANGE%O [L%ILVL%] <:BASICMED: Map Icon = 93, BorderColor = 151>
 ItemDisplay[MAG !ID cm3 ILVL>49]: %ORANGE%O %BLUE%%NAME% %ORANGE%O [L%ILVL%] <:BASICMED: Map Icon = 93, BorderColor = 151>
 ItemDisplay[MAG !ID cm1 ILVL>47]: %ORANGE%O %BLUE%%NAME% %ORANGE%O [L%ILVL%] <:BASICHIGH1: BorderColor = 151>
 ItemDisplay[MAG !ID cm2 CLVL<80]: %GRAY%%NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 //ItemDisplay[MAG !ID cm2 ILVL<80]: %GRAY% %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 ItemDisplay[MAG (cm3 OR cm2 OR cm1) CLVL<55]: %NAME% %ORANGE%[L%ILVL%] <<BASIC>>
-ItemDisplay[MAG cm3]:
 ItemDisplay[MAG cm1]:
 ItemDisplay[MAG cm2 DIFFICULTY<2]: %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 ItemDisplay[MAG cm2]:
@@ -2452,7 +2467,7 @@ ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) TABSK16>1]: Caster Amulet%NL%%RED%Craft
 ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) TABSK17>1]: Caster Amulet%NL%%RED%Crafted%SAGE% +2 PnB %CONTINUE%
 ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) TABSK41>1]: Caster Amulet%NL%%RED%Crafted%SAGE% +2 SS %CONTINUE%
 ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) TABSK25>1]: Caster Amulet%NL%%RED%Crafted%SAGE% +2 Offensive %CONTINUE%
-ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) ALLSK=1]: %NAME%%NL%%PURPLE%+1 All Skills %CONTINUE%
+ItemDisplay[CRAFT amu (FCR>4 AND MANA>9) ALLSK=1]: %NAME%%NL%%PURPLE%+1 All Skills {%!PERFOOC!%}%CONTINUE%
 ItemDisplay[CRAFT amu FCR>4 AND MANA>9]: %NAME% <<BASIC>>
 ItemDisplay[CRAFT amu STAT96>4 AND STAT60]: Blood Amulet%NL%%RED%Crafted %CONTINUE%
 ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK0>1]: Blood Amulet%NL%%RED%Crafted%PURPLE% +2 Zon %CONTINUE%
@@ -2462,7 +2477,7 @@ ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK3>1]: Blood Amulet%NL%%RED%Craft
 ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK4>1]: Blood Amulet%NL%%RED%Crafted%PURPLE% +2 Barb %CONTINUE%
 ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK5>1]: Blood Amulet%NL%%RED%Crafted%PURPLE% +2 Druid %CONTINUE%
 ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) CLSK6>1]: Blood Amulet%NL%%RED%Crafted%PURPLE% +2 Assassin %CONTINUE%
-ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) ALLSK=1]: %NAME%%NL%%PURPLE%+1 All Skills %CONTINUE%
+ItemDisplay[CRAFT amu (STAT96>4 AND STAT60) ALLSK=1]: %NAME%%NL%%PURPLE%+1 All Skills {%!PERFOOC!%}%CONTINUE%
 ItemDisplay[CRAFT amu STAT96>4 AND STAT60]: %NAME% <<BASIC>>
 ItemDisplay[CRAFT amu STAT224]: Hitpower Amulet%NL%%RED%Crafted <<BASIC>>
 //ItemDisplay[CRAFT amu CTCSKILL(GETHIT_MELEE,"Frost Nova")>1]: Hitpower Amulet%NL%%RED%Crafted <<BASIC>> Works but gives error
