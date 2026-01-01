@@ -1412,7 +1412,8 @@ ItemDisplay[SET !ID rin]: %ORANGE%O %GREEN%%NAME% %ORANGE%O<:BASICLOW: Notificat
 ItemDisplay[SET ID rin]: %BASENAME%%NL%%ORANGE%O %GREEN%%ITEMNAME% %ORANGE%O<:GG: NotificationPriority = LOW, NotificationColor = GREEN>
 ItemDisplay[UNI !ID jew]: %NL%%ORANGE%rainbow facet%NL%        %PURPLE%OOOOOO %GOLD%%NAME% %PURPLE%OOOOOO        %NL%%GOLD%<<GG1>>
 ItemDisplay[UNI !ID cm3]: %NL%       %RED% OOO %GOLD%%NAME% %RED% OOO        %NL%%GOLD%<<GG>>
-ItemDisplay[MAG !ID jew]: %YELLOW%O %BLUE%%NAME% %YELLOW%O<:BASIC: MapIcon = 1, BorderColor = 151>
+ItemDisplay[MAG !ID jew ILVL>89]: %YELLOW%O %TEAL%%NAME% %YELLOW%O <:BASIC: MapIcon = 1, BorderColor = 151>
+ItemDisplay[MAG !ID jew]: %YELLOW%O %BLUE%%NAME% %YELLOW%O <:BASIC: MapIcon = 1, BorderColor = 151>
 //Rainbow Facets
 ItemDisplay[UNI ID jew STAT329>2]: %GOLD%%NAME%%NL%%RED%Fire +%STAT(329)% | -%STAT(333)% %CONTINUE%<<GG>> //Fire Facet
 ItemDisplay[UNI ID jew STAT330>2]: %GOLD%%NAME%%NL%%YELLOW%Light +%STAT(330)% | -%STAT(334)% %CONTINUE%<<GG>> //Light Facet
@@ -1580,7 +1581,8 @@ ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT80>0]: %NAME% %LIGHT_GRAY%+%STAT(80)% 
 ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT0>0]: %NAME% %WHITE%+%STAT(0)% Str %CONTINUE%
 ItemDisplay[MAG ID (cm1 AND STAT22>2) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex %CONTINUE%
 ItemDisplay[MAG ID cm1 STAT22>2]: %NAME% <<BASIC>>
-ItemDisplay[MAG ID cm3]: %RED%Grand Charm %ORANGE%[%ILVL%]%NL% %CONTINUE%
+ItemDisplay[MAG ID cm3]: %BLUE%Grand Charm %ORANGE%[%ILVL%]%NL% %CONTINUE%
+ItemDisplay[MAG cm3 ILVL>90]: %NAME% {%NAME%91+ %BLUE%Charm %WHITE%Always Roll 2 Affixes%NL%%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems} %CONTINUE%
 ItemDisplay[MAG ID (cm3 AND STAT22>5)]: %NAME% %ORANGE%+%STAT(24)% MaxDmg %CONTINUE%
 ItemDisplay[MAG ID cm3 STAT19>0]: %NAME% %GRAY%+%STAT(19)% AR %CONTINUE%
 ItemDisplay[MAG ID (cm3 AND STAT22>5) LIFE>0]: %NAME% %TAN%+%STAT(7)% Life %CONTINUE%
@@ -1658,12 +1660,13 @@ ItemDisplay[MAG ID jew IAS>14]: %BLUE%Jewel%NL%%TAN%+15IAS<:BASIC1: BorderColor 
 //Random/unid Charms
 ItemDisplay[MAG !ID cm3 ILVL<50]: %NL%%ORANGE%O %SAGE% %NAME% %ORANGE%O [L%ILVL%]%NL%<<BASICLOW>>
 ItemDisplay[MAG !ID cm1 ILVL<48 ]: %NL%%ORANGE%O %CORAL% %NAME% %ORANGE%O [L%ILVL%]%NL%<<BASICLOW>>
-ItemDisplay[MAG cm3 (ILVL>49 AND ILVL<55)]: %TEAL%Reroll GC %ORANGE%[L%ILVL%]{%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems}<<BASICMED>>
-ItemDisplay[MAG !ID cm3 ILVL>49]: %ORANGE%O %BLUE% %NAME% %ORANGE%O [L%ILVL%]<:BASICMED: Map Icon = 93, BorderColor = 151>
-ItemDisplay[MAG !ID cm1 ILVL>47]: %ORANGE%O %BLUE% %NAME% %ORANGE%O [L%ILVL%]<:BASICHIGH1: BorderColor = 151>
-ItemDisplay[MAG !ID cm2 CLVL<80]: %GRAY% %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
+ItemDisplay[MAG cm3 (ILVL>49 AND ILVL<55)]: %TEAL%Reroll GC %ORANGE%[L%ILVL%] {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems}<<BASICMED>>
+ItemDisplay[MAG !ID cm3 ILVL>90]: %ORANGE%O %TEAL%%NAME% %ORANGE%O [L%ILVL%] <:BASICMED: Map Icon = 93, BorderColor = 151>
+ItemDisplay[MAG !ID cm3 ILVL>49]: %ORANGE%O %BLUE%%NAME% %ORANGE%O [L%ILVL%] <:BASICMED: Map Icon = 93, BorderColor = 151>
+ItemDisplay[MAG !ID cm1 ILVL>47]: %ORANGE%O %BLUE%%NAME% %ORANGE%O [L%ILVL%] <:BASICHIGH1: BorderColor = 151>
+ItemDisplay[MAG !ID cm2 CLVL<80]: %GRAY%%NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 //ItemDisplay[MAG !ID cm2 ILVL<80]: %GRAY% %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
-ItemDisplay[MAG (cm3 OR cm2 OR cm1) CLVL<55]: %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
+ItemDisplay[MAG (cm3 OR cm2 OR cm1) CLVL<55]: %NAME% %ORANGE%[L%ILVL%] <<BASIC>>
 ItemDisplay[MAG cm3]:
 ItemDisplay[MAG cm1]:
 ItemDisplay[MAG cm2 DIFFICULTY<2]: %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
