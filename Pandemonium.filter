@@ -1611,7 +1611,7 @@ ItemDisplay[MAG ID cm3 (STAT22 or STAT19) STAT2>0]: %NAME% %WHITE%+%STAT(2)% Dex
 // 4. Final Catch-all (Ends the string building)
 ItemDisplay[MAG ID cm3 STAT22>5]: %NAME% <<BASIC>>
 ItemDisplay[MAG ID cm3 (ILVL>49 AND ILVL<55)]: %BLUE%%NAME% %ORANGE%[L%ILVL%]%NL%%TEAL%Skiller Reroll Charm {%PURPLE%Reroll: %WHITE%3 %YELLOW%PERFECT Gems} <<BASICMED>>
-ItemDisplay[MAG ID cm3]: %NAME%
+ItemDisplay[MAG ID cm3 ILVL>90]: %NAME%
 //Small Charms - mana+life or FRW or fhr
 ItemDisplay[MAG ID cm1]: %RED%Small Charm %ORANGE%[%ILVL%]%NL% %CONTINUE%
 ItemDisplay[MAG ID cm1 MANA>0 LIFE>0]: %NAME% %TAN%+%STAT(7)% Life %CONTINUE%
@@ -1688,6 +1688,7 @@ ItemDisplay[MAG !ID cm1 ILVL>47]: %ORANGE%O %BLUE%%NAME% %ORANGE%O [L%ILVL%] <:B
 ItemDisplay[MAG !ID cm2 CLVL<80]: %GRAY%%NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 //ItemDisplay[MAG !ID cm2 ILVL<80]: %GRAY% %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 ItemDisplay[MAG (cm3 OR cm2 OR cm1) CLVL<55]: %NAME% %ORANGE%[L%ILVL%] <<BASIC>>
+ItemDisplay[MAG ID cm3 ILVL<91]:
 ItemDisplay[MAG cm1]:
 ItemDisplay[MAG cm2 DIFFICULTY<2]: %NAME% %ORANGE%[L%ILVL%]<<BASIC>>
 ItemDisplay[MAG cm2]:
