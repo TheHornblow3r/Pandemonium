@@ -1134,10 +1134,10 @@ ItemDisplay[SET !ETH !ID 6cs !FILTERLVL=3]: %ORANGE%Najs Weap%NL%%GREEN%%NAME%%N
 //Ondals
 ItemDisplay[!ETH UNI !ID 6cs]: %ORANGE%Ondals%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
 ItemDisplay[ETH UNI !ID 6cs]: %ORANGE%ETH %GOLD%%NAME%%NL%%ORANGE% Ondals <<GG1>>
-ItemDisplay[!ETH UNI ID UNIQUE("Ondal's Wisdom") SOCK=0]: %RED%+%STAT(127,0)%%ORANGE% Skills %NL%%GOLD%%NAME% <<GG>>
-ItemDisplay[!ETH UNI ID UNIQUE("Ondal's Wisdom")]: %RED%+%STAT(127,0)%%ORANGE% Skills %NL%%GOLD%%NAME% %GREEN%[%SOCKETS%]<<GG>>
-ItemDisplay[ETH UNI ID UNIQUE("Ondal's Wisdom") SOCK=0]: %RED%+%STAT(127,0)%%ORANGE% Skills%NL%%ORANGE%ETH %GOLD%%NAME% <<GG>>
-ItemDisplay[ETH UNI ID UNIQUE("Ondal's Wisdom")]: %RED%+%STAT(127,0)%%ORANGE% Skills%NL%%ORANGE%ETH %GOLD%%NAME% %GREEN%[%SOCKETS%]<<GG>>
+ItemDisplay[!ETH UNI ID UNIQUE("Ondal's Wisdom") SOCK=0]: %RED%+%STAT(127,0)%/4%ORANGE% All Skills %NL%%GOLD%%NAME% <<GG>>
+ItemDisplay[!ETH UNI ID UNIQUE("Ondal's Wisdom")]: %RED%+%STAT(127,0)/4%%ORANGE% Skills %NL%%GOLD%%NAME% %GREEN%[%SOCKETS%]<<GG>>
+ItemDisplay[ETH UNI ID UNIQUE("Ondal's Wisdom") SOCK=0]: %RED%+%STAT(127,0)/4%%ORANGE% Skills%NL%%ORANGE%ETH %GOLD%%NAME% <<GG>>
+ItemDisplay[ETH UNI ID UNIQUE("Ondal's Wisdom")]: %RED%+%STAT(127,0)/4%%ORANGE% Skills%NL%%ORANGE%ETH %GOLD%%NAME% %GREEN%[%SOCKETS%]<<GG>>
 //Death Fathom
 ItemDisplay[!ETH UNI !ID obf]: %ORANGE%Death's Fathom%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<:GG: NotificationSound = "@local\sfx\act4\diablo\diablotaunt1">
 ItemDisplay[ETH UNI !ID obf]: %ORANGE%ETH %GOLD%%NAME% %ORANGE% Death's Fathom <:GG: NotificationSound = "@local\sfx\act4\diablo\diablotaunt1">
@@ -1947,7 +1947,7 @@ ItemDisplay[MAG CL5 TABSK48>2]: %BLUE%%NAME% %NL%%DGREEN%+3 Trap %YELLOW%[%SOCKE
 ItemDisplay[MAG CL5 SK262>2]: %BLUE%%NAME% %NL%%DGREEN%+3 WoF %YELLOW%[%SOCKETS%]<<BASICNOT>>
 //chageskill claws Fists of fire blades of ice claws of thunder
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) SKILL("Fists of Fire")>2 !SOCK=1 !SOCK=2]: %NAME%%NL%%RED% +%SKILL(259)% FoF%CONTINUE%
-ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) SKILL("Blades of Ice")>2 !SOCK=1 !SOCK=2]: %NAME%%NL%%BLUE% +%SKILL(274)% BoI%CONTINUE%
+ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) SK274>2 !SOCK=1 !SOCK=2]: %NAME%%NL%%BLUE% +%SKILL(274)% BoI%CONTINUE%
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) SKILL("Claws of Thunder")>2 !SOCK=1 !SOCK=2]: %NAME%%NL%%YELLOW% +%SKILL(269)% CoT%CONTINUE%
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Blades of Ice")>2 OR SKILL("Fists of Fire")>2) SKILL("Claws of Thunder")<3 SKILL("Claws of Thunder")>0 !SOCK=1 !SOCK=2]: %NAME%%YELLOW% +%SKILL(269)% CoT%CONTINUE%
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Blades of Ice")>2 OR SKILL("Claws of Thunder")>2) SKILL("Fists of Fire")<3 SKILL("Fists of Fire")>0 !SOCK=1 !SOCK=2]: %NAME%%RED% +%SKILL(259)% FoF%CONTINUE%
@@ -1957,25 +1957,26 @@ ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SKILL("Weapon Block")>0 !SOCK=1 !SOCK=2]: %NAME%%LIGHT_GRAY% +%SKILL(263)% C Block%CONTINUE%
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SKILL("Blade Shield")>0 !SOCK=1 !SOCK=2]: %NAME%%LIGHT_GRAY% +%SKILL(277)% BS%CONTINUE%
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SKILL("Dragon Flight")>0 !SOCK=1 !SOCK=2]: %NAME%%LIGHT_GRAY% +%SKILL(275)% D flight%CONTINUE%
-ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SOCK=3]: %WHITE%%NAME% %YELLOW%[%SOCKETS%] %CONTINUE%
-ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) !SOCK=1 !SOCK=2]: %NAME% {%PURPLE%Mosaic: %WHITE%Mal %SAGE%+ %LIGHT_GRAY%Gul %SAGE%+ %WHITE%Amn%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst%NL%%ORANGE%Larzuk Max Sockets: 3}<<GG>>
+ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SOCK=3]: %WHITE%%NAME% %YELLOW%[%SOCKETS%] {%PURPLE%Mosaic: %WHITE%Mal %SAGE%+ %LIGHT_GRAY%Gul %SAGE%+ %WHITE%Amn}%CONTINUE%
+ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SOCK=0]: %WHITE%%NAME% {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}%CONTINUE%
+ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) !SOCK=1 !SOCK=2]: %NAME% <<GG>>
 //Blade Shield, Venom | wof/inferno bases claws
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK277>2 SK278>0 SOCK=0]: %NAME% %NL%%PURPLE%+3 BS %GREEN%+%SKILL(278)% Venom {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK277>2 SOCK=0]: %NAME% %NL%%ORANGE%+3 Blade Shield {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK277>2 SK278>0 SOCK=0]: %NAME% %NL%%PURPLE%+3 BS %GREEN%+%SKILL(278)% Venom {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICNOT>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK277>2 SOCK=0]: %NAME% %NL%%ORANGE%+3 Blade Shield {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICNOT>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK277>2 SK278>0 SOCK>2]: %NAME% %YELLOW%[%SOCKETS%] %NL%%PURPLE%+3 BS %GREEN%+%SKILL(278)% Venom {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK277>2 SOCK>2]: %NAME% %YELLOW%[%SOCKETS%] %NL%%ORANGE%+3 Blade Shield {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0 AND SK267>0) SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof +%SKILL(272)% Inferno +%SKILL(272)% Fade {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0 AND SK263>0) SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof %SKILL(272)% Inferno, Cblock {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0 AND SK274>0) SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof %SKILL(272)% Inferno, BoI {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0) SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof %(272)% Inferno {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK262>2 SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0 AND SK267>0) SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof +%SKILL(272)% Inferno +%SKILL(272)% Fade {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICNOT>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0 AND SK263>0) SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof %SKILL(272)% Inferno, Cblock {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICNOT>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0 AND SK274>0) SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof %SKILL(272)% Inferno, BoI {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICNOT>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0) SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof %(272)% Inferno {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICNOT>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK262>2 SOCK=0]: %NAME% %NL%%ORANGE%+3 Wof {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICNOT>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0 AND SK267>0) SOCK>2]: %NAME% %NL%%ORANGE%+3 Wof %SKILL(272)% Inferno, Fade %YELLOW%[%SOCKETS%] {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0 AND SK263>0) SOCK>2]: %NAME% %NL%%ORANGE%+3 Wof %SKILL(272)% Inferno, Cblock %YELLOW%[%SOCKETS%] {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0 AND SK274>0) SOCK>2]: %NAME% %NL%%ORANGE%+3 Wof %SKILL(272)% Inferno, BoI %YELLOW%[%SOCKETS%] {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs (SK262>2 AND SK272>0) SOCK>2]: %NAME% %NL%%ORANGE%+3 Wof %SKILL(272)% Inferno %YELLOW%[%SOCKETS%] {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK262>2 SOCK>2]: %NAME% %NL%%ORANGE%+3 Wof %YELLOW%[%SOCKETS%] {%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Shael %SAGE%+ %WHITE%Um%NL%%PURPLE%Plague: %WHITE%Cham %SAGE%+ %LIGHT_GRAY%Fal %SAGE%+ %WHITE%Um}<<BASICNOT>>
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK278>2 SOCK>2]: %NAME% %YELLOW%[%SOCKETS%]%NL%%GREEN%+3 Venom {%PURPLE%Chaos: %WHITE%Fal %SAGE%+ %LIGHT_GRAY%Ohm %SAGE%+ %WHITE%Um}<<BASICNOT>>
-ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK278>2 SOCK=0]: %NAME%%NL%%GREEN%+3 Venom {%PURPLE%Chaos: %WHITE%Fal %SAGE%+ %LIGHT_GRAY%Ohm %SAGE%+ %WHITE%Um%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst%NL%%ORANGE%Larzuk Max Sockets: 3}<<BASICNOT>>
+ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK278>2 SOCK=0]: %NAME%%NL%%GREEN%+3 Venom {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICNOT>>
 ItemDisplay[CL5 MAG !ID]:
 //SPIRIT
 //4os Crystal Sword, Broad Sword, Larzuk Gaurantee = SPIRIT 
