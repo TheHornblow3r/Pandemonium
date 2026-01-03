@@ -1957,8 +1957,9 @@ ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SKILL("Weapon Block")>0 !SOCK=1 !SOCK=2]: %NAME%%LIGHT_GRAY% +%SKILL(263)% C Block%CONTINUE%
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SKILL("Blade Shield")>0 !SOCK=1 !SOCK=2]: %NAME%%LIGHT_GRAY% +%SKILL(277)% BS%CONTINUE%
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SKILL("Dragon Flight")>0 !SOCK=1 !SOCK=2]: %NAME%%LIGHT_GRAY% +%SKILL(275)% D flight%CONTINUE%
-ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SOCK=3]: %WHITE%%NAME% %YELLOW%[%SOCKETS%] {%PURPLE%Mosaic: %WHITE%Mal %SAGE%+ %LIGHT_GRAY%Gul %SAGE%+ %WHITE%Amn}%CONTINUE%
-ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SOCK=0]: %WHITE%%NAME% {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}%CONTINUE%
+ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SOCK=3]: %NAME% %YELLOW%[%SOCKETS%] {%PURPLE%Mosaic: %WHITE%Mal %SAGE%+ %LIGHT_GRAY%Gul %SAGE%+ %WHITE%Amn}%CONTINUE%
+ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SOCK=0 SUP]: %NAME% {%ORANGE%Larzuk Max Sockets: 3}%CONTINUE%
+ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) SOCK=0 !SUP]: %NAME% {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}%CONTINUE%
 ItemDisplay[NMAG (9lw OR 9tw OR 7tw OR 7lw OR 7wb) (SKILL("Claws of Thunder")>2 OR SKILL("Fists of Fire")>2 OR SKILL("Blades of Ice")>2) !SOCK=1 !SOCK=2]: %NAME% <<GG>>
 //Blade Shield, Venom | wof/inferno bases claws
 ItemDisplay[NMAG CL5 !ktr !wrb !axf !ces !9wb !9xf !9cs !7xf !7cs SK277>2 SK278>0 SOCK=0]: %NAME% %NL%%PURPLE%+3 BS %GREEN%+%SKILL(278)% Venom {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Amn %SAGE%+ %PURPLE%PAmethyst}<<BASICNOT>>
@@ -2159,8 +2160,10 @@ ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("F
 ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) SKILL("Lycanthropy")>0 !SOCK=1 !SOCK=2]: %NAME%%RED% +%SKILL(224)% Lycan %CONTINUE%
 ItemDisplay[NMAG CL1 SKILL("Summon Grizzly")>2 SKILL("Maul")>0 !SOCK=1 !SOCK=2]: %NAME%%YELLOW% +%SKILL(233)% Maul %CONTINUE%
 ItemDisplay[NMAG CL1 SKILL("Rabies")>2 SKILL("Fury")>0 !SOCK=1 !SOCK=2]: %NAME%%YELLOW% +%SKILL(248)% Fury %CONTINUE%
-ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) SOCK=3]: %NAME% %YELLOW%[%SOCKETS%] %CONTINUE%
-ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) !SOCK=1 !SOCK=2]: %NAME% {%PURPLE%Metamorphosis: %WHITE%Io %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Fal}<<GG>>
+ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) SOCK=3]: %NAME% %YELLOW%[%SOCKETS%] {%PURPLE%Metamorphosis: %WHITE%Io %SAGE%+ %LIGHT_GRAY%Cham %SAGE%+ %WHITE%Fal}%CONTINUE%
+ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) SOCK=0 SUP]: %NAME% {%ORANGE%Larzuk Max Sockets: 3}%CONTINUE%
+ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) SOCK=0 !SUP]: %NAME% {%ORANGE%Larzuk Max Sockets: 3%NL%%PURPLE%Roll: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %BLUE%PSapphire}%CONTINUE%
+ItemDisplay[NMAG CL1 (SKILL("Summon Grizzly")>2 OR SKILL("Rabies")>2 OR SKILL("Fire Claws")>2 OR SKILL("Shock Wave")>2) !SOCK=1 !SOCK=2]: %NAME% <<GG>>
 //non-magic druid pelts 
 ItemDisplay[CL1 NMAG SK226>2 SOCK=0]: %DGREEN%3 Oak Pelt %WHITE%[%GOLD%$%YELLOW%%PRICE%%WHITE%]<<BASIC1>>
 ItemDisplay[CL1 NMAG SK226>0 SOCK=0 CLVL<71]: %DGREEN%%SKILL(226)% Oak Pelt %WHITE%[%GOLD%$%YELLOW%%PRICE%%WHITE%]<<BASIC>>
