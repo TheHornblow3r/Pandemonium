@@ -15,7 +15,7 @@ I'm open to any advice/changes you would like to see in the filter **(DM me on d
 
 # Installation
 
-1. Copy link: https://raw.githubusercontent.com/TheHornblow3r/HornblowerFilter/main/Hornblower.filter
+1. Copy link: [https://raw.githubusercontent.com/TheHornblow3r/HornblowerFilter/main/Hornblower.filter](https://raw.githubusercontent.com/TheHornblow3r/Pandemonium/main/Pandemonium.filter)
 2. Paste link into PoD Launcher next to URL
 3. Select auto-update
 4. Join a game and select settings (Default hotkey: H)
