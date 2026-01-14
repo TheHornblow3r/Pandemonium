@@ -233,7 +233,7 @@ ItemDisplay[RARE ID cq2]: %NAME% <<BASIC>>
 // -------------------------------------------------------------------------
 ItemDisplay[UNI !ID (aq2 OR cq2)]: %NAME% %GREEN%O
 ItemDisplay[aq2 !ID MAG FILTERLVL>1]:
-ItemDisplay[aq2 !ID MAG FILTERLVL=1 AREALVL>86]:
+ItemDisplay[aq2 !ID MAG FILTERLVL=1 AREALVL>85]:
 ItemDisplay[aq2 MAG]: %BLUE%Arrows%NL%%ORANGE%Crafting {%NL%%TAN%Hitpower Cold Arrows: %WHITE%El%SAGE%+%BLUE%PSapphire%SAGE%+%BLUE%Jewel%NL%%RED%Blood Fire Arrows: %WHITE%Eld%SAGE%+%RED%PRuby%SAGE%+%BLUE%Jewel%NL%%PURPLE%Caster Ice Arrows: %WHITE%Eld%SAGE%+%PURPLE%PAmeth%SAGE%+%BLUE%Jewel%NL%%ORANGE%Safety Magic Arrows: %WHITE%El%SAGE%+%GREEN%PEmerald%SAGE%+%BLUE%Jewel%NL%} <:BASIC: BorderColor = 151>
 ItemDisplay[aq2 RARE !ID ILVL>60]:%NAME%%GREEN% O<:BASIC: BorderColor = 12>
 ItemDisplay[UNI (aq2 OR cq2) ILVL>60 ALLSK=1]: %NAME%%NL%%RED%+1 All Skills<<BASIC>>
@@ -242,7 +242,7 @@ ItemDisplay[UNI (aq2 OR cq2) ILVL>60 STAT76 ALLSK=1]: %BASENAME%%NL%Frostbite%NL
 ItemDisplay[UNI (aq2 OR cq2) ILVL>60]: %NAME%<<BASIC>>
 ItemDisplay[SET (aq2 OR cq2) ILVL>60]: %NAME%<<BASIC>>
 ItemDisplay[cq2 !ID MAG FILTERLVL>1]:
-ItemDisplay[cq2 !ID MAG FILTERLVL=1 AREALVL>86]:
+ItemDisplay[cq2 !ID MAG FILTERLVL=1 AREALVL>85]:
 ItemDisplay[cq2 MAG]: %BLUE%Bolts%NL%%ORANGE%Crafting {%NL%%TAN%Hitpower Cold Bolts: %WHITE%El%SAGE%+%BLUE%PSapphire%SAGE%+%BLUE%Jewel%NL%%RED%Blood Fire Bolts: %WHITE%Eld%SAGE%+%RED%PRuby%SAGE%+%BLUE%Jewel%NL%%PURPLE%Caster Ice Bolts: %WHITE%Eld%SAGE%+%PURPLE%PAmeth%SAGE%+%BLUE%Jewel%NL%%ORANGE%Safety Magic Bolts: %WHITE%El%SAGE%+%GREEN%PEmerald%SAGE%+%BLUE%Jewel%NL%} <:BASIC: BorderColor = 151>
 ItemDisplay[cq2 RARE FILTERLVL=3]: 
 ItemDisplay[cq2 RARE ILVL>60]: %NAME%<:BASIC: BorderColor = 12>
@@ -1047,6 +1047,7 @@ ItemDisplay[!ETH UNI !ID umc]: %GOLD%%NAME%%NL%%ORANGE%      Verdungos      %GOL
 ItemDisplay[ETH UNI !ID umc !FILTERLVL=3]: %ORANGE%Eth %GOLD%%NAME%%NL%%ORANGE%      Verdungos      %GOLD%<<BASIC>>
 //String of Ears
 ItemDisplay[!ETH UNI !ID zlb !FILTERLVL=3]: %ORANGE%String Of Ears%NL%%GOLD%%NAME%<<GG1>>
+ItemDisplay[UNI ID zlb]: %NAME% <<GGUNI>>
 //Razortail
 ItemDisplay[!ETH UNI !ID zvb]: %ORANGE%Razortail%NL%%GOLD%%NAME%<<GG>>
 ItemDisplay[!ETH UNIQUE("Razortail") ID STAT156=41]: %BASENAME%%NL%%ORANGE%41 %LIGHT_GRAY%Pierce%NL%%GOLD%%ITEMNAME%<<GG>>
@@ -1185,6 +1186,7 @@ ItemDisplay[!ETH UNI !ID 7b8 !FILTERLVL=3]: %ORANGE%Lacerator%NL%%GOLD%%NAME% <:
 ItemDisplay[ETH UNI !ID 7b8 !FILTERLVL=3]: %ORANGE%Lacerator%NL%%ORANGE%ETH %GOLD%%NAME% <:GG: NotificationPriority = LOW>
 //Azurewrath  Azure | Lightsabre
 ItemDisplay[!ETH UNI !ID 7cr]: %ORANGE%Azure | Lightsabre%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
+ItemDisplay[UNI ID 7cr]: %NAME% <<GGUNI>>
 //Tombreaver
 ItemDisplay[!ETH UNI !ID 7pa]: %ORANGE%Tombreaver%NL%%GOLD%%NAME% <:GG: NotificationPriority = MEDIUM>
 ItemDisplay[ETH UNI !ID 7pa]: %ORANGE%Tombreaver%NL%       %ORANGE%ETH %GOLD%%NAME%       %GOLD%<:GG: NotificationSound = "@local\sfx\act2\necromancer\nec_act2_complete_tombs">
@@ -1396,6 +1398,7 @@ ItemDisplay[UNIQUE("Homunculus") ID SOCK=2]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GRE
 ItemDisplay[UNIQUE("Homunculus") ID SOCK=1]: %BASENAME%%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]<<GG1>>
 //Herald of Zakarum
 ItemDisplay[!ETH UNI !ID pa9]: %ORANGE%Herald of Zakarum%NL%       %GOLD%%NAME%       %GOLD%<<GG>>
+ItemDisplay[!ETH UNI ID pa9]: %NAME% <<GGUNI>>
 //Darkforce Spawn
 ItemDisplay[!ETH UNI !ID nef]: %ORANGE%Darkforce Spawn%NL%       %GOLD%%NAME%       %GOLD%<<GG>>
 //Medusa's Gaze
@@ -1764,7 +1767,7 @@ ItemDisplay[RARE !ETH amu !ID]: %NL%     %RED%O %YELLOW%%NAME% %RED%O     %NL%%G
 ItemDisplay[RARE !ETH rin !ID]: %NL%     %YELLOW%%NAME% %RED%O     %NL%%GOLD% <:BASICHIGH1: MapIcon = 31, BorderColor = 12>
 ItemDisplay[RARE !ETH jew !ID]: %NL%     %YELLOW%%NAME% %RED%O     %NL%%GOLD% <:BASICHIGH1: MapIcon = 54, BorderColor = 12>
 ItemDisplay[RARE ETH (ci0 OR ci1 OR ci2 OR ci3 OR amu OR rin OR jew) !ID]: %ORANGE%ETH %YELLOW%%NAME%<<BASICETH>>
-ItemDisplay[RARE !ETH (ci0 OR ci1) ID]: %NAME% {%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %PURPLE%PAmethyst%NL%%CORAL%Upgrade Before Slam}<<BASICLOW>>
+ItemDisplay[RARE !ETH (ci0 OR ci1) ID]: %NAME% {%PURPLE%Upgrade: %WHITE%Ral %SAGE%+ %LIGHT_GRAY%Thul %SAGE%+ %PURPLE%PAmethyst%NL%%CORAL%Upgrade For Max Sockets}<<BASICLOW>>
 ItemDisplay[MAG !ETH 7cr ID STAT218=4 STAT224=33 IAS>39 SOCK=0]: %NAME%%NL%%SAGE%Fool's %WHITE%+ %ORANGE%40 IAS %PURPLE%O<<BASICHIGH1>>
 ItemDisplay[MAG !ETH 7cr ID TABSK24>2 IAS>39 SOCK=0]: %NAME%%NL%%SAGE%Pcomb %WHITE%+ %ORANGE%40 IAS %PURPLE%O<<BASICHIGH1>>
 ItemDisplay[MAG !ETH 7cr ID STAT218=4 STAT224=33 IAS>39 SOCK>4]: %NAME% %PURPLE%[%SOCKETS%]%NL%%SAGE%Fool's %WHITE%+ %ORANGE%40 IAS %PURPLE%O<<BASICHIGH1>>
@@ -2262,8 +2265,8 @@ ItemDisplay[RARE EQ5 ID]: %NAME%<<BASIC>>
 //Best Rares (crystalsword, dimensional blade, phase blade, Circlets, Amulets, Rings, Gloves, Boots, Belts, Jewels)
 ItemDisplay[RARE EQ5 !ID ILVL>35 FILTERLVL>1]: %YELLOW%    %NAME%    %YELLOW%<:BASICNOT: BorderColor = 12>
 ItemDisplay[RARE EQ5 !ID ILVL<36 FILTERLVL>1]:
-ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NL%    %NAME%    %NL%%YELLOW%<:BASICNOT: BorderColor = 12>
-ItemDisplay[RARE EQ5 !ID]: %YELLOW%%NL%    %NAME%    %NL%%YELLOW%<:BASICNOT: BorderColor = 12>
+ItemDisplay[RARE EQ5 !ID]: %YELLOW%    %NAME%    %YELLOW%<:BASICNOT: BorderColor = 12>
+ItemDisplay[RARE EQ5 !ID]: %YELLOW%    %NAME%    %YELLOW%<:BASICNOT: BorderColor = 12>
 ItemDisplay[RARE EQ6 !ID]:
 ItemDisplay[RARE !ID EQ4]: %GRAY% Java | Bow | MA %NL%%YELLOW%%NAME% <:BASIC: MapIcon = 77, BorderColor = 12>
 ItemDisplay[(MAG OR RARE) !ID FILTERLVL=3]:
@@ -2286,8 +2289,20 @@ ItemDisplay[RARE (WP1 OR WP2 OR WP3 OR WP4 OR WP5 OR WP6 OR WP8 OR WP7 OR WP9 OR
 //Hide Helm, Body, Shield
 ItemDisplay[RARE (EQ1 OR EQ2 OR EQ3) !ID ILVL>65]:
 //MAGIC
-//Magic Circlets
-ItemDisplay[MAG !ETH (ci0 OR ci1 OR ci2 OR ci3) !ID]: %BLUE%%NAME% %ORANGE%O<<BASIC>>
+//Magic Circlets 
+// FCR (20 is Max)
+ItemDisplay[MAG !ETH (ci0 OR ci1 OR ci2 OR ci3) (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK50=3) FCR=20 ID]: %NAME%%NL%%PURPLE%+3 Skills +20% FCR <<BASIC>>
+// LIFE (80-100 is High)
+ItemDisplay[MAG !ETH (ci0 OR ci1 OR ci2 OR ci3) (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK50=3) LIFE>0 ID]: %NAME%%NL%%RED%+3 Skills +%STAT(7)% Life <<BASIC>>
+// FRW (30 is Max)
+ItemDisplay[MAG !ETH (ci0 OR ci1 OR ci2 OR ci3) (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK50=3) FRW>0 ID]: %NAME%%NL%%ORANGE%+3 Skills +%STAT(96)% FRW <<BASIC>>
+// STRENGTH (30 is Max)
+ItemDisplay[MAG !ETH (ci0 OR ci1 OR ci2 OR ci3) (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK50=3) STAT0>20 ID]: %NAME%%NL%%DGREEN%+3 Skills +%STAT(0) Str <<BASIC>>
+// PLAIN +3 SKILL CIRCLETS (No Max Suffix)
+ItemDisplay[MAG !ETH (ci0 OR ci1 OR ci2 OR ci3) (TABSK8=3 OR TABSK9=3 OR TABSK10=3 OR TABSK16=3 OR TABSK17=3 OR TABSK18=3 OR TABSK24=3 OR TABSK25=3 OR TABSK26=3 OR TABSK32=3 OR TABSK33=3 OR TABSK34=3 OR TABSK40=3 OR TABSK41=3 OR TABSK42=3 OR TABSK48=3 OR TABSK50=3) ID]: %NAME%%NL%%DGREEN%+3 Skill Tree {%RED%Blood: %WHITE%Ral%SAGE%+%RED%PRuby%SAGE%+%BLUE%Jewel%NL%%PURPLE%Caster: %WHITE%Nef%SAGE%+%PURPLE%PAmethyst%SAGE%+%BLUE%Jewel%NL%%ORANGE%Crafting:} <<BASIC>>
+// CATCH-ALL (Standard view for other magic circlets)
+ItemDisplay[MAG !ETH (ci0 OR ci1 OR ci2 OR ci3) ID]: %NAME% {%RED%Blood: %WHITE%Ral%SAGE%+%RED%PRuby%SAGE%+%BLUE%Jewel%NL%%PURPLE%Caster: %WHITE%Nef%SAGE%+%PURPLE%PAmethyst%SAGE%+%BLUE%Jewel%NL%%ORANGE%Crafting:} <<BASIC>>
+ItemDisplay[MAG !ETH (ci0 OR ci1 OR ci2 OR ci3) !ID]: %ORANGE%O %BLUE%%NAME% %ORANGE%O
 ItemDisplay[MAG ETH (ci0 OR ci1 OR ci2 OR ci3) !ID]:
 //magic necro shields
 ItemDisplay[MAG CL4 !ID]:
