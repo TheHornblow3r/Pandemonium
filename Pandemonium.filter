@@ -6,7 +6,7 @@
 Attribute[Author]: Thehornblower
 Attribute[Name]: Pandemonium Filter
 Attribute[Version]: 1.4d
-Attribute[Date]: 2025/12/04
+Attribute[Date]: 2026/01/16
 Option[IgnoreMissingSounds]: True
 // -------------------------------------------------------------------------
 // FILTER LEVELS
@@ -868,7 +868,7 @@ ItemDisplay[ETH UNI !ID ci3]: %ORANGE%ETH %GOLD%%NAME% %PURPLE%O<<BASIC>>
 //Shako
 ItemDisplay[!ETH UNI !ID uap]: %NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %NL%%GOLD%<<GG1>>
 ItemDisplay[!ETH UNI ID uap SOCK=0]: %BASENAME%%NL%%GOLD%%ITEMNAME%<<GG1>>
-ItemDisplay[!ETH UNI ID uap SOCK=2]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GREEN%[%SOCKETS%]<<GG1>>
+ItemDisplay[!ETH UNI ID uap SOCK=2]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GREEN%[%SOCKETS%] {%!MAXSOCK!%}<<GG1>>
 ItemDisplay[!ETH UNI ID uap]: %BASENAME%%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]<<GG1>>
 ItemDisplay[ETH UNI !ID uap]: %ORANGE%ETH %GOLD%%NAME% <<BASIC>>
 //Crown of Ages
@@ -1136,9 +1136,9 @@ ItemDisplay[SET !ETH !ID 6cs !FILTERLVL=3]: %ORANGE%Najs Weap%NL%%GREEN%%NAME%%N
 ItemDisplay[!ETH UNI !ID 6cs]: %ORANGE%Ondals%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<<GG1>>
 ItemDisplay[ETH UNI !ID 6cs]: %ORANGE%ETH %GOLD%%NAME%%NL%%ORANGE% Ondals <<GG1>>
 ItemDisplay[!ETH UNI ID UNIQUE("Ondal's Wisdom") SOCK=0]: %RED%+%STAT(127,0)%/4%ORANGE% All Skills %NL%%GOLD%%NAME% <<GG>>
-ItemDisplay[!ETH UNI ID UNIQUE("Ondal's Wisdom")]: %RED%+%STAT(127,0)/4%%ORANGE% Skills %NL%%GOLD%%NAME% %GREEN%[%SOCKETS%]<<GG>>
-ItemDisplay[ETH UNI ID UNIQUE("Ondal's Wisdom") SOCK=0]: %RED%+%STAT(127,0)/4%%ORANGE% Skills%NL%%ORANGE%ETH %GOLD%%NAME% <<GG>>
-ItemDisplay[ETH UNI ID UNIQUE("Ondal's Wisdom")]: %RED%+%STAT(127,0)/4%%ORANGE% Skills%NL%%ORANGE%ETH %GOLD%%NAME% %GREEN%[%SOCKETS%]<<GG>>
+ItemDisplay[!ETH UNI ID UNIQUE("Ondal's Wisdom")]: %RED%+%STAT(127,0)%/4%ORANGE% Skills %NL%%GOLD%%NAME% %GREEN%[%SOCKETS%]<<GG>>
+ItemDisplay[ETH UNI ID UNIQUE("Ondal's Wisdom") SOCK=0]: %RED%+%STAT(127,0)%/4%ORANGE% Skills%NL%%ORANGE%ETH %GOLD%%NAME% <<GG>>
+ItemDisplay[ETH UNI ID UNIQUE("Ondal's Wisdom")]: %RED%+%STAT(127,0)%/4%ORANGE% Skills%NL%%ORANGE%ETH %GOLD%%NAME% %GREEN%[%SOCKETS%]<<GG>>
 //Death Fathom
 ItemDisplay[!ETH UNI !ID obf]: %ORANGE%Death's Fathom%NL%       %PURPLE%O %GOLD%%NAME% %PURPLE%O       %GOLD%<:GG: NotificationSound = "@local\sfx\act4\diablo\diablotaunt1">
 ItemDisplay[ETH UNI !ID obf]: %ORANGE%ETH %GOLD%%NAME% %ORANGE% Death's Fathom <:GG: NotificationSound = "@local\sfx\act4\diablo\diablotaunt1">
@@ -1394,7 +1394,7 @@ ItemDisplay[UNI ID uit SOCK>0]: %NAME% %PURPLE%[%SOCKETS%] <<GGUNI>>
 ItemDisplay[UNI ID uit]: %NAME% <<GGUNI>>
 //Homunculus
 ItemDisplay[!ETH UNI !ID nea]: %ORANGE%Homunculus%NL%       %GOLD%%NAME%       %GOLD%<<GG1>>
-ItemDisplay[UNIQUE("Homunculus") ID SOCK=2]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GREEN%[%SOCKETS%]<<GG1>>
+ItemDisplay[UNIQUE("Homunculus") ID SOCK=2]: %BASENAME%%NL%%GOLD%%ITEMNAME% %GREEN%[%SOCKETS%] {%!MAXSOCK!%}<<GG1>>
 ItemDisplay[UNIQUE("Homunculus") ID SOCK=1]: %BASENAME%%NL%%GOLD%%ITEMNAME% %ORANGE%[%SOCKETS%]<<GG1>>
 //Herald of Zakarum
 ItemDisplay[!ETH UNI !ID pa9]: %ORANGE%Herald of Zakarum%NL%       %GOLD%%NAME%       %GOLD%<<GG>>
