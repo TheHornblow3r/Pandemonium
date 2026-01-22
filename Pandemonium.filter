@@ -1,12 +1,10 @@
-//Pandemonium Filter: An Item Filter for the Path of Diablo Mod 
-//Created by: Thehornblower
-//Contact on discord: Thehornblower
-//Contact on tradesite: Thehornblower
-//Find Item/Skillcodes at: 	https://pathofdiablo.com/wiki/index.php?title=Talk:Loot_Filtration_Codes#Edit_Permissions
+// Pandemonium Filter: An Item Filter for the Path of Diablo Mod 
+// Created by: Thehornblower
+// Contact on discord: Thehornblower
 Attribute[Author]: Thehornblower
 Attribute[Name]: Pandemonium Filter
 Attribute[Version]: 1.4d
-Attribute[Date]: 2026/01/16
+Attribute[Date]: 2026/01/21
 Option[IgnoreMissingSounds]: True
 // -------------------------------------------------------------------------
 // FILTER LEVELS
@@ -34,7 +32,7 @@ TextMacro[PERFOOC]: %GOLD%---+ %ORANGE%G%RED%G %SAGE%C%YELLOW%o%GREEN%r%BLUE%r%P
 TextMacro[PERFITEM]: %GOLD%---+ %ORANGE%P%RED%e%SAGE%r%YELLOW%f%GREEN%e%BLUE%c%PURPLE%t %SAGE%I%ORANGE%t%RED%e%SAGE%m %YELLOW%R%GREEN%o%BLUE%l%PURPLE%l%SAGE%s %GOLD%+---
 TextMacro[PERFMF]: %GOLD%---+ %GREEN%M%BLUE%a%PURPLE%x %SAGE%M%RED%a%ORANGE%g%YELLOW%i%GREEN%c %BLUE%F%PURPLE%i%SAGE%n%RED%d %GOLD%+---
 TextMacro[MAXSOCK]: %GOLD%---+ %ORANGE%M%RED%a%SAGE%x%YELLOW%i%GREEN%m%BLUE%u%PURPLE%m %SAGE%S%ORANGE%o%RED%c%SAGE%k%YELLOW%e%GREEN%t%BLUE%s %GOLD%+---
-/ -------------------------------------------------------------------------
+// -------------------------------------------------------------------------
 // Item Styles
 // -------------------------------------------------------------------------
 ItemStyle[HR]: MapIcon = 26, MapIconColor = 0, BorderColor = 155, BorderSize = 2, BackgroundColor = 15, NotificationPriority = HIGH, NotificationColor = ITEM, NotificationSound = "@global\sfx\cursor\hostile"
@@ -148,9 +146,9 @@ ItemDisplay[leg ILVL<60]: %BLUE%NM%ORANGE% %NAME% <:BASIC: NotificationSound = "
 // UBER KEYS							               
 // -------------------------------------------------------------------------
 ItemDisplay[std]: %PURPLE%O %NAME% %PURPLE%O {%RED%Inserted into gear gives player a glow effect%NL%The Standard is proof that the player has completed the Pandemonium Event}<<GG>>
-ItemDisplay[pk1]: %NL%        %ORANGE%O%YELLOW% Terror %WHITE%[Countess] %ORANGE%O        %NL%<<KEYS>>
-ItemDisplay[pk2]: %NL%        %ORANGE%O%YELLOW% Hate %WHITE%[Summoner] %ORANGE%O        %NL%<<KEYS>>
-ItemDisplay[pk3]: %NL%        %ORANGE%O%YELLOW% Destruction %WHITE%[Nihlathak] %ORANGE%O        %NL%<<KEYS>>
+ItemDisplay[pk1]: %NL%        %ORANGE%O%YELLOW% Terror %WHITE%[Countess] %ORANGE%O        %NL%%GOLD%<<KEYS>>
+ItemDisplay[pk2]: %NL%        %ORANGE%O%YELLOW% Hate %WHITE%[Summoner] %ORANGE%O        %NL%%GOLD%<<KEYS>>
+ItemDisplay[pk3]: %NL%        %ORANGE%O%YELLOW% Destruction %WHITE%[Nihlathak] %ORANGE%O        %NL%%GOLD%<<KEYS>>
 ItemDisplay[dhn]: %NL%        %ORANGE%O%YELLOW% Diablo's Horn %ORANGE%O        %NL%%GOLD%<<UBERL>>
 ItemDisplay[bey]: %NL%        %ORANGE%O%YELLOW% Baal's Eye %ORANGE%O        %NL%%GOLD%<<UBERI>>
 ItemDisplay[mbr]: %NL%        %ORANGE%O%YELLOW% Mephisto's Brain %ORANGE%O        %NL%%GOLD%<<UBERD>>
